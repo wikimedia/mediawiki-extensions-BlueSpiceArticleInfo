@@ -1,0 +1,41 @@
+{
+	"name": "BlueSpiceArticleInfo",
+	"version": "2.27.1-alpha",
+	"url": "https://help.bluespice.com/index.php/Articleinfo",
+	"author": [
+		"Markus Glaser",
+		"Stephan Muggli"
+	],
+	"descriptionmsg": "bs-articleinfo-desc",
+	"type": "bluespice",
+	"bsgExtensions": {
+		"BlueSpiceArticleInfo": {
+			"className": "ArticleInfo",
+			"extPath": "/BlueSpiceArticleInfo"
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceArticleInfo": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ArticleInfoMagic": "languages/ArticleInfo.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"ArticleInfo": "ArticleInfo.class.php",
+		"ViewStateBarTopElementCategoryShortList": "views/view.StateBarTopElementCategoryShortList.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.articleinfo": {
+			"scripts": "bluespice.articleInfo.js",
+			"position": "bottom"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceArticleInfo/resources"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 1
+}
