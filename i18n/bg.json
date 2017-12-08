@@ -1,13 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
 	"bs-articleinfo-last-edited-tooltip": "Последна редакция",
 	"bs-articleinfo-all-categories-heading": "Категории",
 	"bs-articleinfo-hiddencats": "Скрити категории",
 	"bs-articleinfo-templates": "Шаблони",
+	"bs-articleinfo-statebartoplastedited": "Последна редакция",
+	"bs-articleinfo-statebartoplasteditor": "Последен редактор",
 	"bs-articleinfo-statebartopcategories": "Категории",
 	"bs-articleinfo-statebarbodycategories": "Категории",
 	"bs-articleinfo-statebarbodytemplates": "Шаблони"
