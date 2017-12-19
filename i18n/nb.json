@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-articleinfo-desc": "Gir informasjon om en side i statusfeltet",
+	"prefs-articleinfo": "Sideinformasjon",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Oppdateringsintervall i sekunder:",
+	"bs-articleinfo-last-edited": "Tid siden forrige endring",
+	"bs-articleinfo-last-edited-tooltip": "Siste redigering",
+	"bs-articleinfo-last-editor": "Siste {{GENDER:$1|bidragsyter}}",
+	"bs-articleinfo-categories": "Kategorier",
+	"bs-articleinfo-more-categories": "Flere kategorier tilgjengelig",
+	"bs-articleinfo-all-categories-heading": "Kategorier",
+	"bs-articleinfo-nocategories": "Ingen kategorier funnet.",
+	"bs-articleinfo-hiddencats": "Skjulte kategorier",
+	"bs-articleinfo-notemplates": "Ingen maler funnet.",
+	"bs-articleinfo-templates": "Maler",
+	"bs-articleinfo-subpages": "Undersider",
+	"bs-articleinfo-subpages-available": "Det finnes undersider av denne siden",
+	"bs-articleinfo-subpages-too-much": "Det er mer enn 100 tilgjengelige undersider.",
+	"bs-articleinfo-check-revision": "Ny versjon tilgjengelig",
+	"bs-articleinfo-check-revision-tooltip": "Last siden på nytt",
+	"bs-articleinfo-statebartoplastedited": "Siste endring",
+	"bs-articleinfo-statebartoplasteditor": "Siste bidragsyter",
+	"bs-articleinfo-statebartopcategories": "Kategorier",
+	"bs-articleinfo-statebartopsubpages": "Undersider",
+	"bs-articleinfo-statebarbodycategories": "Kategorier",
+	"bs-articleinfo-statebarbodysubpages": "Undersider",
+	"bs-articleinfo-statebarbodytemplates": "Maler"
+}
