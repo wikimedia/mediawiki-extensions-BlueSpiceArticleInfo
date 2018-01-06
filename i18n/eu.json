@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Subi",
-			"Sator"
+			"Sator",
+			"Mikel Ibaiba"
 		]
 	},
 	"prefs-articleinfo": "Orri honen datuak",
@@ -14,6 +15,7 @@
 	"bs-articleinfo-notemplates": "Ez da txantiloirik aurkitu.",
 	"bs-articleinfo-templates": "Txantiloiak",
 	"bs-articleinfo-subpages": "Azpiorrialdeak",
+	"bs-articleinfo-statebartoplastedited": "Azken aldaketa",
 	"bs-articleinfo-statebartopcategories": "Kategoriak",
 	"bs-articleinfo-statebartopsubpages": "Azpiorrialdeak",
 	"bs-articleinfo-statebarbodycategories": "Kategoriak",
