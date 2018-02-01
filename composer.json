@@ -2,7 +2,7 @@
 	"name": "mediawiki/blue-spice-article-info",
 	"type": "mediawiki-extension",
 	"description": "Provides information about a page in status bar",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"require": {
 		"composer/installers": "~1.0"
 	},
