@@ -14,9 +14,9 @@
 	"bs-articleinfo-last-edited": "Vurriyayışê peyêni demi ra",
 	"bs-articleinfo-last-edited-tooltip": "Vurnayışo peyên",
 	"bs-articleinfo-last-editor": "{{GENDER:$1|editor}}",
-	"bs-articleinfo-categories": "Kategoriy",
+	"bs-articleinfo-categories": "Kategoriyi",
 	"bs-articleinfo-more-categories": "Dehana vêşi kategoriy mewcudi",
-	"bs-articleinfo-all-categories-heading": "Kategoriy",
+	"bs-articleinfo-all-categories-heading": "Kategoriyi",
 	"bs-articleinfo-nocategories": "Kategoriy Nêvêniyay",
 	"bs-articleinfo-hiddencats": "Kategoriyê nımıtey",
 	"bs-articleinfo-notemplates": "Şablon çıniyo.",
@@ -28,9 +28,9 @@
 	"bs-articleinfo-check-revision-tooltip": "Perer fına bar ke",
 	"bs-articleinfo-statebartoplastedited": "Vurnayışo bahdoyên",
 	"bs-articleinfo-statebartoplasteditor": "Editoro bahdoyên",
-	"bs-articleinfo-statebartopcategories": "Kategoriy",
+	"bs-articleinfo-statebartopcategories": "Kategoriyi",
 	"bs-articleinfo-statebartopsubpages": "Bınpeli",
-	"bs-articleinfo-statebarbodycategories": "Kategoriy",
+	"bs-articleinfo-statebarbodycategories": "Kategoriyi",
 	"bs-articleinfo-statebarbodysubpages": "Bınpeli",
 	"bs-articleinfo-statebarbodytemplates": "Şabloni"
 }
