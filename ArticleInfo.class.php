@@ -43,7 +43,6 @@ class ArticleInfo extends BsExtensionMW {
 	 * Initialization of ArticleInfo extension
 	 */
 	public function  initExt() {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		BsConfig::registerVar( 'MW::ArticleInfo::ImageLastEdited', 'bs-infobar-last-edited.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
 		BsConfig::registerVar( 'MW::ArticleInfo::ImageLastEditor', 'bs-infobar-author.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
 		BsConfig::registerVar( 'MW::ArticleInfo::ImageCategories', 'bs-infobar-category.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
@@ -64,7 +63,6 @@ class ArticleInfo extends BsExtensionMW {
 		$this->setHook( 'BeforePageDisplay');
 
 		$this->setHook( 'SkinTemplateOutputPageBeforeExec' );
-		wfProfileOut( 'BS::'.__METHOD__ );
 	}
 
 	/**
@@ -113,13 +111,11 @@ class ArticleInfo extends BsExtensionMW {
 	 * @return boolean Always true to keep hook running
 	 */
 	public function onStateBarBeforeTopViewAdd( $oStateBar, &$aTopViews, $oUser, $oTitle ) {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$mContext = BsArticleHelper::getInstance( $oTitle )->getPageProp(
 			'bs_noarticleinfo'
 		);
 
 		if( $mContext === '' ) {
-			wfProfileOut( 'BS::'.__METHOD__ );
 			return true;
 		}
 
@@ -138,7 +134,6 @@ class ArticleInfo extends BsExtensionMW {
 			$aTopViews[$sKey] = $oTopView;
 		}
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return true;
 	}
 
@@ -149,12 +144,10 @@ class ArticleInfo extends BsExtensionMW {
 	 * @return boolean Always true to keep hook running
 	 */
 	public function onStateBarBeforeBodyViewAdd( $oStateBar, &$aBodyViews, $oUser, $oTitle ) {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$mContext = BsArticleHelper::getInstance( $oTitle )->getPageProp(
 			'bs_noarticleinfo'
 		);
 		if( $mContext === '' ) {
-			wfProfileOut( 'BS::'.__METHOD__ );
 			return true;
 		}
 		$aBodyElements = array(
@@ -168,7 +161,6 @@ class ArticleInfo extends BsExtensionMW {
 			$aBodyViews[$sKey] = $oBodyView;
 		}
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return true;
 	}
 
@@ -246,7 +238,6 @@ class ArticleInfo extends BsExtensionMW {
 	 * @return false|\ViewStateBarTopElement
 	 */
 	private function makeStateBarTopLastEdited( $oTitle ) {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$oLastEditView = new ViewStateBarTopElement();
 		$oArticle = Article::newFromID( $oTitle->getArticleID() );
 		$iOldId = $this->getRequest()->getInt( 'oldid', 0 );
@@ -279,7 +270,6 @@ class ArticleInfo extends BsExtensionMW {
 
 		Hooks::run( 'BSArticleInfoBeforeAddLastEditView', array( $this, &$oLastEditView ) );
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return $oLastEditView;
 	}
 
@@ -297,7 +287,6 @@ class ArticleInfo extends BsExtensionMW {
 		$oLastEditor = User::newFromName( $oCurrentArticle->getUserText() );
 		if( is_object( $oLastEditor ) === false || $oLastEditor === null ) return false;
 
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$sLastEditorName = $this->mCore->getUserDisplayName( $oLastEditor );
 		$sLastEditorUserPageUrl = $oLastEditor->getUserPage()->getFullURL();
 
@@ -310,7 +299,6 @@ class ArticleInfo extends BsExtensionMW {
 
 		Hooks::run( 'BSArticleInfoBeforeAddTopElement', array( $this, &$oLastEditorView ) );
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return $oLastEditorView;
 	}
 
@@ -323,7 +311,6 @@ class ArticleInfo extends BsExtensionMW {
 		$aCurrentPagesCategories = $this->getOutput()->getCategoryLinks();
 		if( empty( $aCurrentPagesCategories ) ) return false;
 
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$oCategoriesLinks = new ViewStateBarTopElementCategoryShortList();
 		$bIsProcessed = false;
 
@@ -361,7 +348,6 @@ class ArticleInfo extends BsExtensionMW {
 
 		Hooks::run('BSArticleInfoBeforeAddCategoryView', array( $this, &$oCategoriesLinks ));
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return $oCategoriesLinks;
 	}
 
@@ -374,7 +360,6 @@ class ArticleInfo extends BsExtensionMW {
 		$aCurrentPagesCategories = $oTitle->getParentCategories();
 		if ( empty( $aCurrentPagesCategories ) ) return false;
 
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$bIsProcessed = false;
 
 		Hooks::run( 'BSArticleInfoBeforeAddLastEditorView', array( $this, &$aCurrentPagesCategories , &$bIsProcessed ) );
@@ -432,7 +417,6 @@ class ArticleInfo extends BsExtensionMW {
 
 		Hooks::run( 'BSArticleInfoBeforeAddCategoryBodyView', array( $this, &$oCategoriesLinkBodyElement ) );
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return $oCategoriesLinkBodyElement;
 	}
 
@@ -441,7 +425,6 @@ class ArticleInfo extends BsExtensionMW {
 	 * @return string list of edits
 	 */
 	private function makeStateBarBodyTemplates( $oTitle ) {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$aTemplatesTitles = $oTitle->getTemplateLinksFrom();
 
 		$sTemplates = '';
@@ -460,7 +443,6 @@ class ArticleInfo extends BsExtensionMW {
 		$oTemplatesView->setHeading( wfMessage( 'bs-articleinfo-templates' )->plain() );
 		$oTemplatesView->setBodyText( $sTemplates );
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return $oTemplatesView;
 	}
 
@@ -472,7 +454,6 @@ class ArticleInfo extends BsExtensionMW {
 	private function makeStateBarTopSubPages( $oTitle ) {
 		if( $oTitle->hasSubpages() == false ) return false;
 
-		wfProfileIn( 'BS::'.__METHOD__ );
 		$oSubpageIcons = new ViewStateBarTopElement();
 		$oSubpageIcons->setKey( 'Subpages' );
 		$oSubpageIcons->setIconSrc( $this->getImagePath( true ).BsConfig::get('MW::ArticleInfo::ImageSubpages') );
@@ -494,8 +475,6 @@ class ArticleInfo extends BsExtensionMW {
 	 */
 	private function makeStateBarBodySubPages( $oTitle ) {
 		if ( $oTitle->hasSubpages() == false ) return false;
-
-		wfProfileIn( 'BS::'.__METHOD__ );
 
 		$oSubpageListView = new ViewStateBarBodyElement();
 		$oSubpageListView->setKey( 'Subpages' );
@@ -522,7 +501,6 @@ class ArticleInfo extends BsExtensionMW {
 
 		Hooks::run( 'BSArticleInfoBeforeSubpagesBodyView', array( $this, &$oSubpageListView ) );
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return $oSubpageListView;
 	}
 
@@ -541,11 +519,9 @@ class ArticleInfo extends BsExtensionMW {
 		if( $oArticle instanceof Article == false ) {
 			return false;
 		}
-		wfProfileIn( 'BS::'.__METHOD__ );
 
 		$iArticleViews = $oArticle->getCount();
 
-		wfProfileOut( 'BS::'.__METHOD__ );
 		return $oArticleViewsView;
 	}
 
