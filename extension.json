@@ -28,8 +28,7 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.articleinfo": {
-			"scripts": "bluespice.articleInfo.js",
-			"position": "bottom"
+			"scripts": "bluespice.articleInfo.js"
 		}
 	},
 	"ResourceFileModulePaths": {
