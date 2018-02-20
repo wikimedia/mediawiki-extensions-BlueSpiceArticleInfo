@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Stryn",
-			"SMAUG"
+			"SMAUG",
+			"Pyscowicz"
 		]
 	},
 	"prefs-articleinfo": "Sivun tiedot",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Päivitysväli sekunteina:",
 	"bs-articleinfo-last-edited": "Tuoreimmasta muokkauksesta kulunut aika",
 	"bs-articleinfo-last-edited-tooltip": "Viimeisin muokkaus",
+	"bs-articleinfo-last-editor": "Viimeisin {{GENDER:$1|muokkaaja}}",
 	"bs-articleinfo-categories": "Luokat",
 	"bs-articleinfo-more-categories": "Lisää luokkia saatavilla",
 	"bs-articleinfo-all-categories-heading": "Luokat",
