@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceArticleInfo",
-	"version": "2.27.1-alpha",
+	"version": "3.0.0-alpha",
 	"url": "https://help.bluespice.com/index.php/Articleinfo",
 	"author": [
 		"Markus Glaser",
@@ -8,10 +8,17 @@
 	],
 	"descriptionmsg": "bs-articleinfo-desc",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceArticleInfo": {
-			"className": "ArticleInfo",
-			"extPath": "/BlueSpiceArticleInfo"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceArticleInfo": {
+					"className": "ArticleInfo",
+					"extPath": "/BlueSpiceArticleInfo",
+					"configDefinitions": {
+						"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
+					}
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -26,6 +33,32 @@
 		"ArticleInfo": "ArticleInfo.class.php",
 		"ViewStateBarTopElementCategoryShortList": "views/view.StateBarTopElementCategoryShortList.php"
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ArticleInfo\\" : "src/"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ArticleInfoCheckRevisionInterval": {
+			"value": 10,
+			"descriptionmsg": "bs-articleinfo-pref-CheckRevisionInterval",
+			"public": true
+		},
+		"ArticleInfoImageLastEdited": {
+			"value": "bs-infobar-last-edited.png"
+		},
+		"ArticleInfoImageLastEditor": {
+			"value": "bs-infobar-author.png"
+		},
+		"ArticleInfoImageCategories": {
+			"value": "bs-infobar-category.png"
+		},
+		"ArticleInfoImageSubpages": {
+			"value": "bs-infobar-subpages.png"
+		},
+		"ArticleInfoImageCheckRevision": {
+			"value": "bs-infobar-revision.png"
+		}
+	},
 	"ResourceModules": {
 		"ext.bluespice.articleinfo": {
 			"scripts": "bluespice.articleInfo.js"
@@ -36,5 +69,5 @@
 		"remoteExtPath": "BlueSpiceArticleInfo/resources"
 	},
 	"load_composer_autoloader": true,
-	"manifest_version": 1
+	"manifest_version": 2
 }

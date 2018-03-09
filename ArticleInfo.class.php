@@ -43,12 +43,6 @@ class ArticleInfo extends BsExtensionMW {
 	 * Initialization of ArticleInfo extension
 	 */
 	public function  initExt() {
-		BsConfig::registerVar( 'MW::ArticleInfo::ImageLastEdited', 'bs-infobar-last-edited.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
-		BsConfig::registerVar( 'MW::ArticleInfo::ImageLastEditor', 'bs-infobar-author.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
-		BsConfig::registerVar( 'MW::ArticleInfo::ImageCategories', 'bs-infobar-category.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
-		BsConfig::registerVar( 'MW::ArticleInfo::ImageSubpages', 'bs-infobar-subpages.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
-		BsConfig::registerVar( 'MW::ArticleInfo::ImageCheckRevision', 'bs-infobar-revision.png', BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
-		BsConfig::registerVar( 'MW::ArticleInfo::CheckRevisionInterval', 10, BsConfig::LEVEL_PUBLIC|BsConfig::RENDER_AS_JAVASCRIPT|BsConfig::TYPE_INT, 'bs-articleinfo-pref-CheckRevisionInterval', 'int' );
 
 		$this->mCore->registerBehaviorSwitch( 'bs_noarticleinfo' );
 
@@ -191,9 +185,14 @@ class ArticleInfo extends BsExtensionMW {
 			) {
 				$aSingleResult['newRevision'] = true;
 				$oCheckRevisionView = new ViewStateBarTopElement();
+				$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+					->makeConfig( 'bsg' );
 				$aSingleResult['checkRevisionView'] = $oCheckRevisionView
 					->setKey( 'CheckRevision' )
-					->setIconSrc( $this->getImagePath( true ).BsConfig::get( 'MW::ArticleInfo::ImageCheckRevision' ) )
+					->setIconSrc(
+						$this->getImagePath( true )
+						. $config->get( 'ArticleInfoImageCheckRevision' )
+					)
 					->setIconAlt( wfMessage( 'bs-articleinfo-check-revision' )->plain() )
 					->setText( wfMessage( 'bs-articleinfo-check-revision' )->plain() )
 					->setTextLink( $oTitle->getFullURL() )
@@ -259,9 +258,13 @@ class ArticleInfo extends BsExtensionMW {
 				'oldid' => $iOldId
 			)
 		);
-
+		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+			->makeConfig( 'bsg' );
 		$oLastEditView->setKey( 'LastEdited' );
-		$oLastEditView->setIconSrc( $this->getImagePath( true ).BsConfig::get( 'MW::ArticleInfo::ImageLastEdited' ) );
+		$oLastEditView->setIconSrc(
+			$this->getImagePath( true )
+			.$config->get( 'ArticleInfoImageLastEdited' )
+		);
 		$oLastEditView->setIconAlt( wfMessage( 'bs-articleinfo-last-edited' )->plain() );
 		$oLastEditView->setText( $sFormattedTimestamp );
 		$oLastEditView->setTextLink( $sArticleHistoryPageLink );
@@ -290,8 +293,13 @@ class ArticleInfo extends BsExtensionMW {
 		$sLastEditorName = $this->mCore->getUserDisplayName( $oLastEditor );
 		$sLastEditorUserPageUrl = $oLastEditor->getUserPage()->getFullURL();
 
+		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+			->makeConfig( 'bsg' );
 		$oLastEditorView->setKey( 'LastEditor' );
-		$oLastEditorView->setIconSrc( $this->getImagePath( true ).BsConfig::get('MW::ArticleInfo::ImageLastEditor') );
+		$oLastEditorView->setIconSrc(
+			$this->getImagePath( true )
+			.$config->get( 'ArticleInfoImageLastEditor' )
+		);
 		$oLastEditorView->setIconAlt( wfMessage('bs-articleinfo-last-editor')->text(), $this->getUser()->getName() );
 		$oLastEditorView->setText( $sLastEditorName );
 		$oLastEditorView->setTextLinkTitle( $sLastEditorName );
@@ -342,7 +350,12 @@ class ArticleInfo extends BsExtensionMW {
 
 		if ( count( $aAllCategoriesWithUrls ) > 0 ) {
 			$oCategoriesLinks->setKey( 'Categories' );
-			$oCategoriesLinks->setIconSrc( $this->getImagePath( true ).BsConfig::get('MW::ArticleInfo::ImageCategories') );
+			$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+				->makeConfig( 'bsg' );
+			$oCategoriesLinks->setIconSrc(
+				$this->getImagePath( true )
+				.$config->get( 'ArticleInfoImageCategories' )
+			);
 			$oCategoriesLinks->setIconAlt( wfMessage( 'bs-articleinfo-categories' )->plain() );
 		}
 
@@ -456,7 +469,12 @@ class ArticleInfo extends BsExtensionMW {
 
 		$oSubpageIcons = new ViewStateBarTopElement();
 		$oSubpageIcons->setKey( 'Subpages' );
-		$oSubpageIcons->setIconSrc( $this->getImagePath( true ).BsConfig::get('MW::ArticleInfo::ImageSubpages') );
+		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
+			->makeConfig( 'bsg' );
+		$oSubpageIcons->setIconSrc(
+			$this->getImagePath( true )
+			.$config->get( 'ArticleInfoImageSubpages' )
+		);
 		$oSubpageIcons->setIconAlt( wfMessage( 'bs-articleinfo-subpages-available' )->plain() );
 		$oSubpageIcons->setIconTogglesBody( true );
 		$oSubpageIcons->setText( wfMessage( 'bs-articleinfo-subpages' )->plain() );
