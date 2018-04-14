@@ -3,15 +3,33 @@
 		"authors": [
 			"Test Create account",
 			"محمد أحمد عبد الفتاح",
-			"Mido"
+			"Mido",
+			"ديفيد"
 		]
 	},
+	"bs-articleinfo-desc": "يوفر معلومات حول صفحة في شريط الحالة",
 	"prefs-articleinfo": "معلومات الصفحة",
 	"bs-articleinfo-pref-CheckRevisionInterval": "فترة التحديث بالثواني:",
 	"bs-articleinfo-last-edited": "الزمن منذ آخر تغيير",
 	"bs-articleinfo-last-edited-tooltip": "التعديل الأخير",
 	"bs-articleinfo-last-editor": "آخر {{GENDER:$1|محرر|محررة}}",
 	"bs-articleinfo-categories": "التصنيفات",
+	"bs-articleinfo-more-categories": "المزيد من التصنيفات المتاحة",
+	"bs-articleinfo-all-categories-heading": "التصنيفات",
+	"bs-articleinfo-nocategories": "لم يتم العثور على تصنيفات.",
+	"bs-articleinfo-hiddencats": "تصنيفات مخفية",
+	"bs-articleinfo-notemplates": "لم يتم العثور على قوالب.",
+	"bs-articleinfo-templates": "القوالب",
+	"bs-articleinfo-subpages": "الصفحات الفرعية",
+	"bs-articleinfo-subpages-available": "هناك صفحات فرعية لهذه الصفحة",
 	"bs-articleinfo-subpages-too-much": "يوجد أكثر من 100 صفحة فرعية متاحة.",
+	"bs-articleinfo-check-revision": "النسخة الجديدة المتاحة",
+	"bs-articleinfo-check-revision-tooltip": "إعادة تحميل الصفحة",
+	"bs-articleinfo-statebartoplastedited": "التعديل الأخير",
+	"bs-articleinfo-statebartoplasteditor": "محرر حديث",
+	"bs-articleinfo-statebartopcategories": "التصنيفات",
+	"bs-articleinfo-statebartopsubpages": "الصفحات الفرعية",
+	"bs-articleinfo-statebarbodycategories": "التصنيفات",
+	"bs-articleinfo-statebarbodysubpages": "الصفحات الفرعية",
 	"bs-articleinfo-statebarbodytemplates": "قوالب"
 }
