@@ -290,7 +290,9 @@ class ArticleInfo extends BsExtensionMW {
 		$oLastEditor = User::newFromName( $oCurrentArticle->getUserText() );
 		if( is_object( $oLastEditor ) === false || $oLastEditor === null ) return false;
 
-		$sLastEditorName = $this->mCore->getUserDisplayName( $oLastEditor );
+		$userHelper = \BlueSpice\Services::getInstance()->getBSUtilityFactory()
+			->getUserHelper( $oLastEditor );
+		$sLastEditorName = $userHelper->getDisplayName();
 		$sLastEditorUserPageUrl = $oLastEditor->getUserPage()->getFullURL();
 
 		$config = \BlueSpice\Services::getInstance()->getConfigFactory()
