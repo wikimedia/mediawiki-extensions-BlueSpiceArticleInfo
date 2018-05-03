@@ -46,8 +46,6 @@ class ArticleInfo extends BsExtensionMW {
 
 		$this->mCore->registerBehaviorSwitch( 'bs_noarticleinfo' );
 
-		$this->setHook( 'BSStateBarAddSortTopVars', 'onStatebarAddSortTopVars' );
-		$this->setHook( 'BSStateBarAddSortBodyVars', 'onStatebarAddSortBodyVars' );
 		$this->setHook( 'BSStateBarBeforeTopViewAdd', 'onStateBarBeforeTopViewAdd' );
 		$this->setHook( 'BSStateBarBeforeBodyViewAdd', 'onStateBarBeforeBodyViewAdd' );
 		$this->setHook( 'BsAdapterAjaxPingResult' );
@@ -67,34 +65,6 @@ class ArticleInfo extends BsExtensionMW {
 	 */
 	public function onBeforePageDisplay( &$oOutputPage, &$oSkin ) {
 		$oOutputPage->addModules( 'ext.bluespice.articleinfo' );
-		return true;
-	}
-
-	/**
-	 * Hook-Handler for Hook 'BSStatebarAddSortTopVars'
-	 * @param array $aSortTopVars
-	 * @return boolean Always true to keep hook running
-	 */
-	public function onStatebarAddSortTopVars( &$aSortTopVars ) {
-		$aSortTopVars['statebartoplastedited'] = wfMessage( 'bs-articleinfo-statebartoplastedited' )->plain();
-		$aSortTopVars['statebartoplasteditor'] = wfMessage( 'bs-articleinfo-statebartoplasteditor' )->plain();
-		$aSortTopVars['statebartopcategories'] = wfMessage( 'bs-articleinfo-statebartopcategories' )->plain();
-		$aSortTopVars['statebartopsubpages'] = wfMessage( 'bs-articleinfo-statebartopsubpages' )->plain();
-		//postponed
-		//HINT: http://84.16.252.165/otrs24/index.pl?Action=AgentTicketZoom;TicketID=3980;ArticleID=22500#22173
-		//$aSortTopVars['statebartoparticleviews']	= wfMessage( 'bs-articleinfo-statebartoparticleviews' )->text();
-		return true;
-	}
-
-	/**
-	 * Hook-Handler for Hook 'BSStatebarAddSortBodyVars'
-	 * @param array $aSortBodyVars
-	 * @return boolean Always true to keep hook running
-	 */
-	public function onStatebarAddSortBodyVars( &$aSortBodyVars ) {
-		$aSortBodyVars['statebarbodycategories'] = wfMessage( 'bs-articleinfo-statebarbodycategories' )->plain();
-		$aSortBodyVars['statebarbodysubpages'] = wfMessage( 'bs-articleinfo-statebarbodysubpages' )->plain();
-		$aSortBodyVars['statebarbodytemplates'] = wfMessage( 'bs-articleinfo-statebarbodytemplates' )->plain();
 		return true;
 	}
 

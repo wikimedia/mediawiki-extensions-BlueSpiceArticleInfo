@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "There are subpages for this page",
 	"bs-articleinfo-subpages-too-much": "There are more than 100 subpages available.",
 	"bs-articleinfo-check-revision": "New version available",
-	"bs-articleinfo-check-revision-tooltip": "Reload page",
-	"bs-articleinfo-statebartoplastedited": "Recent edit",
-	"bs-articleinfo-statebartoplasteditor": "Recent editor",
-	"bs-articleinfo-statebartopcategories": "Categories",
-	"bs-articleinfo-statebartopsubpages": "Subpages",
-	"bs-articleinfo-statebarbodycategories": "Categories",
-	"bs-articleinfo-statebarbodysubpages": "Subpages",
-	"bs-articleinfo-statebarbodytemplates": "Templates"
+	"bs-articleinfo-check-revision-tooltip": "Reload page"
 }
