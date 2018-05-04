@@ -22,12 +22,5 @@
 	"bs-articleinfo-subpages-available": "این صفحه دارای زیرصفحه است.",
 	"bs-articleinfo-subpages-too-much": " تعداد زیرصفحه وجود بیش از ۱۰۰ است.",
 	"bs-articleinfo-check-revision": "نسخهٔ جدیدی در دسترس است",
-	"bs-articleinfo-check-revision-tooltip": "بارگذاری مجدد صفحه",
-	"bs-articleinfo-statebartoplastedited": "ویرایش اخیر",
-	"bs-articleinfo-statebartoplasteditor": "ویرایشگر اخیر",
-	"bs-articleinfo-statebartopcategories": "رده‌ها",
-	"bs-articleinfo-statebartopsubpages": "زیرصفحه‌ها",
-	"bs-articleinfo-statebarbodycategories": "رده‌ها",
-	"bs-articleinfo-statebarbodysubpages": "زیرصفحه‌ها",
-	"bs-articleinfo-statebarbodytemplates": "الگوها"
+	"bs-articleinfo-check-revision-tooltip": "بارگذاری مجدد صفحه"
 }

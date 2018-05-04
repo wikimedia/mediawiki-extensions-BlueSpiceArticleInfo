@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "有此页面的子页面",
 	"bs-articleinfo-subpages-too-much": "有超过100个子页面可用。",
 	"bs-articleinfo-check-revision": "新版本可用",
-	"bs-articleinfo-check-revision-tooltip": "刷新页面",
-	"bs-articleinfo-statebartoplastedited": "最近编辑",
-	"bs-articleinfo-statebartoplasteditor": "最近编辑者",
-	"bs-articleinfo-statebartopcategories": "分类",
-	"bs-articleinfo-statebartopsubpages": "子页面",
-	"bs-articleinfo-statebarbodycategories": "分类",
-	"bs-articleinfo-statebarbodysubpages": "子页面",
-	"bs-articleinfo-statebarbodytemplates": "模板"
+	"bs-articleinfo-check-revision-tooltip": "刷新页面"
 }

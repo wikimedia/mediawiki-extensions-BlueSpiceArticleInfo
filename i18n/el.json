@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Υπάρχουν υποσελίδες για αυτή τη σελίδα",
 	"bs-articleinfo-subpages-too-much": "Υπάρχουν πάνω από 100 υποσελίδες διαθέσιμες.",
 	"bs-articleinfo-check-revision": "Νέα έκδοση είναι διαθέσιμη",
-	"bs-articleinfo-check-revision-tooltip": "Επαναφόρτωση σελίδας",
-	"bs-articleinfo-statebartoplastedited": "Πρόσφατη επεξεργασία",
-	"bs-articleinfo-statebartoplasteditor": "Πρόσφατος συντάκτης",
-	"bs-articleinfo-statebartopcategories": "Κατηγορίες",
-	"bs-articleinfo-statebartopsubpages": "Υποσελίδες",
-	"bs-articleinfo-statebarbodycategories": "Κατηγορίες",
-	"bs-articleinfo-statebarbodysubpages": "Υποσελίδες",
-	"bs-articleinfo-statebarbodytemplates": "Πρότυπα"
+	"bs-articleinfo-check-revision-tooltip": "Επαναφόρτωση σελίδας"
 }

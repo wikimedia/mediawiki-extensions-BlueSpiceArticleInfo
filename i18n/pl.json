@@ -18,12 +18,5 @@
 	"bs-articleinfo-templates": "Szablony",
 	"bs-articleinfo-subpages": "Podstrony",
 	"bs-articleinfo-check-revision": "Dostępna jest nowa wersja",
-	"bs-articleinfo-check-revision-tooltip": "Przeładuj stronę",
-	"bs-articleinfo-statebartoplastedited": "Ostatnia edycja",
-	"bs-articleinfo-statebartoplasteditor": "Ostatni edytor",
-	"bs-articleinfo-statebartopcategories": "Kategorie",
-	"bs-articleinfo-statebartopsubpages": "Podstrony",
-	"bs-articleinfo-statebarbodycategories": "Kategorie",
-	"bs-articleinfo-statebarbodysubpages": "Podstrony",
-	"bs-articleinfo-statebarbodytemplates": "Szablony"
+	"bs-articleinfo-check-revision-tooltip": "Przeładuj stronę"
 }

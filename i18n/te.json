@@ -22,12 +22,5 @@
 	"bs-articleinfo-subpages-available": "ఈ పేజీకి ఉప పేజీలున్నాయి",
 	"bs-articleinfo-subpages-too-much": "100 కు పైగా ఉప పేజీలున్నాయి.",
 	"bs-articleinfo-check-revision": "కొత్త కూర్పు అందుబాటులో ఉంది",
-	"bs-articleinfo-check-revision-tooltip": "పేజీని తిరిగి లోడు చెయ్యి",
-	"bs-articleinfo-statebartoplastedited": "ఇటీవలి మార్పు",
-	"bs-articleinfo-statebartoplasteditor": "ఇటీవలి రచయిత",
-	"bs-articleinfo-statebartopcategories": "వర్గాలు",
-	"bs-articleinfo-statebartopsubpages": "ఉప పేజీలు",
-	"bs-articleinfo-statebarbodycategories": "వర్గాలు",
-	"bs-articleinfo-statebarbodysubpages": "ఉప పేజీలు",
-	"bs-articleinfo-statebarbodytemplates": "మూసలు"
+	"bs-articleinfo-check-revision-tooltip": "పేజీని తిరిగి లోడు చెయ్యి"
 }

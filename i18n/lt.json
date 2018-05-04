@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Šiame puslapyje yra popuslapių",
 	"bs-articleinfo-subpages-too-much": "Prieinama daugiau nei 100 popuslapių.",
 	"bs-articleinfo-check-revision": "Galima nauja versija",
-	"bs-articleinfo-check-revision-tooltip": "Perkrauti puslapį",
-	"bs-articleinfo-statebartoplastedited": "Naujausias redagavimas",
-	"bs-articleinfo-statebartoplasteditor": "Naujausias redaktorius",
-	"bs-articleinfo-statebartopcategories": "Kategorijos",
-	"bs-articleinfo-statebartopsubpages": "Popuslapiai",
-	"bs-articleinfo-statebarbodycategories": "Kategorijos",
-	"bs-articleinfo-statebarbodysubpages": "Popuslapiai",
-	"bs-articleinfo-statebarbodytemplates": "Šablonai"
+	"bs-articleinfo-check-revision-tooltip": "Perkrauti puslapį"
 }

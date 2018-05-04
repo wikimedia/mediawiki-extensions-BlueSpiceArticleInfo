@@ -23,12 +23,5 @@
 	"bs-articleinfo-subpages-available": "有此頁面之子頁",
 	"bs-articleinfo-subpages-too-much": "超過 100 個子頁可用。",
 	"bs-articleinfo-check-revision": "新版本可用",
-	"bs-articleinfo-check-revision-tooltip": "重新載入頁面",
-	"bs-articleinfo-statebartoplastedited": "最近編輯",
-	"bs-articleinfo-statebartoplasteditor": "最近編輯者",
-	"bs-articleinfo-statebartopcategories": "分類",
-	"bs-articleinfo-statebartopsubpages": "子頁面",
-	"bs-articleinfo-statebarbodycategories": "分類",
-	"bs-articleinfo-statebarbodysubpages": "子頁面",
-	"bs-articleinfo-statebarbodytemplates": "模板"
+	"bs-articleinfo-check-revision-tooltip": "重新載入頁面"
 }

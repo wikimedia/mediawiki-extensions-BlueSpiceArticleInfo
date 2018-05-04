@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "דער דאזיקער בלאט האט אונטערבלעטער",
 	"bs-articleinfo-subpages-too-much": "עס זענען פאראן מער ווי 100 אונטערבלעטער.",
 	"bs-articleinfo-check-revision": "פאראן נייע ווערסיע",
-	"bs-articleinfo-check-revision-tooltip": "ווידער אויפלאדן בלאט",
-	"bs-articleinfo-statebartoplastedited": "לעצטיקע רעדאקטירונג",
-	"bs-articleinfo-statebartoplasteditor": "לעצטיקער רעדאקטאר",
-	"bs-articleinfo-statebartopcategories": "קאַטעגאָריעס",
-	"bs-articleinfo-statebartopsubpages": "אונטערבלעטער",
-	"bs-articleinfo-statebarbodycategories": "קאַטעגאָריעס",
-	"bs-articleinfo-statebarbodysubpages": "אונטערבלעטער",
-	"bs-articleinfo-statebarbodytemplates": "מוסטערן"
+	"bs-articleinfo-check-revision-tooltip": "ווידער אויפלאדן בלאט"
 }

@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Za to stran obstajajo podstrani",
 	"bs-articleinfo-subpages-too-much": "Na voljo je več kot 100 podstrani.",
 	"bs-articleinfo-check-revision": "Na voljo je nova različica",
-	"bs-articleinfo-check-revision-tooltip": "Osveži stran",
-	"bs-articleinfo-statebartoplastedited": "Zadnjem urejanju",
-	"bs-articleinfo-statebartoplasteditor": "Zadnjem uredniku",
-	"bs-articleinfo-statebartopcategories": "Kategorije",
-	"bs-articleinfo-statebartopsubpages": "Podstrani",
-	"bs-articleinfo-statebarbodycategories": "Kategorije",
-	"bs-articleinfo-statebarbodysubpages": "Podstrani",
-	"bs-articleinfo-statebarbodytemplates": "Predloge"
+	"bs-articleinfo-check-revision-tooltip": "Osveži stran"
 }

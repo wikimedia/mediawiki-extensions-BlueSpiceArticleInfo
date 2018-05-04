@@ -23,12 +23,5 @@
 	"bs-articleinfo-subpages-available": "Для этой страницы есть подстраницы",
 	"bs-articleinfo-subpages-too-much": "Доступно более 100 подстраниц.",
 	"bs-articleinfo-check-revision": "Доступна новая версия",
-	"bs-articleinfo-check-revision-tooltip": "Перезагрузить страницу",
-	"bs-articleinfo-statebartoplastedited": "Последняя правка",
-	"bs-articleinfo-statebartoplasteditor": "Последний редактор",
-	"bs-articleinfo-statebartopcategories": "Категории",
-	"bs-articleinfo-statebartopsubpages": "Подстраницы",
-	"bs-articleinfo-statebarbodycategories": "Категории",
-	"bs-articleinfo-statebarbodysubpages": "Подстраницы",
-	"bs-articleinfo-statebarbodytemplates": "Шаблоны"
+	"bs-articleinfo-check-revision-tooltip": "Перезагрузить страницу"
 }

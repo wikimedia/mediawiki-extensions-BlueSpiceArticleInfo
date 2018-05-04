@@ -22,12 +22,5 @@
 	"bs-articleinfo-subpages-available": "Ada subhalaman untuk halaman ini",
 	"bs-articleinfo-subpages-too-much": "Ada lebih dari 100 subhalaman yang tersedia.",
 	"bs-articleinfo-check-revision": "Versi baru tersedia",
-	"bs-articleinfo-check-revision-tooltip": "Muat ulang halaman",
-	"bs-articleinfo-statebartoplastedited": "Suntingan terbaru",
-	"bs-articleinfo-statebartoplasteditor": "Penyunting terbaru",
-	"bs-articleinfo-statebartopcategories": "Kategori",
-	"bs-articleinfo-statebartopsubpages": "Subhalaman",
-	"bs-articleinfo-statebarbodycategories": "Kategori",
-	"bs-articleinfo-statebarbodysubpages": "Subhalaman",
-	"bs-articleinfo-statebarbodytemplates": "Templat"
+	"bs-articleinfo-check-revision-tooltip": "Muat ulang halaman"
 }

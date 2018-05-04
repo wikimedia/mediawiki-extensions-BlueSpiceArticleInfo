@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Esta páxina tien subpáxines",
 	"bs-articleinfo-subpages-too-much": "Hai más de 100 subpáxines disponibles.",
 	"bs-articleinfo-check-revision": "Disponible versión nueva",
-	"bs-articleinfo-check-revision-tooltip": "Recargar páxina",
-	"bs-articleinfo-statebartoplastedited": "Edición reciente",
-	"bs-articleinfo-statebartoplasteditor": "Editor reciente",
-	"bs-articleinfo-statebartopcategories": "Categoríes",
-	"bs-articleinfo-statebartopsubpages": "Subpáxines",
-	"bs-articleinfo-statebarbodycategories": "Categoríes",
-	"bs-articleinfo-statebarbodysubpages": "Subpáxines",
-	"bs-articleinfo-statebarbodytemplates": "Plantíes"
+	"bs-articleinfo-check-revision-tooltip": "Recargar páxina"
 }

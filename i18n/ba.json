@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Был бит өсөн түбән биттәр бар",
 	"bs-articleinfo-subpages-too-much": "100-ҙән ашыу түбән бит асыҡ",
 	"bs-articleinfo-check-revision": "Яңы төр асыҡ",
-	"bs-articleinfo-check-revision-tooltip": "Битте яңынан тейәргә",
-	"bs-articleinfo-statebartoplastedited": "Һуңғы үҙгәртеү",
-	"bs-articleinfo-statebartoplasteditor": "Һуңғы мөхәррир",
-	"bs-articleinfo-statebartopcategories": "Категориялар",
-	"bs-articleinfo-statebartopsubpages": "Түбән биттәр",
-	"bs-articleinfo-statebarbodycategories": "Категориялар",
-	"bs-articleinfo-statebarbodysubpages": "Түбән биттәр",
-	"bs-articleinfo-statebarbodytemplates": "Ҡалыптар"
+	"bs-articleinfo-check-revision-tooltip": "Битте яңынан тейәргә"
 }

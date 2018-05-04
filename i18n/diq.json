@@ -25,12 +25,5 @@
 	"bs-articleinfo-subpages-available": "Nê bınpelê ena pele rê",
 	"bs-articleinfo-subpages-too-much": "100ra zederbın peley est ê.",
 	"bs-articleinfo-check-revision": "Versiyono newe mewcud o.",
-	"bs-articleinfo-check-revision-tooltip": "Perer fına bar ke",
-	"bs-articleinfo-statebartoplastedited": "Vurnayışo bahdoyên",
-	"bs-articleinfo-statebartoplasteditor": "Editoro bahdoyên",
-	"bs-articleinfo-statebartopcategories": "Kategoriyi",
-	"bs-articleinfo-statebartopsubpages": "Bınpeli",
-	"bs-articleinfo-statebarbodycategories": "Kategoriyi",
-	"bs-articleinfo-statebarbodysubpages": "Bınpeli",
-	"bs-articleinfo-statebarbodytemplates": "Şabloni"
+	"bs-articleinfo-check-revision-tooltip": "Perer fına bar ke"
 }

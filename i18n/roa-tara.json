@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Stonne sottopàggene pe sta pàgene",
 	"bs-articleinfo-subpages-too-much": "Stonne cchiù de 100 sottopàggene disponibbile.",
 	"bs-articleinfo-check-revision": "Versiona nove disponibbile",
-	"bs-articleinfo-check-revision-tooltip": "Recareche 'a pàgene",
-	"bs-articleinfo-statebartoplastedited": "Urteme cangiaminde",
-	"bs-articleinfo-statebartoplasteditor": "Urteme cangiatore",
-	"bs-articleinfo-statebartopcategories": "Categorije",
-	"bs-articleinfo-statebartopsubpages": "Sottopàggene",
-	"bs-articleinfo-statebarbodycategories": "Categorije",
-	"bs-articleinfo-statebarbodysubpages": "Sottopàggene",
-	"bs-articleinfo-statebarbodytemplates": "Template"
+	"bs-articleinfo-check-revision-tooltip": "Recareche 'a pàgene"
 }

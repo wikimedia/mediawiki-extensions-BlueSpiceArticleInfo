@@ -24,12 +24,5 @@
 	"bs-articleinfo-subpages-available": "هناك صفحات فرعية لهذه الصفحة",
 	"bs-articleinfo-subpages-too-much": "يوجد أكثر من 100 صفحة فرعية متاحة.",
 	"bs-articleinfo-check-revision": "النسخة الجديدة المتاحة",
-	"bs-articleinfo-check-revision-tooltip": "إعادة تحميل الصفحة",
-	"bs-articleinfo-statebartoplastedited": "التعديل الأخير",
-	"bs-articleinfo-statebartoplasteditor": "محرر حديث",
-	"bs-articleinfo-statebartopcategories": "التصنيفات",
-	"bs-articleinfo-statebartopsubpages": "الصفحات الفرعية",
-	"bs-articleinfo-statebarbodycategories": "التصنيفات",
-	"bs-articleinfo-statebarbodysubpages": "الصفحات الفرعية",
-	"bs-articleinfo-statebarbodytemplates": "قوالب"
+	"bs-articleinfo-check-revision-tooltip": "إعادة تحميل الصفحة"
 }

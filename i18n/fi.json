@@ -22,12 +22,5 @@
 	"bs-articleinfo-subpages-available": "Tällä sivulla on alasivuja",
 	"bs-articleinfo-subpages-too-much": "Tällä sivulla on yli 100 alasivua",
 	"bs-articleinfo-check-revision": "Uusi versio saatavilla",
-	"bs-articleinfo-check-revision-tooltip": "Päivitä sivu",
-	"bs-articleinfo-statebartoplastedited": "Tuorein muokkaus",
-	"bs-articleinfo-statebartoplasteditor": "Viimeisin muokkaaja",
-	"bs-articleinfo-statebartopcategories": "Luokat",
-	"bs-articleinfo-statebartopsubpages": "Alasivut",
-	"bs-articleinfo-statebarbodycategories": "Luokat",
-	"bs-articleinfo-statebarbodysubpages": "Alasivut",
-	"bs-articleinfo-statebarbodytemplates": "Mallineet"
+	"bs-articleinfo-check-revision-tooltip": "Päivitä sivu"
 }

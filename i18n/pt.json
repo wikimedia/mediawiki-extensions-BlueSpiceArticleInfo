@@ -23,12 +23,5 @@
 	"bs-articleinfo-subpages-available": "Existem subpáginas desta página",
 	"bs-articleinfo-subpages-too-much": "Existem mais de 100 subpáginas disponíveis.",
 	"bs-articleinfo-check-revision": "Nova versão disponível",
-	"bs-articleinfo-check-revision-tooltip": "Recarregar página",
-	"bs-articleinfo-statebartoplastedited": "Edição recente",
-	"bs-articleinfo-statebartoplasteditor": "Editor(a) recente",
-	"bs-articleinfo-statebartopcategories": "Categorias",
-	"bs-articleinfo-statebartopsubpages": "Subpáginas",
-	"bs-articleinfo-statebarbodycategories": "Categorias",
-	"bs-articleinfo-statebarbodysubpages": "Subpáginas",
-	"bs-articleinfo-statebarbodytemplates": "Predefinições"
+	"bs-articleinfo-check-revision-tooltip": "Recarregar página"
 }

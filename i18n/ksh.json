@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Heh di Sigg hädd Ongersigge",
 	"bs-articleinfo-subpages-too-much": "Heh di Sigg hät övver hondert Ongersigge.",
 	"bs-articleinfo-check-revision": "En neu Väsjohn es ze han",
-	"bs-articleinfo-check-revision-tooltip": "de Sigg neu lahde",
-	"bs-articleinfo-statebartoplastedited": "De läzde Änderong",
-	"bs-articleinfo-statebartoplasteditor": "Der läzde Schriiver",
-	"bs-articleinfo-statebartopcategories": "Saachjroppe",
-	"bs-articleinfo-statebartopsubpages": "Ongersigge",
-	"bs-articleinfo-statebarbodycategories": "Saachjroppe",
-	"bs-articleinfo-statebarbodysubpages": "Ongersigge",
-	"bs-articleinfo-statebarbodytemplates": "Schablohne"
+	"bs-articleinfo-check-revision-tooltip": "de Sigg neu lahde"
 }

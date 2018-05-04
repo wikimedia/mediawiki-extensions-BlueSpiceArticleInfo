@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Et gëtt Ënnersäite fir dës Säit",
 	"bs-articleinfo-subpages-too-much": "Et si méi wéi 100 Ënnersäiten disponibel.",
 	"bs-articleinfo-check-revision": "Nei Versioun disponibel",
-	"bs-articleinfo-check-revision-tooltip": "Säit nei lueden",
-	"bs-articleinfo-statebartoplastedited": "Rezent Ännerung",
-	"bs-articleinfo-statebartoplasteditor": "Rezenten Editeur",
-	"bs-articleinfo-statebartopcategories": "Kategorien",
-	"bs-articleinfo-statebartopsubpages": "Ënnersäiten",
-	"bs-articleinfo-statebarbodycategories": "Kategorien",
-	"bs-articleinfo-statebarbodysubpages": "Ënnersäiten",
-	"bs-articleinfo-statebarbodytemplates": "Schablounen"
+	"bs-articleinfo-check-revision-tooltip": "Säit nei lueden"
 }

@@ -22,12 +22,5 @@
 	"bs-articleinfo-subpages-available": "इस पृष्ठ के लिए उपपृष्ठ हैं",
 	"bs-articleinfo-subpages-too-much": "100 से अधिक उपपृष्ठ उपलब्ध हैं।",
 	"bs-articleinfo-check-revision": "नवीन संस्करण उपलब्ध",
-	"bs-articleinfo-check-revision-tooltip": "पृष्ट दोबारा लोड करें।",
-	"bs-articleinfo-statebartoplastedited": "हाल के संपादन",
-	"bs-articleinfo-statebartoplasteditor": "हाल के संपादक",
-	"bs-articleinfo-statebartopcategories": "श्रेणियाँ",
-	"bs-articleinfo-statebartopsubpages": "उपपृष्ठ",
-	"bs-articleinfo-statebarbodycategories": "श्रेणियाँ",
-	"bs-articleinfo-statebarbodysubpages": "उपपृष्ठ",
-	"bs-articleinfo-statebarbodytemplates": "साँचे"
+	"bs-articleinfo-check-revision-tooltip": "पृष्ट दोबारा लोड करें।"
 }

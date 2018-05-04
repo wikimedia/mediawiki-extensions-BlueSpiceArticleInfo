@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Страницава има потстраници",
 	"bs-articleinfo-subpages-too-much": "Има преку 100 потстраници.",
 	"bs-articleinfo-check-revision": "Има нова верзија",
-	"bs-articleinfo-check-revision-tooltip": "Превчитај ја страницата",
-	"bs-articleinfo-statebartoplastedited": "Скорешно уредување",
-	"bs-articleinfo-statebartoplasteditor": "Скорешен уредник",
-	"bs-articleinfo-statebartopcategories": "Категории",
-	"bs-articleinfo-statebartopsubpages": "Потстраници",
-	"bs-articleinfo-statebarbodycategories": "Категории",
-	"bs-articleinfo-statebarbodysubpages": "Потстраници",
-	"bs-articleinfo-statebarbodytemplates": "Шаблони"
+	"bs-articleinfo-check-revision-tooltip": "Превчитај ја страницата"
 }

@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Det finns undersidor till denna sida",
 	"bs-articleinfo-subpages-too-much": "Det finns fler än 100 undersidor tillgängliga.",
 	"bs-articleinfo-check-revision": "Ny version finns tillgänglig",
-	"bs-articleinfo-check-revision-tooltip": "Ladda om sidan",
-	"bs-articleinfo-statebartoplastedited": "Senaste redigeringen",
-	"bs-articleinfo-statebartoplasteditor": "Senaste redigeraren",
-	"bs-articleinfo-statebartopcategories": "Kategorier",
-	"bs-articleinfo-statebartopsubpages": "Undersidor",
-	"bs-articleinfo-statebarbodycategories": "Kategorier",
-	"bs-articleinfo-statebarbodysubpages": "Undersidor",
-	"bs-articleinfo-statebarbodytemplates": "Mallar"
+	"bs-articleinfo-check-revision-tooltip": "Ladda om sidan"
 }

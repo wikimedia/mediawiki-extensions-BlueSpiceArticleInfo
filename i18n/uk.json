@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "Для цієї сторінки існують підсторнки",
 	"bs-articleinfo-subpages-too-much": "Наявно понад 100 підсторінок.",
 	"bs-articleinfo-check-revision": "Доступна нова версія",
-	"bs-articleinfo-check-revision-tooltip": "Перезавантажити сторінку",
-	"bs-articleinfo-statebartoplastedited": "Найновіше редагування",
-	"bs-articleinfo-statebartoplasteditor": "Останній редактор",
-	"bs-articleinfo-statebartopcategories": "Категорії",
-	"bs-articleinfo-statebartopsubpages": "Підсторінки",
-	"bs-articleinfo-statebarbodycategories": "Категорії",
-	"bs-articleinfo-statebarbodysubpages": "Підсторінки",
-	"bs-articleinfo-statebarbodytemplates": "Шаблони"
+	"bs-articleinfo-check-revision-tooltip": "Перезавантажити сторінку"
 }

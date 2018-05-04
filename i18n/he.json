@@ -23,11 +23,5 @@
 	"bs-articleinfo-subpages-available": "ישנם דפי משנה עבור דף זה",
 	"bs-articleinfo-subpages-too-much": "יש יותר מ-100 עמודי משנה זמינים.",
 	"bs-articleinfo-check-revision": "גרסה חדשה זמינה",
-	"bs-articleinfo-check-revision-tooltip": "טען מחדש את הדף",
-	"bs-articleinfo-statebartoplastedited": "עריכה אחרונה",
-	"bs-articleinfo-statebartopcategories": "קטגוריות",
-	"bs-articleinfo-statebartopsubpages": "דפי משנה",
-	"bs-articleinfo-statebarbodycategories": "קטגוריות",
-	"bs-articleinfo-statebarbodysubpages": "דפי משנה",
-	"bs-articleinfo-statebarbodytemplates": "תבניות"
+	"bs-articleinfo-check-revision-tooltip": "טען מחדש את הדף"
 }

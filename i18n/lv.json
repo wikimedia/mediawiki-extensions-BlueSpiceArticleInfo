@@ -16,10 +16,5 @@
 	"bs-articleinfo-subpages-available": "Šai lapai ir apakšlapas",
 	"bs-articleinfo-subpages-too-much": "Pieejamas vairāk nekā 100 apakšlapas.",
 	"bs-articleinfo-check-revision": "Pieejama jauna versija",
-	"bs-articleinfo-check-revision-tooltip": "Pārlādēt lapu",
-	"bs-articleinfo-statebartopcategories": "Kategorijas",
-	"bs-articleinfo-statebartopsubpages": "Apakšlapas",
-	"bs-articleinfo-statebarbodycategories": "Kategorijas",
-	"bs-articleinfo-statebarbodysubpages": "Apakšlapas",
-	"bs-articleinfo-statebarbodytemplates": "Veidnes"
+	"bs-articleinfo-check-revision-tooltip": "Pārlādēt lapu"
 }

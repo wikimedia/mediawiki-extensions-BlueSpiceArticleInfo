@@ -22,12 +22,5 @@
 	"bs-articleinfo-subpages-available": "Zu dieser Seite existieren Unterseiten",
 	"bs-articleinfo-subpages-too-much": "Es sind mehr als 100 Unterseiten verfügbar.",
 	"bs-articleinfo-check-revision": "Neue Version verfügbar",
-	"bs-articleinfo-check-revision-tooltip": "Seite neu laden",
-	"bs-articleinfo-statebartoplastedited": "Letzte Änderung",
-	"bs-articleinfo-statebartoplasteditor": "Letzter Bearbeiter",
-	"bs-articleinfo-statebartopcategories": "Kategorien",
-	"bs-articleinfo-statebartopsubpages": "Unterseiten",
-	"bs-articleinfo-statebarbodycategories": "Kategorien",
-	"bs-articleinfo-statebarbodysubpages": "Unterseiten",
-	"bs-articleinfo-statebarbodytemplates": "Vorlagen"
+	"bs-articleinfo-check-revision-tooltip": "Seite neu laden"
 }

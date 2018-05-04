@@ -11,10 +11,5 @@
 	"bs-articleinfo-nocategories": "No s’han trobat categories.",
 	"bs-articleinfo-templates": "Plantilles",
 	"bs-articleinfo-subpages": "Subpàgines",
-	"bs-articleinfo-check-revision": "Hi ha una versió nova disponible",
-	"bs-articleinfo-statebartopcategories": "Categories",
-	"bs-articleinfo-statebartopsubpages": "Subpàgines",
-	"bs-articleinfo-statebarbodycategories": "Categories",
-	"bs-articleinfo-statebarbodysubpages": "Subpàgines",
-	"bs-articleinfo-statebarbodytemplates": "Plantilles"
+	"bs-articleinfo-check-revision": "Hi ha una versió nova disponible"
 }

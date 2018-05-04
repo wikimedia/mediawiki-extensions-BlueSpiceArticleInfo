@@ -18,12 +18,5 @@
 	"bs-articleinfo-subpages": "सहपृष्ठहरू",
 	"bs-articleinfo-subpages-available": "यो पृष्ठका सहपृष्ठहरू छन्",
 	"bs-articleinfo-check-revision": "नयाँ संस्करण उपलब्ध छ",
-	"bs-articleinfo-check-revision-tooltip": "पृष्ठ पुन: लोड गर्नुहोस्",
-	"bs-articleinfo-statebartoplastedited": "हालका सम्पादन",
-	"bs-articleinfo-statebartoplasteditor": "हालको सम्पादक",
-	"bs-articleinfo-statebartopcategories": "श्रेणीहरू",
-	"bs-articleinfo-statebartopsubpages": "सहपृष्ठहरू",
-	"bs-articleinfo-statebarbodycategories": "श्रेणीहरू",
-	"bs-articleinfo-statebarbodysubpages": "सहपृष्ठहरू",
-	"bs-articleinfo-statebarbodytemplates": "ढाँचाहरू (टेम्प्लेट)"
+	"bs-articleinfo-check-revision-tooltip": "पृष्ठ पुन: लोड गर्नुहोस्"
 }

@@ -19,12 +19,5 @@
 	"bs-articleinfo-subpages": "下位ページ",
 	"bs-articleinfo-subpages-available": "このページには下位ページがあります",
 	"bs-articleinfo-check-revision": "新しいバージョンが利用できます",
-	"bs-articleinfo-check-revision-tooltip": "ページを再読み込み",
-	"bs-articleinfo-statebartoplastedited": "最近の編集",
-	"bs-articleinfo-statebartoplasteditor": "最近の編集者",
-	"bs-articleinfo-statebartopcategories": "カテゴリ",
-	"bs-articleinfo-statebartopsubpages": "下位ページ",
-	"bs-articleinfo-statebarbodycategories": "カテゴリ",
-	"bs-articleinfo-statebarbodysubpages": "下位ページ",
-	"bs-articleinfo-statebarbodytemplates": "テンプレート"
+	"bs-articleinfo-check-revision-tooltip": "ページを再読み込み"
 }

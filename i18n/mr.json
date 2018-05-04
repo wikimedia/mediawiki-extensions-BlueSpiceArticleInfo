@@ -21,12 +21,5 @@
 	"bs-articleinfo-subpages-available": "या पानास उपपाने आहेत",
 	"bs-articleinfo-subpages-too-much": "१०० पेक्षा अधिक उपपाने उपलब्ध आहेत.",
 	"bs-articleinfo-check-revision": "नविन आवृत्ती उपलब्ध आहे",
-	"bs-articleinfo-check-revision-tooltip": "पानाचे पुनर्भारण करा",
-	"bs-articleinfo-statebartoplastedited": "अलीकडील संपादन",
-	"bs-articleinfo-statebartoplasteditor": "अलीकडील संपादक",
-	"bs-articleinfo-statebartopcategories": "वर्ग",
-	"bs-articleinfo-statebartopsubpages": "उपपाने",
-	"bs-articleinfo-statebarbodycategories": "वर्ग",
-	"bs-articleinfo-statebarbodysubpages": "उपपाने",
-	"bs-articleinfo-statebarbodytemplates": "साचे"
+	"bs-articleinfo-check-revision-tooltip": "पानाचे पुनर्भारण करा"
 }
