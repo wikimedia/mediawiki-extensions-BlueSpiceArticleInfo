@@ -25,6 +25,9 @@
 					}
 				}
 			}
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {}
 		}
 	},
 	"MessagesDirs": {
@@ -67,12 +70,32 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.articleinfo": {
-			"scripts": "bluespice.articleInfo.js"
+			"scripts": "bluespice.articleInfo.js",
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.bluespice"
+			]
+		},
+		"ext.bluespice.articleinfo.flyout": {
+			"scripts": "bluespice.articleInfo.flyout.js",
+			"messages": [
+				"bs-articleinfo-flyout-title",
+				"bs-articleinfo-flyout-intro",
+				"bs-articleinfo-nav-link-title"
+			],
+			"dependencies": [
+				"ext.bluespice.articleinfo"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceArticleInfo/resources"
+	},
+	"Hooks": {
+		"SkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\ArticleInfo\\Hook\\SkinTemplateOutputPageBeforeExec\\AddFlyout::callback"
+		]
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2

@@ -22,5 +22,8 @@
 	"bs-articleinfo-subpages-available": "Image alternative text for subpages are available for this article, used in folded out status bar",
 	"bs-articleinfo-subpages-too-much": "Text for there are more than 100 subpages available, shown in folded out status bar.",
 	"bs-articleinfo-check-revision": "Anchor text and image alternative text for new version available, shown in status bar above article.\n\nSee also:\n* {{msg-mw|Bs-articleinfo-check-revision-tooltip|tooltip}}",
-	"bs-articleinfo-check-revision-tooltip": "Anchor title for reload article shown in status bar above article.\n\nSee also:\n* {{msg-mw|Bs-articleinfo-check-revision}}"
+	"bs-articleinfo-check-revision-tooltip": "Anchor title for reload article shown in status bar above article.\n\nSee also:\n* {{msg-mw|Bs-articleinfo-check-revision}}",
+	"bs-articleinfo-flyout-title": "Title of the flyout",
+	"bs-articleinfo-flyout-intro": "Sub-title of the flyout",
+	"bs-articleinfo-nav-link-title": "Label of the side menu entry"
 }

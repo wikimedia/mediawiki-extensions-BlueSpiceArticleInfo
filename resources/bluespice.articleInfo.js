@@ -9,6 +9,13 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU Public License v2 or later
  * @filesource
  */
+Ext.onReady( function() {
+	Ext.Loader.setPath(
+		'BS.ArticleInfo',
+		bs.em.paths.get( 'BlueSpiceArticleInfo' ) + '/resources/BS.ArticleInfo'
+	);
+});
+
 /**
  * Base class for all ArticleInfo related methods and properties
  */
