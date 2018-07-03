@@ -7,7 +7,9 @@
 			renderTo: $body[0],
 			makeItemCallbacks: data.makeItemsCallbacks,
 			lastEditedTime: data.lastEditedTime || {},
-			lastEditedUser: data.lastEditedUser || {}
+			lastEditedUser: data.lastEditedUser || {},
+			pageCategoryLinks: data.categoryLinks || {},
+			templateLinks: data.templateLinks || {}
 		} );
 
 		dfd.resolve();

@@ -24,5 +24,9 @@
 	"bs-articleinfo-check-revision-tooltip": "Reload page",
 	"bs-articleinfo-flyout-title": "Page information",
 	"bs-articleinfo-flyout-intro": "Overview of activities on this page",
-	"bs-articleinfo-nav-link-title": "Page information"
+	"bs-articleinfo-nav-link-title": "Page information",
+	"bs-articleinfo-flyout-categorylinks-title": "Categories",
+	"bs-articleinfo-flyout-templatelinks-title": "Templates used on page",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "No categories assigned",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "No templates used"
 }
