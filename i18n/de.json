@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Stephan Muggli <muggli@hallowelt.biz>",
-			"Sebastian Wallroth"
+			"Sebastian Wallroth",
+			"Metalhead64"
 		]
 	},
 	"bs-articleinfo-desc": "Zeigt Informationen über einen Artikel in der Statusleiste an",
@@ -22,5 +23,12 @@
 	"bs-articleinfo-subpages-available": "Zu dieser Seite existieren Unterseiten",
 	"bs-articleinfo-subpages-too-much": "Es sind mehr als 100 Unterseiten verfügbar.",
 	"bs-articleinfo-check-revision": "Neue Version verfügbar",
-	"bs-articleinfo-check-revision-tooltip": "Seite neu laden"
+	"bs-articleinfo-check-revision-tooltip": "Seite neu laden",
+	"bs-articleinfo-flyout-title": "Seiteninformationen",
+	"bs-articleinfo-flyout-intro": "Überblick zu Aktivitäten auf dieser Seite",
+	"bs-articleinfo-nav-link-title": "Seiteninformationen",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorien",
+	"bs-articleinfo-flyout-templatelinks-title": "Auf der Seite verwendete Vorlagen",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Keine Kategorien zugewiesen",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Keine Vorlagen verwendet"
 }

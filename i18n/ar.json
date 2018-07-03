@@ -24,5 +24,9 @@
 	"bs-articleinfo-subpages-available": "هناك صفحات فرعية لهذه الصفحة",
 	"bs-articleinfo-subpages-too-much": "يوجد أكثر من 100 صفحة فرعية متاحة.",
 	"bs-articleinfo-check-revision": "النسخة الجديدة المتاحة",
-	"bs-articleinfo-check-revision-tooltip": "إعادة تحميل الصفحة"
+	"bs-articleinfo-check-revision-tooltip": "إعادة تحميل الصفحة",
+	"bs-articleinfo-flyout-title": "معلومات الصفحة",
+	"bs-articleinfo-nav-link-title": "معلومات الصفحة",
+	"bs-articleinfo-flyout-categorylinks-title": "التصنيفات",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "لا قوالب مستخدمة"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Verdy p"
+			"Verdy p",
+			"Gomoko"
 		]
 	},
 	"bs-articleinfo-desc": "Fournit des informations sur une page dans la barre d'État",
@@ -22,5 +23,8 @@
 	"bs-articleinfo-subpages-available": "Il existe des sous-pages pour cette page",
 	"bs-articleinfo-subpages-too-much": "Il y a plus de 100 sous-pages disponibles.",
 	"bs-articleinfo-check-revision": "Nouvelle version disponible",
-	"bs-articleinfo-check-revision-tooltip": "Recharger la page"
+	"bs-articleinfo-check-revision-tooltip": "Recharger la page",
+	"bs-articleinfo-flyout-title": "Information de la page",
+	"bs-articleinfo-flyout-intro": "Vue d’ensemble des activités sur cette page",
+	"bs-articleinfo-nav-link-title": "Information de la page"
 }

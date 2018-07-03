@@ -23,5 +23,12 @@
 	"bs-articleinfo-subpages-available": "ישנם דפי משנה עבור דף זה",
 	"bs-articleinfo-subpages-too-much": "יש יותר מ-100 עמודי משנה זמינים.",
 	"bs-articleinfo-check-revision": "גרסה חדשה זמינה",
-	"bs-articleinfo-check-revision-tooltip": "טען מחדש את הדף"
+	"bs-articleinfo-check-revision-tooltip": "טען מחדש את הדף",
+	"bs-articleinfo-flyout-title": "מידע על הדף",
+	"bs-articleinfo-flyout-intro": "סקירה כללית של הפעילויות בדף זה",
+	"bs-articleinfo-nav-link-title": "מידע על הדף",
+	"bs-articleinfo-flyout-categorylinks-title": "קטגוריות",
+	"bs-articleinfo-flyout-templatelinks-title": "תבניות הנמצאות בשימוש בדף",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "אין קטגוריות משויכות",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "אין תבניות בשימוש"
 }

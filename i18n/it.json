@@ -22,5 +22,8 @@
 	"bs-articleinfo-subpages-available": "Ci sono sottopagine per questa pagina",
 	"bs-articleinfo-subpages-too-much": "Ci sono più di 100 sottopagine disponibili.",
 	"bs-articleinfo-check-revision": "Nuova versione disponibile",
-	"bs-articleinfo-check-revision-tooltip": "Ricarica la pagina"
+	"bs-articleinfo-check-revision-tooltip": "Ricarica la pagina",
+	"bs-articleinfo-flyout-title": "Informazioni sulla pagina",
+	"bs-articleinfo-flyout-intro": "Panoramica delle attività su questa pagina",
+	"bs-articleinfo-nav-link-title": "Informazioni pagina"
 }

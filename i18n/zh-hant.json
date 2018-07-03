@@ -3,7 +3,8 @@
 		"authors": [
 			"Liuxinyu970226",
 			"Cwlin0416",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
 	"bs-articleinfo-desc": "提供有關狀態列中之頁面資訊",
@@ -23,5 +24,8 @@
 	"bs-articleinfo-subpages-available": "有此頁面之子頁",
 	"bs-articleinfo-subpages-too-much": "超過 100 個子頁可用。",
 	"bs-articleinfo-check-revision": "新版本可用",
-	"bs-articleinfo-check-revision-tooltip": "重新載入頁面"
+	"bs-articleinfo-check-revision-tooltip": "重新載入頁面",
+	"bs-articleinfo-flyout-title": "頁面資訊",
+	"bs-articleinfo-flyout-intro": "預覽此頁面上的操作",
+	"bs-articleinfo-nav-link-title": "頁面資訊"
 }
