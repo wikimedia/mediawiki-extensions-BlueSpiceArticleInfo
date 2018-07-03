@@ -25,5 +25,9 @@
 	"bs-articleinfo-check-revision-tooltip": "Anchor title for reload article shown in status bar above article.\n\nSee also:\n* {{msg-mw|Bs-articleinfo-check-revision}}",
 	"bs-articleinfo-flyout-title": "Title of the flyout",
 	"bs-articleinfo-flyout-intro": "Sub-title of the flyout",
-	"bs-articleinfo-nav-link-title": "Label of the side menu entry"
+	"bs-articleinfo-nav-link-title": "Label of the side menu entry",
+	"bs-articleinfo-flyout-categorylinks-title": "Title of the panel showing page categories",
+	"bs-articleinfo-flyout-templatelinks-title": "Title of the panel showing templates used on the page",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Text displayed if there are no categories assigned to the page",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Text displayed if there are no templates used on the page"
 }

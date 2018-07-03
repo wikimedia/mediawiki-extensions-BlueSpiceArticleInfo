@@ -3,7 +3,9 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 	requires: ['BS.ArticleInfo.panel.LastEditedTime', 'BS.ArticleInfo.panel.LastEditedUser'],
 	makeItemCallbacks: [],
 	lastEditedTime: {},
-	lastEditeUser: {},
+	lastEditedUser: {},
+	pageCategoryLinks: {},
+	templateLinks: {},
 	initComponent: function() {
 		var me = this;
 		this.allItems = this.makeItems();
@@ -38,10 +40,10 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 	},
 
 	makeItems: function() {
-		var items = [];
+		var topItems = [];
 
 		if( $.isEmptyObject( this.lastEditedTime ) === false ) {
-			items.push(
+			topItems.push(
 				Ext.create( 'BS.ArticleInfo.panel.LastEditedTime', {
 					timestampText: this.lastEditedTime.timestamp,
 					anchorURL: this.lastEditedTime.url
@@ -49,7 +51,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 			);
 		}
 		if( $.isEmptyObject( this.lastEditedUser ) === false ) {
-			items.push(
+			topItems.push(
 				Ext.create( 'BS.ArticleInfo.panel.LastEditedUser', {
 					userText: this.lastEditedUser.userText,
 					anchorURL: this.lastEditedUser.url
@@ -57,8 +59,26 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 			);
 		}
 
+		var leftItems = [
+			Ext.create( 'BS.ArticleInfo.panel.LinkList', {
+				linkList: this.pageCategoryLinks,
+				storeField: 'category_anchor',
+				title: mw.message( 'bs-articleinfo-flyout-categorylinks-title' ).plain(),
+				emptyText: mw.message( 'bs-articleinfo-flyout-categorylinks-emptytext' ).plain(),
+				cls: 'bs-articleinfo-flyout-categorylist-cnt'
+			} ),
+			Ext.create( 'BS.ArticleInfo.panel.LinkList', {
+				linkList: this.templateLinks,
+				storeField: 'template_anchor',
+				title: mw.message( 'bs-articleinfo-flyout-templatelinks-title' ).plain(),
+				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emtpytext' ).plain(),
+				cls: 'bs-articleinfo-flyout-templatelist-cnt'
+			} )
+		];
+
 		return {
-			top: items
+			top: topItems,
+			centerLeft: leftItems
 		};
 	}
 } );
