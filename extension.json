@@ -18,7 +18,7 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceArticleInfo": {
-					"className": "ArticleInfo",
+					"className": "\\BlueSpice\\ArticleInfo\\Extension",
 					"extPath": "/BlueSpiceArticleInfo",
 					"configDefinitions": {
 						"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
@@ -35,13 +35,6 @@
 			"i18n"
 		]
 	},
-	"ExtensionMessagesFiles": {
-		"ArticleInfoMagic": "languages/ArticleInfo.i18n.magic.php"
-	},
-	"AutoloadClasses": {
-		"ArticleInfo": "ArticleInfo.class.php",
-		"ViewStateBarTopElementCategoryShortList": "views/view.StateBarTopElementCategoryShortList.php"
-	},
 	"AutoloadNamespaces": {
 		"BlueSpice\\ArticleInfo\\" : "src/"
 	},
@@ -51,31 +44,9 @@
 			"value": 10,
 			"descriptionmsg": "bs-articleinfo-pref-CheckRevisionInterval",
 			"public": true
-		},
-		"ArticleInfoImageLastEdited": {
-			"value": "bs-infobar-last-edited.png"
-		},
-		"ArticleInfoImageLastEditor": {
-			"value": "bs-infobar-author.png"
-		},
-		"ArticleInfoImageCategories": {
-			"value": "bs-infobar-category.png"
-		},
-		"ArticleInfoImageSubpages": {
-			"value": "bs-infobar-subpages.png"
-		},
-		"ArticleInfoImageCheckRevision": {
-			"value": "bs-infobar-revision.png"
 		}
 	},
 	"ResourceModules": {
-		"ext.bluespice.articleinfo": {
-			"scripts": "bluespice.articleInfo.js",
-			"dependencies": [
-				"ext.bluespice.extjs",
-				"ext.bluespice"
-			]
-		},
 		"ext.bluespice.articleinfo.flyout": {
 			"scripts": "bluespice.articleInfo.flyout.js",
 			"messages": [
@@ -88,7 +59,8 @@
 				"bs-articleinfo-flyout-templatelinks-emptytext"
 			],
 			"dependencies": [
-				"ext.bluespice.articleinfo"
+				"ext.bluespice.extjs",
+				"ext.bluespice"
 			]
 		}
 	},
@@ -99,7 +71,8 @@
 	"Hooks": {
 		"SkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\ArticleInfo\\Hook\\SkinTemplateOutputPageBeforeExec\\AddFlyout::callback"
-		]
+		],
+		"BsAdapterAjaxPingResult": "\\BlueSpice\\ArticleInfo\\Extension::onBsAdapterAjaxPingResult"
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
