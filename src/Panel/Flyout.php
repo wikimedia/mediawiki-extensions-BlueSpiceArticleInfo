@@ -149,6 +149,7 @@ class Flyout extends BasePanel implements IFlyout {
 		}
 
 		if ( $oldId != 0 ) {
+			$this->getRevisionStore();
 			$timestamp = $this->revisionStore->getTimestampFromId( $article->getTitle(), $oldId );
 		} else {
 			$timestamp = $article->getTimestamp();
@@ -199,7 +200,11 @@ class Flyout extends BasePanel implements IFlyout {
 	protected function getCategoryLinks() {
 		$allPageCategoryLinks = $this->skintemplate->getSkin()->getOutput()->getCategoryLinks();
 
-		$pageCategoryLinks = $allPageCategoryLinks['normal'];
+		$pageCategoryLinks = [];
+		if( isset( $allPageCategoryLinks['normal'] ) ) {
+			$pageCategoryLinks = $allPageCategoryLinks['normal'];
+		}
+
 		if ( $this->skintemplate->getSkin()->getUser()->getBoolOption( 'showhiddencats' ) ) {
 			if( isset( $allPageCategoryLinks['hidden'] ) ) {
 				$pageCategoryLinks = array_merge(
