@@ -2,21 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Wiochman"
+			"Wiochman",
+			"DeRudySoulStorm"
 		]
 	},
 	"prefs-articleinfo": "Informacja o stronie",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Interwał aktualizacji (w sekundach):",
-	"bs-articleinfo-last-edited": "Czas od ostatniej zmiany",
-	"bs-articleinfo-last-edited-tooltip": "Ostatnia edycja",
-	"bs-articleinfo-last-editor": "{{GENDER:$1|Ostatni edytor|Ostatnia edytorka}}",
-	"bs-articleinfo-categories": "Kategorie",
-	"bs-articleinfo-all-categories-heading": "Kategorie",
-	"bs-articleinfo-nocategories": "Nie znaleziono kategorii.",
-	"bs-articleinfo-hiddencats": "Ukryte kategorie",
-	"bs-articleinfo-notemplates": "Nie znaleziono szablonu.",
-	"bs-articleinfo-templates": "Szablony",
-	"bs-articleinfo-subpages": "Podstrony",
-	"bs-articleinfo-check-revision": "Dostępna jest nowa wersja",
-	"bs-articleinfo-check-revision-tooltip": "Przeładuj stronę"
+	"bs-articleinfo-flyout-title": "Informacje o tej stronie",
+	"bs-articleinfo-flyout-intro": "Przegląd działań na tej stronie",
+	"bs-articleinfo-nav-link-title": "Informacje o tej stronie",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorie",
+	"bs-articleinfo-flyout-templatelinks-title": "Szablony używane na stronie",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Brak przypisanych kategorii",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Brak szablonów"
 }

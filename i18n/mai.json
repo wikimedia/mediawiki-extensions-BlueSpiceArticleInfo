@@ -4,17 +4,5 @@
 			"बिप्लब आनन्द"
 		]
 	},
-	"prefs-articleinfo": "ऐ पन्ना पर जानकारी",
-	"bs-articleinfo-last-edited-tooltip": "अन्तिम सम्पादन",
-	"bs-articleinfo-last-editor": "अन्तिम {{GENDER:$1|सम्पादक}}",
-	"bs-articleinfo-categories": "श्रेणीसभ",
-	"bs-articleinfo-more-categories": "आर संवर्ग उपलब्ध",
-	"bs-articleinfo-all-categories-heading": "श्रेणीसभ",
-	"bs-articleinfo-nocategories": "कोनो संवर्ग नै भेटल।",
-	"bs-articleinfo-hiddencats": "नुकाएल संवर्ग सभ",
-	"bs-articleinfo-notemplates": "कोनो आकृति नै भेटल।",
-	"bs-articleinfo-templates": "आकृतिससभ",
-	"bs-articleinfo-subpages": "उप पृष्ठसभ",
-	"bs-articleinfo-check-revision": "नव भर्जन उपलब्ध",
-	"bs-articleinfo-check-revision-tooltip": "फेरसँ पन्ना लादु"
+	"prefs-articleinfo": "ऐ पन्ना पर जानकारी"
 }
