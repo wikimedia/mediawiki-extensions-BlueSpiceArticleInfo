@@ -4,7 +4,8 @@
 			"Imperadeiro98",
 			"Fúlvio",
 			"Hamilton Abreu",
-			"Ldacosta"
+			"Ldacosta",
+			"Vitorvicentevalente"
 		]
 	},
 	"bs-articleinfo-desc": "Fornece informação acerca de uma página na barra de status",
@@ -14,7 +15,7 @@
 	"bs-articleinfo-flyout-intro": "Perspetiva geral das atividades sobre esta página",
 	"bs-articleinfo-nav-link-title": "Informações da página",
 	"bs-articleinfo-flyout-categorylinks-title": "Categorias",
-	"bs-articleinfo-flyout-templatelinks-title": "Documentos modelos usados na página",
+	"bs-articleinfo-flyout-templatelinks-title": "Predefinições utilizadas na página",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Não foi atribuída nenhuma categoria",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi usado nenhum documento modelo"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi utilizada nenhuma predefinição"
 }
