@@ -71,7 +71,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 				linkList: this.templateLinks,
 				storeField: 'template_anchor',
 				title: mw.message( 'bs-articleinfo-flyout-templatelinks-title' ).plain(),
-				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emtpytext' ).plain(),
+				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emptytext' ).plain(),
 				cls: 'bs-articleinfo-flyout-templatelist-cnt'
 			} )
 		];

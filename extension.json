@@ -56,7 +56,9 @@
 				"bs-articleinfo-flyout-categorylinks-title",
 				"bs-articleinfo-flyout-templatelinks-title",
 				"bs-articleinfo-flyout-categorylinks-emptytext",
-				"bs-articleinfo-flyout-templatelinks-emptytext"
+				"bs-articleinfo-flyout-templatelinks-emptytext",
+				"bs-articleinfo-flyout-lasteditedtime-text",
+				"bs-articleinfo-flyout-lastediteduser-text"
 			],
 			"dependencies": [
 				"ext.bluespice.extjs",

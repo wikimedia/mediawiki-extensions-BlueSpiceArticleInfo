@@ -15,5 +15,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Kategorien",
 	"bs-articleinfo-flyout-templatelinks-title": "Auf der Seite verwendete Vorlagen",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Keine Kategorien zugewiesen",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Keine Vorlagen verwendet"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Keine Vorlagen verwendet",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Letzte Bearbeitung",
+	"bs-articleinfo-flyout-lastediteduser-text": "Letzter Bearbeiter"
 }

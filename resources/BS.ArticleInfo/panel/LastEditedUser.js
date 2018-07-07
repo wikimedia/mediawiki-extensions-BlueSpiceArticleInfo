@@ -6,6 +6,8 @@ Ext.define( 'BS.ArticleInfo.panel.LastEditedUser', {
 	initComponent: function () {
 		var html = '<div class="flyout-articleinfo-lastediteduser">';
 
+		html += "<span>" + mw.message( 'bs-articleinfo-flyout-lastediteduser-text' ).text() + "</span>";
+
 		html += "<a href='" + this.anchorURL + "'>" + this.userText + "</a>";
 
 		html += '</div>';

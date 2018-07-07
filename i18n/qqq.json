@@ -15,5 +15,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Title of the panel showing page categories\n{{Identical|Category}}",
 	"bs-articleinfo-flyout-templatelinks-title": "Title of the panel showing templates used on the page",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Text displayed if there are no categories assigned to the page",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Text displayed if there are no templates used on the page"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Text displayed if there are no templates used on the page",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Label of the panel section showing the last time the article was edited",
+	"bs-articleinfo-flyout-lastediteduser-text": "Label of the panel section showing the last editor"
 }
