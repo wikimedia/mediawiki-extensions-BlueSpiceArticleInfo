@@ -11,7 +11,12 @@
 	"prefs-articleinfo": "معلومات الصفحة",
 	"bs-articleinfo-pref-CheckRevisionInterval": "فترة التحديث بالثواني:",
 	"bs-articleinfo-flyout-title": "معلومات الصفحة",
+	"bs-articleinfo-flyout-intro": "نظرة عامة على الأنشطة في هذه الصفحة",
 	"bs-articleinfo-nav-link-title": "معلومات الصفحة",
 	"bs-articleinfo-flyout-categorylinks-title": "التصنيفات",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "لا قوالب مستخدمة"
+	"bs-articleinfo-flyout-templatelinks-title": "القوالب المستخدمة في الصفحة",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "لا توجد تصنيفات معينة",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "لا قوالب مستخدمة",
+	"bs-articleinfo-flyout-lasteditedtime-text": "التعديل  الأخير",
+	"bs-articleinfo-flyout-lastediteduser-text": "المعدل الأخير"
 }

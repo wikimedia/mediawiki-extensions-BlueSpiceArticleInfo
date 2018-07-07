@@ -15,5 +15,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "קטגוריות",
 	"bs-articleinfo-flyout-templatelinks-title": "תבניות הנמצאות בשימוש בדף",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "אין קטגוריות משויכות",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "אין תבניות בשימוש"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "אין תבניות בשימוש",
+	"bs-articleinfo-flyout-lasteditedtime-text": "העריכה האחרונה",
+	"bs-articleinfo-flyout-lastediteduser-text": "העורך האחרון"
 }

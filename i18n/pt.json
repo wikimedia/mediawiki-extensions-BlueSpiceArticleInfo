@@ -17,5 +17,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Categorias",
 	"bs-articleinfo-flyout-templatelinks-title": "Predefinições utilizadas na página",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Não foi atribuída nenhuma categoria",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi utilizada nenhuma predefinição"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi utilizada nenhuma predefinição",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Última edição",
+	"bs-articleinfo-flyout-lastediteduser-text": "Último editor"
 }
