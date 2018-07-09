@@ -3,9 +3,15 @@
 		"authors": [
 			"Stryn",
 			"SMAUG",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Nike"
 		]
 	},
 	"prefs-articleinfo": "Sivun tiedot",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Päivitysväli sekunteina:"
+	"bs-articleinfo-pref-CheckRevisionInterval": "Päivitysväli sekunteina:",
+	"bs-articleinfo-flyout-title": "Sivun tiedot",
+	"bs-articleinfo-nav-link-title": "Sivun tiedot",
+	"bs-articleinfo-flyout-categorylinks-title": "Luokat",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Viimeisin muokkaus",
+	"bs-articleinfo-flyout-lastediteduser-text": "Viimeisin muokkaaja"
 }

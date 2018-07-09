@@ -13,5 +13,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Kategorierer",
 	"bs-articleinfo-flyout-templatelinks-title": "Mallar som används på sidan",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Inga tilldelade kategorier",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Inga mallar används"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Inga mallar används",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Senaste redigering",
+	"bs-articleinfo-flyout-lastediteduser-text": "Senaste redigerare"
 }

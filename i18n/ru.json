@@ -14,5 +14,7 @@
 	"bs-articleinfo-nav-link-title": "Сведения о странице",
 	"bs-articleinfo-flyout-categorylinks-title": "Категории",
 	"bs-articleinfo-flyout-templatelinks-title": "Шаблоны, используемые на странице",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Нет используемых шаблонов"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Нет используемых шаблонов",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Последняя правка",
+	"bs-articleinfo-flyout-lastediteduser-text": "Последний редактор"
 }

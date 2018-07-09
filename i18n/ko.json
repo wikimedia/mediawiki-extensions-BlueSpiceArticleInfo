@@ -13,5 +13,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "분류",
 	"bs-articleinfo-flyout-templatelinks-title": "문서에 사용된 틀",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "할당된 분류 없음",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "사용된 틀이 없음"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "사용된 틀이 없음",
+	"bs-articleinfo-flyout-lasteditedtime-text": "마지막 편집",
+	"bs-articleinfo-flyout-lastediteduser-text": "마지막 편집자"
 }

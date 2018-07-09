@@ -6,5 +6,14 @@
 	},
 	"bs-articleinfo-desc": "提供关于状态栏中页面的信息",
 	"prefs-articleinfo": "页面信息",
-	"bs-articleinfo-pref-CheckRevisionInterval": "更新间隔秒数："
+	"bs-articleinfo-pref-CheckRevisionInterval": "更新间隔秒数：",
+	"bs-articleinfo-flyout-title": "页面信息",
+	"bs-articleinfo-flyout-intro": "此页面上的活动概要",
+	"bs-articleinfo-nav-link-title": "页面信息",
+	"bs-articleinfo-flyout-categorylinks-title": "分类",
+	"bs-articleinfo-flyout-templatelinks-title": "页面上使用的模板",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "没有分配分类",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "没有使用模板",
+	"bs-articleinfo-flyout-lasteditedtime-text": "最近编辑",
+	"bs-articleinfo-flyout-lastediteduser-text": "最后编辑者"
 }

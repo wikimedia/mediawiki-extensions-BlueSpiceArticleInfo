@@ -15,5 +15,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Catégories",
 	"bs-articleinfo-flyout-templatelinks-title": "Modèles utilisés par la page",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Pas de catégories assignées",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Pas de modèle utilisé"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Pas de modèle utilisé",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Dernière modification",
+	"bs-articleinfo-flyout-lastediteduser-text": "Dernier contributeur"
 }
