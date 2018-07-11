@@ -38,37 +38,4 @@
 
 namespace BlueSpice\ArticleInfo;
 
-class Extension extends \BlueSpice\Extension {
-
-	/**
-	 * Hook-Handler for BS hook BsAdapterAjaxPingResult
-	 * @param string $sRef
-	 * @param array $aData
-	 * @param integer $iArticleId
-	 * @param array $aSingleResult
-	 * @return boolean
-	 */
-	public static function onBsAdapterAjaxPingResult( $sRef, $aData, $iArticleId, $sTitle, $iNamespace, $iRevision, &$aSingleResult ) {
-		if ( $sRef !== 'ArticleInfo' || empty( $iArticleId ) || empty( $iRevision ) ) return true;
-
-		$oTitle = \Title::newFromID( $iArticleId );
-		if ( is_null( $oTitle ) || !$oTitle->userCan( 'read' ) ) return true;
-
-		$aSingleResult['success'] = true;
-		$oUser = $this->getUser();
-
-		if ( $aData[0] == 'checkRevision' ) {
-			$aSingleResult['newRevision'] = false;
-			$oRevision = \Revision::newFromTitle( $oTitle );
-			if ( $oRevision->getId() > $iRevision
-				&& !( //do not show own made revision when saving is in progress
-					$aData[1] == 'edit' && $oUser->getID() > 0 && $oRevision->getUser() === $oUser->getID()
-				)
-			) {
-				$aSingleResult['newRevision'] = true;
-			}
-		}
-		return true;
-	}
-
-}
+class Extension extends \BlueSpice\Extension {}

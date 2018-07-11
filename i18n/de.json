@@ -17,5 +17,6 @@
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Keine Kategorien zugewiesen",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Keine Vorlagen verwendet",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Letzte Bearbeitung",
-	"bs-articleinfo-flyout-lastediteduser-text": "Letzter Bearbeiter"
+	"bs-articleinfo-flyout-lastediteduser-text": "Letzter Bearbeiter",
+	"bs-articleinfo-newrevision-info-text": "Es liegt eine neue Version der dieser Seite vor. Bitte lade die Seite neu um den aktuellen Inhalt anzuzeigen."
 }

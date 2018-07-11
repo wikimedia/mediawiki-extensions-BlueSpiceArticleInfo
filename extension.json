@@ -48,6 +48,9 @@
 		}
 	},
 	"ResourceModules": {
+		"ext.bluespice.articleinfo.general": {
+			"scripts": "bluespice.articleInfo.general.js"
+		},
 		"ext.bluespice.articleinfo.flyout": {
 			"scripts": "bluespice.articleInfo.flyout.js",
 			"messages": [
@@ -75,7 +78,12 @@
 		"SkinTemplateOutputPageBeforeExec": [
 			"\\BlueSpice\\ArticleInfo\\Hook\\SkinTemplateOutputPageBeforeExec\\AddFlyout::callback"
 		],
-		"BsAdapterAjaxPingResult": "\\BlueSpice\\ArticleInfo\\Extension::onBsAdapterAjaxPingResult"
+		"BeforePageDisplay": [
+			"\\BlueSpice\\ArticleInfo\\Hook\\BeforePageDisplay\\AddModules::callback"
+		],
+		"BsAdapterAjaxPingResult": [
+			"\\BlueSpice\\ArticleInfo\\Hook\\BsAdapterAjaxPingResult\\HandleArticleInfo::callback"
+		]
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
