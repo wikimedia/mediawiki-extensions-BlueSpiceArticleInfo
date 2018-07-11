@@ -17,5 +17,6 @@
 	"bs-articleinfo-flyout-categorylinks-emptytext": "אין קטגוריות משויכות",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "אין תבניות בשימוש",
 	"bs-articleinfo-flyout-lasteditedtime-text": "העריכה האחרונה",
-	"bs-articleinfo-flyout-lastediteduser-text": "העורך האחרון"
+	"bs-articleinfo-flyout-lastediteduser-text": "העורך האחרון",
+	"bs-articleinfo-newrevision-info-text": "קיימת גרסה חדשה של דף זה. יש לטעון את הדף מחדש כדי לצפות בתוכן העדכני."
 }
