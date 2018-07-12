@@ -12,5 +12,6 @@
 	"bs-articleinfo-flyout-intro": "Panoramica delle attività su questa pagina",
 	"bs-articleinfo-nav-link-title": "Informazioni pagina",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Nessuna categoria assegnata",
-	"bs-articleinfo-flyout-lasteditedtime-text": "Ultima modifica"
+	"bs-articleinfo-flyout-lasteditedtime-text": "Ultima modifica",
+	"bs-articleinfo-newrevision-info-text": "È disponibile una nuova versione di questa pagina. Ricarica la pagina per visualizzare il contenuto attuale."
 }

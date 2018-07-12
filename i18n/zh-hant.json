@@ -18,5 +18,6 @@
 	"bs-articleinfo-flyout-categorylinks-emptytext": "沒有分類被分配",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "未有使用模板",
 	"bs-articleinfo-flyout-lasteditedtime-text": "最新編輯",
-	"bs-articleinfo-flyout-lastediteduser-text": "最後的編輯者"
+	"bs-articleinfo-flyout-lastediteduser-text": "最後的編輯者",
+	"bs-articleinfo-newrevision-info-text": "此頁面有新版本可用。請重新載入頁面來檢視目前內容。"
 }
