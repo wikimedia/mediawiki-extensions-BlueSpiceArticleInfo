@@ -5,16 +5,9 @@
 			"Rapsar"
 		]
 	},
-	"bs-articleinfo-last-edited-tooltip": "Son değişiklik",
-	"bs-articleinfo-categories": "Kategoriler",
-	"bs-articleinfo-all-categories-heading": "Kategoriler",
-	"bs-articleinfo-nocategories": "Hiçbir kategori bulunamadı.",
-	"bs-articleinfo-hiddencats": "Gizli kategoriler",
-	"bs-articleinfo-notemplates": "Şablon bulunamadı.",
-	"bs-articleinfo-templates": "Şablonlar",
-	"bs-articleinfo-subpages": "Alt sayfalar",
-	"bs-articleinfo-subpages-available": "Bu sayfa için alt sayfalar vardır",
-	"bs-articleinfo-subpages-too-much": "100'den fazla alt sayfa mevcut.",
-	"bs-articleinfo-check-revision": "Yeni sürüm mevcut",
-	"bs-articleinfo-check-revision-tooltip": "Sayfayı yeniden yükle"
+	"bs-articleinfo-flyout-title": "Sayfa bilgisi",
+	"bs-articleinfo-nav-link-title": "Sayfa bilgisi",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategoriler",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Son değişiklik",
+	"bs-articleinfo-flyout-lastediteduser-text": "Son düzenleyen"
 }

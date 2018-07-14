@@ -14,5 +14,6 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Kategorie",
 	"bs-articleinfo-flyout-templatelinks-title": "Szablony używane na stronie",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Brak przypisanych kategorii",
-	"bs-articleinfo-flyout-templatelinks-emptytext": "Brak szablonów"
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Brak szablonów",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Ostatnia edycja"
 }
