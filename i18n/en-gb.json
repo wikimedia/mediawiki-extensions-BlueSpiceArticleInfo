@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pasianssi"
+			"Pasianssi",
+			"Sau226"
 		]
 	},
-	"bs-articleinfo-nav-link-title": "Sivun tiedot",
-	"bs-articleinfo-flyout-categorylinks-title": "Kategoriat"
+	"bs-articleinfo-nav-link-title": "Page information",
+	"bs-articleinfo-flyout-categorylinks-title": "Categories"
 }
