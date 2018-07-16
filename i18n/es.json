@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Fitoschido",
-			"Mcervera"
+			"Mcervera",
+			"MarcoAurelio"
 		]
 	},
 	"bs-articleinfo-desc": "Proporciona información sobre una página en la barra de estado",
 	"prefs-articleinfo": "Información de la página",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de actualización en segundos:"
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de actualización en segundos:",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Última edición",
+	"bs-articleinfo-flyout-lastediteduser-text": "Último editor"
 }
