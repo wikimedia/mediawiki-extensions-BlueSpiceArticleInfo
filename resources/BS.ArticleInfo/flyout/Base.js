@@ -76,6 +76,23 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 			} )
 		];
 
+		if( this.hasSubpages ) {
+			var root = mw.config.get( 'wgPageName' );
+			if( mw.config.get( 'wgNamespaceNumber' ) === bs.ns.NS_MAIN ) {
+				root = ':' + root;
+			}
+
+			leftItems.push(
+				Ext.create( 'BS.tree.WikiSubPages', {
+					treeRootPath: root,
+					renderLinks: true,
+					title: mw.message( 'bs-articleinfo-flyout-subpages-title' ).plain(),
+					cls: 'bs-articleinfo-flyout-templatelist-cnt'
+				} )
+			);
+		}
+
+
 		return {
 			top: topItems,
 			centerLeft: leftItems

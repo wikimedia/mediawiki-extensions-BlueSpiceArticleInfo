@@ -9,7 +9,8 @@
 			lastEditedTime: data.lastEditedTime || {},
 			lastEditedUser: data.lastEditedUser || {},
 			pageCategoryLinks: data.categoryLinks || {},
-			templateLinks: data.templateLinks || {}
+			templateLinks: data.templateLinks || {},
+			hasSubpages: data.hasSubpages || false
 		} );
 
 		dfd.resolve();

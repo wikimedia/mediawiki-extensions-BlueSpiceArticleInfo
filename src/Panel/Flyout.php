@@ -96,6 +96,9 @@ class Flyout extends BasePanel implements IFlyout {
 			$data['template-links'] = $templateLinks;
 		}
 
+		$data['has-subpages'] =
+			$this->skintemplate->getSkin()->getTitle()->hasSubpages();
+
 		return $data;
 	}
 
