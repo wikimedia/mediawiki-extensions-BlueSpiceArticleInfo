@@ -22,9 +22,10 @@ class AddFlyout extends SkinTemplateOutputPageBeforeExec {
 	protected function doProcess() {
 
 		$this->mergeSkinDataArray(
-			SkinData::PAGE_DOCUMENTS_PANEL,
+			SkinData::PAGE_INFOS_PANEL,
 			[
 				'articleinfo' => [
+					'position' => 5,
 					'callback' => function( $sktemplate ) {
 						return new Flyout( $sktemplate );
 					}
