@@ -86,6 +86,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 				Ext.create( 'BS.tree.WikiSubPages', {
 					treeRootPath: root,
 					renderLinks: true,
+					height: 300,
 					title: mw.message( 'bs-articleinfo-flyout-subpages-title' ).plain(),
 					cls: 'bs-articleinfo-flyout-templatelist-cnt'
 				} )
