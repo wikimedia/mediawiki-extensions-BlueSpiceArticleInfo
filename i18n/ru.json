@@ -19,5 +19,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Нет используемых шаблонов",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Последняя правка",
 	"bs-articleinfo-flyout-lastediteduser-text": "Последний редактор",
-	"bs-articleinfo-newrevision-info-text": "Доступна новая версия страницы. Пожалуйста, обновите страницу для просмотра содержимого."
+	"bs-articleinfo-newrevision-info-text": "Доступна новая версия страницы. Пожалуйста, обновите страницу для просмотра содержимого.",
+	"bs-articleinfo-flyout-subpages-title": "Подстраницы"
 }

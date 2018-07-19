@@ -20,5 +20,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi utilizada nenhuma predefinição",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Última edição",
 	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
-	"bs-articleinfo-newrevision-info-text": "Está disponível uma nova versão desta página. Por favor, recarregue a página para ver o novo conteúdo."
+	"bs-articleinfo-newrevision-info-text": "Está disponível uma nova versão desta página. Por favor, recarregue a página para ver o novo conteúdo.",
+	"bs-articleinfo-flyout-subpages-title": "Subpáginas"
 }
