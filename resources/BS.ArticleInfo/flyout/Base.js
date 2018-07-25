@@ -9,7 +9,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 	initComponent: function() {
 		var me = this;
 		this.allItems = this.makeItems();
-		for( callbackIdx in this.makeItemCallbacks ) {
+		for( var callbackIdx in this.makeItemCallbacks ) {
 			var callback = this.makeItemCallbacks[callbackIdx];
 			var newItems = bs.util.runCallback( callback, [], this );
 			$.each( newItems, function( key, items ) {

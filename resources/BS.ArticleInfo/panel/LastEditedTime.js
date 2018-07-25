@@ -16,4 +16,4 @@ Ext.define( 'BS.ArticleInfo.panel.LastEditedTime', {
 
 		this.callParent( arguments );
 	}
-})
+});

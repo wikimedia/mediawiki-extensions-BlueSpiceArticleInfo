@@ -29,4 +29,4 @@ Ext.define( 'BS.ArticleInfo.panel.LinkList', {
 
 		this.callParent( arguments );
 	}
-})
+});
