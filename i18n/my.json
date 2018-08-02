@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
-	"bs-articleinfo-templates": "တမ်းပလိတ်များ"
+	"bs-articleinfo-flyout-subpages-title": "စာမျက်နှာခွဲများ"
 }
