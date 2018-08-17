@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"夢蝶葬花"
 		]
 	},
 	"bs-articleinfo-desc": "提供关于状态栏中页面的信息",
@@ -16,5 +17,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "没有使用模板",
 	"bs-articleinfo-flyout-lasteditedtime-text": "最近编辑",
 	"bs-articleinfo-flyout-lastediteduser-text": "最后编辑者",
-	"bs-articleinfo-newrevision-info-text": "此页面的新版本现已可用。请重新加载页面以查看当前内容。"
+	"bs-articleinfo-newrevision-info-text": "此页面的新版本现已可用。请重新加载页面以查看当前内容。",
+	"bs-articleinfo-flyout-subpages-title": "子页面"
 }
