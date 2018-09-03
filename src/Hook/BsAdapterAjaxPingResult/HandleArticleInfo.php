@@ -20,7 +20,7 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 			return true;
 		}
 
-		$this->title = Title::newFromText( $this->titleText );
+		$this->title = Title::newFromId( $this->articleId );
 		if( $this->title === null ) {
 			return true;
 		}
