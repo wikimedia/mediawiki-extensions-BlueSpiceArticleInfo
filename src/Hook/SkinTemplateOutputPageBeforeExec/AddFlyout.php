@@ -10,7 +10,11 @@ use BlueSpice\ArticleInfo\Panel\Flyout;
 class AddFlyout extends SkinTemplateOutputPageBeforeExec {
 	protected function skipProcessing() {
 		$title = $this->skin->getSkin()->getTitle();
-		if( !$title instanceof \Title || !$title->exists() || !$title->isContentPage() ) {
+		if( !$title instanceof \Title
+				|| !$title->exists()
+				|| ( $title->getNamespace() === NS_SPECIAL )
+				|| ( $title->getNamespace() === NS_MEDIA )
+			) {
 			return true;
 		}
 		if( $title->userCan( 'read' ) === false ) {
