@@ -12,7 +12,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 *
 	 * @var array
 	 */
-	protected $modulesToLoad = ['ext.bluespice.articleinfo.flyout'];
+	protected $modulesToLoad = [ 'ext.bluespice.articleinfo.flyout' ];
 
 	/**
 	 * Callback function to allow other extesions to
@@ -37,6 +37,10 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected $article;
 
+	/**
+	 *
+	 * @param \SkinTemplate $skintemplate
+	 */
 	public function __construct( $skintemplate ) {
 		parent::__construct( $skintemplate );
 		$this->setForeignModules();
@@ -71,28 +75,32 @@ class Flyout extends BasePanel implements IFlyout {
 		return '';
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getContainerData() {
 		$data = [
 			'make-items-callbacks' => \FormatJson::encode( $this->makeItemsCallbacks )
 		];
 
 		$lastEditedTime = $this->getLastEditedTime();
-		if( $lastEditedTime ) {
+		if ( $lastEditedTime ) {
 			$data['last-edited-time'] = $lastEditedTime;
 		}
 
 		$lastEditor = $this->getLastEditedUser();
-		if( $lastEditor ) {
+		if ( $lastEditor ) {
 			$data['last-edited-user'] = $lastEditor;
 		}
 
 		$categoryLinks = $this->getCategoryLinks();
-		if( $categoryLinks ) {
+		if ( $categoryLinks ) {
 			$data['category-links'] = $categoryLinks;
 		}
 
 		$templateLinks = $this->getTemplateLinks();
-		if( $templateLinks ) {
+		if ( $templateLinks ) {
 			$data['template-links'] = $templateLinks;
 		}
 
@@ -102,19 +110,37 @@ class Flyout extends BasePanel implements IFlyout {
 		return $data;
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getTriggerCallbackFunctionName() {
 		return 'bs.articleinfo.flyoutCallback';
 	}
 
+	/**
+	 *
+	 * @return array
+	 */
 	public function getTriggerRLDependencies() {
 		return $this->modulesToLoad;
 	}
 
+	/**
+	 *
+	 */
 	protected function setForeignModules() {
-		$flyoutModuleRegistry = \ExtensionRegistry::getInstance()->getAttribute( 'BlueSpiceArticleInfoFlyoutModules' );
-		foreach( $flyoutModuleRegistry as $key => $module ) {
-			if( isset( $module['skip-callback'] ) && is_callable( $module['skip-callback'] ) ) {
-				if( !call_user_func_array( $module['skip-callback'], [$this->skintemplate->getSkin()->getContext()] ) ) {
+		$flyoutModuleRegistry = \ExtensionRegistry::getInstance()
+			->getAttribute( 'BlueSpiceArticleInfoFlyoutModules' );
+
+		foreach ( $flyoutModuleRegistry as $key => $module ) {
+			if ( isset( $module['skip-callback'] ) && is_callable( $module['skip-callback'] ) ) {
+				$result = call_user_func_array(
+					$module['skip-callback'],
+					[ $this->skintemplate->getSkin()->getContext() ]
+				);
+
+				if ( !$result ) {
 					continue;
 				}
 			}
@@ -124,15 +150,23 @@ class Flyout extends BasePanel implements IFlyout {
 		}
 	}
 
+	/**
+	 *
+	 * @return \MediaWiki\Storage\RevisionStore
+	 */
 	protected function getRevisionStore() {
-		if( $this->revisionStore === null ) {
+		if ( $this->revisionStore === null ) {
 			$this->revisionStore = \MediaWiki\MediaWikiServices::getInstance()->getRevisionStore();
 		}
 		return $this->revisionStore;
 	}
 
+	/**
+	 *
+	 * @return \Article
+	 */
 	protected function getArticle() {
-		if( $this->article === null ) {
+		if ( $this->article === null ) {
 			$this->article = \Article::newFromID( $this->title->getArticleID() );
 		}
 		return $this->article;
@@ -160,10 +194,10 @@ class Flyout extends BasePanel implements IFlyout {
 
 		$formattedTimestamp = \BsFormatConverter::mwTimestampToAgeString( $timestamp, true );
 		$articleHistoryLinkURL = $article->getTitle()->getLinkURL(
-			array(
+			[
 				'diff'   => 0,
 				'oldid' => $oldId
-			)
+			]
 		);
 
 		return \FormatJson::encode( [
@@ -179,12 +213,12 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected function getLastEditedUser() {
 		$article = $this->getArticle();
-		if( $article instanceof \Article === false || $article->getUserText() == '' ) {
+		if ( $article instanceof \Article === false || $article->getUserText() == '' ) {
 			return false;
 		}
 
 		$lastEditor = \User::newFromName( $article->getUserText() );
-		if( $lastEditor instanceof \User === false ) {
+		if ( $lastEditor instanceof \User === false ) {
 			return false;
 		}
 
@@ -199,17 +233,18 @@ class Flyout extends BasePanel implements IFlyout {
 
 	/**
 	 * Gets all categories of the page
+	 * @return string
 	 */
 	protected function getCategoryLinks() {
 		$allPageCategoryLinks = $this->skintemplate->getSkin()->getOutput()->getCategoryLinks();
 
 		$pageCategoryLinks = [];
-		if( isset( $allPageCategoryLinks['normal'] ) ) {
+		if ( isset( $allPageCategoryLinks['normal'] ) ) {
 			$pageCategoryLinks = $allPageCategoryLinks['normal'];
 		}
 
 		if ( $this->skintemplate->getSkin()->getUser()->getBoolOption( 'showhiddencats' ) ) {
-			if( isset( $allPageCategoryLinks['hidden'] ) ) {
+			if ( isset( $allPageCategoryLinks['hidden'] ) ) {
 				$pageCategoryLinks = array_merge(
 					$pageCategoryLinks,
 					$allPageCategoryLinks['hidden']
@@ -217,22 +252,28 @@ class Flyout extends BasePanel implements IFlyout {
 			}
 		}
 
-		//This is just so that the ExtJS store can handle it more easily
+		// This is just so that the ExtJS store can handle it more easily
 		$keyedCategoryLinks = [];
-		foreach( $pageCategoryLinks as $categoryLink ) {
-			$keyedCategoryLinks[] = ['category_anchor' => $categoryLink];
+		foreach ( $pageCategoryLinks as $categoryLink ) {
+			$keyedCategoryLinks[] = [ 'category_anchor' => $categoryLink ];
 		}
 
 		return \FormatJson::encode( $keyedCategoryLinks );
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	protected function getTemplateLinks() {
 		$linkRenderer = \MediaWiki\MediaWikiServices::getInstance()->getLinkRenderer();
 		$templateTitles = $this->title->getTemplateLinksFrom();
 
 		$templateLinks = [];
 		foreach ( $templateTitles as $title ) {
-			$templateLinks[] = ['template_anchor' => $linkRenderer->makeLink( $title, $title->getText() )];
+			$templateLinks[] = [
+				'template_anchor' => $linkRenderer->makeLink( $title, $title->getText() )
+			];
 		}
 
 		return \FormatJson::encode( $templateLinks );

@@ -3,7 +3,6 @@
 namespace BlueSpice\ArticleInfo\Hook\BsAdapterAjaxPingResult;
 
 use BlueSpice\Hook\BsAdapterAjaxPingResult;
-use BlueSpice\SaferEdit\EditWarningBuilder;
 use Title;
 use Revision;
 
@@ -16,20 +15,20 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 	protected $title = null;
 
 	protected function skipProcessing() {
-		if( $this->reference !== 'ArticleInfo' ) {
+		if ( $this->reference !== 'ArticleInfo' ) {
 			return true;
 		}
 
 		$this->title = Title::newFromId( $this->articleId );
-		if( $this->title === null ) {
+		if ( $this->title === null ) {
 			return true;
 		}
 
-		if( !$this->title->exists() ) {
+		if ( !$this->title->exists() ) {
 			return true;
 		}
 
-		if( !$this->title->userCan( 'read' ) ) {
+		if ( !$this->title->userCan( 'read' ) ) {
 			return true;
 		}
 
@@ -47,7 +46,7 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 		if ( $this->providedRevisionUpToDate() ) {
 			return true;
 		}
-		if( $this->currentUserIsSaving() ) {
+		if ( $this->currentUserIsSaving() ) {
 			return true;
 		}
 		$this->singleResults['newRevision'] = true;
@@ -62,17 +61,17 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 	}
 
 	protected function currentUserIsSaving() {
-		if( $this->params[1] !== 'edit' ) {
+		if ( $this->params[1] !== 'edit' ) {
 			return false;
 		}
 
 		$user = $this->getContext()->getUser();
-		if( $user->isAnon() ) {
+		if ( $user->isAnon() ) {
 			return false;
 		}
 
 		$revision = Revision::newFromId( $this->revisionId );
-		if( $revision->getUserText() !== $user->getName() ) {
+		if ( $revision->getUserText() !== $user->getName() ) {
 			return false;
 		}
 

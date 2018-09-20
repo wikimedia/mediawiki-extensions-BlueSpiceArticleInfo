@@ -4,6 +4,10 @@ namespace BlueSpice\ArticleInfo\ConfigDefinition;
 
 class CheckRevisionInterval extends \BlueSpice\ConfigDefinition\IntSetting {
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	public function getPaths() {
 		return [
 			static::MAIN_PATH_FEATURE . '/' . static::FEATURE_DATA_ANALYSIS . '/BlueSpiceArticleInfo',
@@ -12,10 +16,18 @@ class CheckRevisionInterval extends \BlueSpice\ConfigDefinition\IntSetting {
 		];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getLabelMessageKey() {
 		return 'bs-articleinfo-pref-CheckRevisionInterval';
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	public function isRLConfigVar() {
 		return true;
 	}
