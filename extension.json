@@ -25,6 +25,9 @@
 						"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
 					}
 				}
+			},
+			"PageToolRegistry": {
+				"last-edit": "BlueSpice\\ArticleInfo\\PageTool\\LastEdit::factory"
 			}
 		},
 		"BlueSpiceArticleInfo": {
