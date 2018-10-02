@@ -1,7 +1,9 @@
 Ext.define( 'BS.ArticleInfo.flyout.Base', {
 	extend: 'BS.flyout.TwoColumnsBase',
 	requires: ['BS.ArticleInfo.panel.LastEditedTime', 'BS.ArticleInfo.panel.LastEditedUser'],
+
 	makeItemCallbacks: [],
+	basicData: {},
 	lastEditedTime: {},
 	lastEditedUser: {},
 	pageCategoryLinks: {},
@@ -11,7 +13,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 		this.allItems = this.makeItems();
 		for( var callbackIdx in this.makeItemCallbacks ) {
 			var callback = this.makeItemCallbacks[callbackIdx];
-			var newItems = bs.util.runCallback( callback, [], this );
+			var newItems = bs.util.runCallback( callback, [ this, this.basicData ], this );
 			$.each( newItems, function( key, items ) {
 				if( me.allItems[key] ) {
 					me.allItems[key] = $.merge( items, me.allItems[key] );
@@ -65,7 +67,8 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 				storeField: 'category_anchor',
 				title: mw.message( 'bs-articleinfo-flyout-categorylinks-title' ).plain(),
 				emptyText: mw.message( 'bs-articleinfo-flyout-categorylinks-emptytext' ).plain(),
-				cls: 'bs-articleinfo-flyout-categorylist-cnt'
+				cls: 'bs-articleinfo-flyout-categorylist-cnt',
+				listType: 'pills'
 			} ),
 			Ext.create( 'BS.ArticleInfo.panel.LinkList', {
 				linkList: this.templateLinks,

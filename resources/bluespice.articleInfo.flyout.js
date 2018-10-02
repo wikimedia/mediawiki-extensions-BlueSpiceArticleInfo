@@ -5,6 +5,7 @@
 		var dfd = $.Deferred();
 		Ext.create( 'BS.ArticleInfo.flyout.Base', {
 			renderTo: $body[0],
+			basicData: data,
 			makeItemCallbacks: data.makeItemsCallbacks,
 			lastEditedTime: data.lastEditedTime || {},
 			lastEditedUser: data.lastEditedUser || {},

@@ -107,6 +107,9 @@ class Flyout extends BasePanel implements IFlyout {
 		$data['has-subpages'] =
 			$this->skintemplate->getSkin()->getTitle()->hasSubpages();
 
+		$data['user-can-edit'] =
+			$this->skintemplate->getSkin()->getTitle()->userCan( 'edit' );
+
 		return $data;
 	}
 
@@ -255,7 +258,10 @@ class Flyout extends BasePanel implements IFlyout {
 		// This is just so that the ExtJS store can handle it more easily
 		$keyedCategoryLinks = [];
 		foreach ( $pageCategoryLinks as $categoryLink ) {
-			$keyedCategoryLinks[] = [ 'category_anchor' => $categoryLink ];
+			$keyedCategoryLinks[] = [
+				'category_anchor' => $categoryLink,
+				'class' => 'pill'
+			];
 		}
 
 		return \FormatJson::encode( $keyedCategoryLinks );

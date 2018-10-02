@@ -59,6 +59,9 @@
 		},
 		"ext.bluespice.articleinfo.flyout": {
 			"scripts": "bluespice.articleInfo.flyout.js",
+			"styles": [
+				"bluespice.articleInfo.flyout.less"
+			],
 			"messages": [
 				"bs-articleinfo-flyout-title",
 				"bs-articleinfo-flyout-intro",
