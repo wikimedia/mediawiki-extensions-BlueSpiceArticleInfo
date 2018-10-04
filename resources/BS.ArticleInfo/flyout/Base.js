@@ -16,7 +16,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 			var newItems = bs.util.runCallback( callback, [ this, this.basicData ], this );
 			$.each( newItems, function( key, items ) {
 				if( me.allItems[key] ) {
-					me.allItems[key] = $.merge( items, me.allItems[key] );
+					me.allItems[key] = $.merge( me.allItems[key], items );
 				} else {
 					me.allItems[key] = items;
 				}
@@ -26,7 +26,25 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 		this.callParent(arguments);
 	},
 	makeCenterTwoItems: function() {
-		return this.allItems.centerRight || [];
+		var items = this.allItems.centerRight || [];
+		if( this.hasSubpages ) {
+			var root = mw.config.get( 'wgPageName' );
+			if( mw.config.get( 'wgNamespaceNumber' ) === bs.ns.NS_MAIN ) {
+				root = ':' + root;
+			}
+
+			items.unshift(
+				Ext.create( 'BS.tree.WikiSubPages', {
+					treeRootPath: root,
+					renderLinks: true,
+					maxHeight: 300,
+					title: mw.message( 'bs-articleinfo-flyout-subpages-title' ).plain(),
+					cls: 'bs-articleinfo-flyout-templatelist-cnt'
+				} )
+			);
+		}
+
+		return items;
 	},
 
 	makeCenterOneItems: function() {
@@ -75,27 +93,10 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 				storeField: 'template_anchor',
 				title: mw.message( 'bs-articleinfo-flyout-templatelinks-title' ).plain(),
 				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emptytext' ).plain(),
-				cls: 'bs-articleinfo-flyout-templatelist-cnt'
+				cls: 'bs-articleinfo-flyout-templatelist-cnt',
+				listType: 'pills'
 			} )
 		];
-
-		if( this.hasSubpages ) {
-			var root = mw.config.get( 'wgPageName' );
-			if( mw.config.get( 'wgNamespaceNumber' ) === bs.ns.NS_MAIN ) {
-				root = ':' + root;
-			}
-
-			leftItems.push(
-				Ext.create( 'BS.tree.WikiSubPages', {
-					treeRootPath: root,
-					renderLinks: true,
-					height: 300,
-					title: mw.message( 'bs-articleinfo-flyout-subpages-title' ).plain(),
-					cls: 'bs-articleinfo-flyout-templatelist-cnt'
-				} )
-			);
-		}
-
 
 		return {
 			top: topItems,
