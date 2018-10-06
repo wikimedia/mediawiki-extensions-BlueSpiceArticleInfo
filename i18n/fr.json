@@ -10,7 +10,7 @@
 	"prefs-articleinfo": "Information sur la page",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalle de mise à jour en secondes:",
 	"bs-articleinfo-flyout-title": "Information de la page",
-	"bs-articleinfo-flyout-intro": "Vue d’ensemble des activités sur cette page",
+	"bs-articleinfo-flyout-intro": "Vous trouverez ici les informations relatives à la page. Vous pouvez contrôler sa qualité, son niveau d'obsolescence et voir comment elle est liée aux autres pages du wiki.",
 	"bs-articleinfo-nav-link-title": "Information de la page",
 	"bs-articleinfo-flyout-categorylinks-title": "Catégories",
 	"bs-articleinfo-flyout-templatelinks-title": "Modèles utilisés par la page",
