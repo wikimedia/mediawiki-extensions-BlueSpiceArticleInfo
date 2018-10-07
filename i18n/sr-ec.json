@@ -2,10 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Milicevic01",
-			"Acamicamacaraca"
+			"Acamicamacaraca",
+			"BadDog"
 		]
 	},
-	"bs-articleinfo-last-edited-tooltip": "Последња измена",
-	"bs-articleinfo-categories": "Категорије",
-	"bs-articleinfo-all-categories-heading": "Категорије"
+	"bs-articleinfo-flyout-intro": "Овде можете пронаћи информације везане за страницу. Можете да проверите њен квалитет и ажурност и видете како се односи на друге странице на викију."
 }
