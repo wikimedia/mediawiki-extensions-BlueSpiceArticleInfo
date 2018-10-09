@@ -59,9 +59,6 @@
 		},
 		"ext.bluespice.articleinfo.flyout": {
 			"scripts": "bluespice.articleInfo.flyout.js",
-			"styles": [
-				"bluespice.articleInfo.flyout.less"
-			],
 			"messages": [
 				"bs-articleinfo-flyout-title",
 				"bs-articleinfo-flyout-intro",
@@ -78,6 +75,12 @@
 				"ext.bluespice.extjs",
 				"ext.bluespice"
 			]
+		},
+		"ext.bluespice.articleinfo.flyout.styles": {
+			"styles": [
+				"bluespice.articleInfo.flyout.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
 		}
 	},
 	"ResourceFileModulePaths": {
