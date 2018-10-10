@@ -11,7 +11,7 @@
 	"prefs-articleinfo": "頁面資訊",
 	"bs-articleinfo-pref-CheckRevisionInterval": "更新間隔 (秒)：",
 	"bs-articleinfo-flyout-title": "頁面資訊",
-	"bs-articleinfo-flyout-intro": "預覽此頁面上的操作",
+	"bs-articleinfo-flyout-intro": "在此您可以找出關聯頁面的資訊。您可以檢查該品質與更新狀況，並查看如何與 wiki 上其它頁面關聯。",
 	"bs-articleinfo-nav-link-title": "頁面資訊",
 	"bs-articleinfo-flyout-categorylinks-title": "分類",
 	"bs-articleinfo-flyout-templatelinks-title": "使用在頁面的模板",
