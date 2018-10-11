@@ -24,7 +24,7 @@ class AddFlyout extends SkinTemplateOutputPageBeforeExec {
 
 	protected function doProcess() {
 		$this->mergeSkinDataArray(
-			SkinData::PAGE_INFOS_PANEL,
+			SkinData::PAGE_DOCUMENTS_PANEL,
 			[
 				'articleinfo' => [
 					'position' => 5,
