@@ -34,7 +34,7 @@ class LastEdit extends Base {
 		$diffLink = $this->getDiffLink();
 		$userPageLink = $this->getUserPageLink();
 
-		return "$diffLink - $userPageLink";
+		return "<span class=\"page-tool-text\">$diffLink - $userPageLink</span>";
 	}
 
 	/**
