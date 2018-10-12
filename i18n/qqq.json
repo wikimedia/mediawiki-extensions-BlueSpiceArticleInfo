@@ -19,5 +19,7 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "Label of the panel section showing the last time the article was edited",
 	"bs-articleinfo-flyout-lastediteduser-text": "Label of the panel section showing the last editor",
 	"bs-articleinfo-newrevision-info-text": "Message within an alert box, presented to the user when a new page revision is available",
-	"bs-articleinfo-flyout-subpages-title": "Title of the panel showing subpages of the page"
+	"bs-articleinfo-flyout-subpages-title": "Title of the panel showing subpages of the page",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Tool tip for an icon above the page title. Shows a list tree of subpages",
+	"bs-articleinfo-dialog-subpages-title": "Title of a dialog window that shows a list of subpages"
 }

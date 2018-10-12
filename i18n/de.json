@@ -19,5 +19,7 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "Letzte Bearbeitung",
 	"bs-articleinfo-flyout-lastediteduser-text": "Letzter Bearbeiter",
 	"bs-articleinfo-newrevision-info-text": "Es liegt eine neue Version dieser Seite vor. Bitte aktualisiere die Seite, um den aktuellen Inhalt anzuzeigen.",
-	"bs-articleinfo-flyout-subpages-title": "Unterseiten"
+	"bs-articleinfo-flyout-subpages-title": "Unterseiten",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Unterseiten",
+	"bs-articleinfo-dialog-subpages-title": "Unterseiten"
 }

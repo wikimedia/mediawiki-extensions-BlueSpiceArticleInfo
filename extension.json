@@ -27,7 +27,8 @@
 				}
 			},
 			"PageToolRegistry": {
-				"last-edit": "BlueSpice\\ArticleInfo\\PageTool\\LastEdit::factory"
+				"last-edit": "BlueSpice\\ArticleInfo\\PageTool\\LastEdit::factory",
+				"subpages": "BlueSpice\\ArticleInfo\\PageTool\\Subpages::factory"
 			}
 		},
 		"BlueSpiceArticleInfo": {
@@ -52,7 +53,13 @@
 	},
 	"ResourceModules": {
 		"ext.bluespice.articleinfo.general": {
-			"scripts": "bluespice.articleInfo.general.js",
+			"scripts": [
+				"bluespice.articleInfo.general.js",
+				"bluespice.articleInfo.pagetools.js"
+			],
+			"messages": [
+				"bs-articleinfo-dialog-subpages-title"
+			],
 			"dependencies": [
 				"ext.bluespice"
 			]
