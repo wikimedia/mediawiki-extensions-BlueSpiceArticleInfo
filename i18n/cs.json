@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"DoubyCz"
+			"DoubyCz",
+			"Martin Urbanec"
 		]
 	},
-	"bs-articleinfo-flyout-subpages-title": "Podstránky"
+	"bs-articleinfo-flyout-subpages-title": "Podstránky",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Podstránky",
+	"bs-articleinfo-dialog-subpages-title": "Podstránky"
 }
