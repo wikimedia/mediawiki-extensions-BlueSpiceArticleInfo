@@ -11,9 +11,20 @@ Ext.define( 'BS.ArticleInfo.dialog.Subpages', {
 			treeRootPath: this.rootPage,
 			renderLinks: true
 		} );
+		this.subPageTree.getStore().on( 'load', function() {
+			this.subPageTree.getRootNode().expandChildren();
+		}, this );
 
 		return [
 			this.subPageTree
+		];
+	},
+
+	makeButtons: function() {
+		this.callParent( arguments );
+
+		return [
+			this.btnCancel
 		];
 	}
 } );
