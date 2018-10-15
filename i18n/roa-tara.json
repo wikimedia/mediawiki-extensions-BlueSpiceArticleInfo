@@ -8,5 +8,7 @@
 	"prefs-articleinfo": "'Mbormaziune d'a pàgene",
 	"bs-articleinfo-pref-CheckRevisionInterval": "'Ndervalle de aggiornamende in seconde:",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Urteme cangiamende",
-	"bs-articleinfo-flyout-lastediteduser-text": "Urteme cangiatore"
+	"bs-articleinfo-flyout-lastediteduser-text": "Urteme cangiatore",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopàggene",
+	"bs-articleinfo-dialog-subpages-title": "Sottopàggene"
 }
