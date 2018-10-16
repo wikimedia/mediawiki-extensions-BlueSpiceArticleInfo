@@ -20,5 +20,7 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "Последняя правка",
 	"bs-articleinfo-flyout-lastediteduser-text": "Последний редактор",
 	"bs-articleinfo-newrevision-info-text": "Доступна новая версия страницы. Пожалуйста, обновите страницу для просмотра содержимого.",
-	"bs-articleinfo-flyout-subpages-title": "Подстраницы"
+	"bs-articleinfo-flyout-subpages-title": "Подстраницы",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Подстраницы",
+	"bs-articleinfo-dialog-subpages-title": "Подстраницы"
 }
