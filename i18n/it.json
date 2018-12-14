@@ -14,5 +14,7 @@
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Nessuna categoria assegnata",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Ultima modifica",
 	"bs-articleinfo-newrevision-info-text": "È disponibile una nuova versione di questa pagina. Ricarica la pagina per visualizzare il contenuto attuale.",
-	"bs-articleinfo-flyout-subpages-title": "Sottopagine"
+	"bs-articleinfo-flyout-subpages-title": "Sottopagine",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopagine",
+	"bs-articleinfo-dialog-subpages-title": "Sottopagine"
 }

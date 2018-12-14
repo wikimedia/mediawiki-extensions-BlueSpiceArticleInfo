@@ -16,5 +16,7 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Inga mallar används",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Senaste redigering",
 	"bs-articleinfo-flyout-lastediteduser-text": "Senaste redigerare",
-	"bs-articleinfo-flyout-subpages-title": "Undersidor"
+	"bs-articleinfo-flyout-subpages-title": "Undersidor",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Undersidor",
+	"bs-articleinfo-dialog-subpages-title": "Undersidor"
 }

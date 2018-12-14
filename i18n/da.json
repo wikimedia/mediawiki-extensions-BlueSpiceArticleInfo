@@ -4,5 +4,7 @@
 			"Saederup92"
 		]
 	},
-	"bs-articleinfo-flyout-categorylinks-title": "Kategorier"
+	"bs-articleinfo-flyout-categorylinks-title": "Kategorier",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Undersider",
+	"bs-articleinfo-dialog-subpages-title": "Undersider"
 }

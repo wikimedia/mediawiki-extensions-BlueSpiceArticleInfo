@@ -10,5 +10,7 @@
 	"bs-articleinfo-flyout-title": "Πληροφορίες σελίδας",
 	"bs-articleinfo-nav-link-title": "Πληροφορίες σελίδας",
 	"bs-articleinfo-flyout-categorylinks-title": "Κατηγορίες",
-	"bs-articleinfo-flyout-subpages-title": "Υποσελίδες"
+	"bs-articleinfo-flyout-subpages-title": "Υποσελίδες",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Υποσελίδες",
+	"bs-articleinfo-dialog-subpages-title": "Υποσελίδες"
 }
