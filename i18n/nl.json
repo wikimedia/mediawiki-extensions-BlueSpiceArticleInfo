@@ -6,7 +6,8 @@
 			"McDutchie",
 			"Ribert",
 			"Siebrand",
-			"SPQRobin"
+			"SPQRobin",
+			"Mainframe98"
 		]
 	},
 	"bs-articleinfo-desc": "Geeft informatie over een pagina in een statusbalk",
@@ -17,5 +18,8 @@
 	"bs-articleinfo-nav-link-title": "Paginagegevens",
 	"bs-articleinfo-flyout-categorylinks-title": "Categorieën",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Laatste bewerking",
-	"bs-articleinfo-flyout-lastediteduser-text": "Laatste bewerker"
+	"bs-articleinfo-flyout-lastediteduser-text": "Laatste bewerker",
+	"bs-articleinfo-flyout-subpages-title": "Subpagina's",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpagina's",
+	"bs-articleinfo-dialog-subpages-title": "Subpagina's"
 }
