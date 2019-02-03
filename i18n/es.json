@@ -4,7 +4,8 @@
 			"Fitoschido",
 			"Mcervera",
 			"MarcoAurelio",
-			"Astroemi"
+			"Astroemi",
+			"Carlosmg.dg"
 		]
 	},
 	"bs-articleinfo-desc": "Proporciona información sobre una página en la barra de estado",
@@ -15,5 +16,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Categorías",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Última edición",
 	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
-	"bs-articleinfo-flyout-subpages-title": "Subpáginas"
+	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
+	"bs-articleinfo-dialog-subpages-title": "Subpáginas"
 }
