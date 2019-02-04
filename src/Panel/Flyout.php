@@ -195,7 +195,7 @@ class Flyout extends BasePanel implements IFlyout {
 			$timestamp = $article->getTimestamp();
 		}
 
-		$formattedTimestamp = \BsFormatConverter::mwTimestampToAgeString( $timestamp, true );
+		$formattedTimestamp = ( new \BlueSpice\Timestamp( $timestamp ) )->getAgeString();
 		$articleHistoryLinkURL = $article->getTitle()->getLinkURL(
 			[
 				'diff'   => 0,
