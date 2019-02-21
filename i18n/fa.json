@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Rtemis",
-			"Alirezaaa"
+			"Alirezaaa",
+			"Amirsara"
 		]
 	},
 	"bs-articleinfo-desc": " اطلاعاتی را درباره یک صفحه در نوار وضعیت نشان می‌دهد",
 	"prefs-articleinfo": "اطلاعات صفحه",
-	"bs-articleinfo-pref-CheckRevisionInterval": "بازه به روز رسانی به ثانیه:"
+	"bs-articleinfo-pref-CheckRevisionInterval": "بازه به روز رسانی به ثانیه:",
+	"bs-articleinfo-flyout-categorylinks-title": "رده‌ها"
 }
