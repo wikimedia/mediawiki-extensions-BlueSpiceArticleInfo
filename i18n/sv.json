@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Sturban"
 		]
 	},
 	"bs-articleinfo-desc": "Tillhandahåller information om en sida i statusfältet",
 	"prefs-articleinfo": "Sidinformation",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Uppdateringsintervall i sekunder:",
 	"bs-articleinfo-flyout-title": "Sidinformation",
-	"bs-articleinfo-flyout-intro": "Översikt av aktiviteter på denna sida",
+	"bs-articleinfo-flyout-intro": "Här hittar du information om sidan. Du kan kontrollera dess kvalitet och uppdatering och se hur den relaterar till andra sidor i wikin.",
 	"bs-articleinfo-nav-link-title": "Sidinformation",
 	"bs-articleinfo-flyout-categorylinks-title": "Kategorierer",
 	"bs-articleinfo-flyout-templatelinks-title": "Mallar som används på sidan",
