@@ -4,14 +4,15 @@
 			"Okras",
 			"Kaganer",
 			"Putnik",
-			"Vlad5250"
+			"Vlad5250",
+			"Romanko Mikhail"
 		]
 	},
 	"bs-articleinfo-desc": "Предоставляет сведения о странице в строке состояния",
 	"prefs-articleinfo": "Сведения о странице",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Интервал обновления (в секундах):",
 	"bs-articleinfo-flyout-title": "Сведения о странице",
-	"bs-articleinfo-flyout-intro": "Обзор действий на этой странице",
+	"bs-articleinfo-flyout-intro": "Здесь вы найдете информацию, связанную с этой страницей. Вы можете проверить её качество и актуальность, а также увидеть, как она связана с другими страницами в вики.",
 	"bs-articleinfo-nav-link-title": "Сведения о странице",
 	"bs-articleinfo-flyout-categorylinks-title": "Категории",
 	"bs-articleinfo-flyout-templatelinks-title": "Шаблоны, используемые на странице",
