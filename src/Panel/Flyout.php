@@ -12,7 +12,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 *
 	 * @var array
 	 */
-	protected $modulesToLoad = [ 'ext.bluespice.articleinfo.flyout' ];
+	protected $modulesToLoad = [];
 
 	/**
 	 * Callback function to allow other extesions to
@@ -126,6 +126,9 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @return array
 	 */
 	public function getTriggerRLDependencies() {
+		// Make sure module that will be calling all dependent modules
+		// is loaded last
+		$this->modulesToLoad[] = 'ext.bluespice.articleinfo.flyout';
 		return $this->modulesToLoad;
 	}
 
