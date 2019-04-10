@@ -3,19 +3,23 @@
 
 	bs.articleinfo.flyoutCallback = function( $body, data ) {
 		var dfd = $.Deferred();
-		Ext.create( 'BS.ArticleInfo.flyout.Base', {
-			renderTo: $body[0],
-			basicData: data,
-			makeItemCallbacks: data.makeItemsCallbacks,
-			lastEditedTime: data.lastEditedTime || {},
-			lastEditedUser: data.lastEditedUser || {},
-			pageCategoryLinks: data.categoryLinks || {},
-			templateLinks: data.templateLinks || {},
-			hasSubpages: data.hasSubpages || false
-		} );
+		mw.loader.using( data.rlModuleDependencies )
+			.done( function() {
+				Ext.create( 'BS.ArticleInfo.flyout.Base', {
+					renderTo: $body[0],
+					basicData: data,
+					makeItemCallbacks: data.makeItemsCallbacks,
+					lastEditedTime: data.lastEditedTime || {},
+					lastEditedUser: data.lastEditedUser || {},
+					pageCategoryLinks: data.categoryLinks || {},
+					templateLinks: data.templateLinks || {},
+					hasSubpages: data.hasSubpages || false
+				} );
 
-		dfd.resolve();
+				dfd.resolve();
+			} );
+
 		return dfd.promise();
 	};
 
-})( mediaWiki, jQuery, blueSpice );
+} )( mediaWiki, jQuery, blueSpice );
