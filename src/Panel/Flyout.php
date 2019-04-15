@@ -81,7 +81,8 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	public function getContainerData() {
 		$data = [
-			'make-items-callbacks' => \FormatJson::encode( $this->makeItemsCallbacks )
+			'make-items-callbacks' => \FormatJson::encode( $this->makeItemsCallbacks ),
+			'rl-module-dependencies' => \FormatJson::encode( $this->modulesToLoad )
 		];
 
 		$lastEditedTime = $this->getLastEditedTime();
@@ -126,10 +127,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @return array
 	 */
 	public function getTriggerRLDependencies() {
-		// Make sure module that will be calling all dependent modules
-		// is loaded last
-		$this->modulesToLoad[] = 'ext.bluespice.articleinfo.flyout';
-		return $this->modulesToLoad;
+		return [ 'ext.bluespice.articleinfo.flyout' ];
 	}
 
 	/**
