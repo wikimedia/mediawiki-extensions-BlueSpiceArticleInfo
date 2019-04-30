@@ -51,9 +51,10 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 		}
 		$this->singleResults['newRevision'] = true;
 		$this->singleResults['checkRevisionView'] =
-			wfMessage( 'bs-articleinfo-newrevision-info-text' )->plain();
+			wfMessage( 'bs-articleinfo-newrevision-info-text-reload', $this->title->getPrefixedText() )
+				->parse();
 
-		return true;
+			return true;
 	}
 
 	protected function providedRevisionUpToDate() {
