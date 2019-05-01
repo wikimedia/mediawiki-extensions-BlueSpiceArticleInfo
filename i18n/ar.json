@@ -20,6 +20,7 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "التعديل  الأخير",
 	"bs-articleinfo-flyout-lastediteduser-text": "المعدل الأخير",
 	"bs-articleinfo-newrevision-info-text": "هناك نسخة جديدة من هذه الصفحة متوفرة، يُرجَى إعادة تحميل الصفحة لعرض المحتوى الحالي.",
+	"bs-articleinfo-newrevision-info-text-reload": "هناك نسخة جديدة من هذه الصفحة متاحة، تُرجَى [[:$1|إعادة تحميل]] الصفحة لعرض المحتوى الحالي.",
 	"bs-articleinfo-flyout-subpages-title": "الصفحات الفرعية",
 	"bs-articleinfo-pagetool-subpages-tooltip": "الصفحات الفرعية",
 	"bs-articleinfo-dialog-subpages-title": "الصفحات الفرعية"
