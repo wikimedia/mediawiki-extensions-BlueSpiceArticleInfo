@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sayginer",
-			"Rapsar"
+			"Rapsar",
+			"Mirzali"
 		]
 	},
 	"bs-articleinfo-flyout-title": "Sayfa bilgisi",
@@ -10,6 +11,7 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Kategoriler",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Son değişiklik",
 	"bs-articleinfo-flyout-lastediteduser-text": "Son düzenleyen",
+	"bs-articleinfo-newrevision-info-text-reload": "Bu sayfanın yeni bir sürümü mevcut. Geçerli içeriği görüntülemek için lütfen sayfayı [[:$1|yeniden yükle]].",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Alt sayfalar",
 	"bs-articleinfo-dialog-subpages-title": "Alt sayfalar"
 }
