@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Base",
-			"Piramidion"
+			"Piramidion",
+			"Ата"
 		]
 	},
 	"bs-articleinfo-desc": "Надає інформацію про сторінку у рядку стану",
@@ -18,6 +19,7 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "Останнє редагування",
 	"bs-articleinfo-flyout-lastediteduser-text": "Останній редактор",
 	"bs-articleinfo-newrevision-info-text": "Доступна нова версія цієї сторінки. Будь ласка, перезавантажте сторінку, щоб переглянути поточний її вміст.",
+	"bs-articleinfo-newrevision-info-text-reload": "Доступна нова версія цієї сторінки. Будь ласка, [[:$1|перезавантажте]] сторінку, щоб переглянути її поточний вміст.",
 	"bs-articleinfo-flyout-subpages-title": "Підсторінки",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Підсторінки",
 	"bs-articleinfo-dialog-subpages-title": "Підсторінки"
