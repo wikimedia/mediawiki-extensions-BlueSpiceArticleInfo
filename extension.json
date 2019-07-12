@@ -27,7 +27,6 @@
 				}
 			},
 			"PageToolRegistry": {
-				"last-edit": "BlueSpice\\ArticleInfo\\PageTool\\LastEdit::factory",
 				"subpages": "BlueSpice\\ArticleInfo\\PageTool\\Subpages::factory"
 			}
 		},
