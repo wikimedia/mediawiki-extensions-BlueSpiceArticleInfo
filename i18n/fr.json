@@ -3,7 +3,8 @@
 		"authors": [
 			"Wladek92",
 			"Verdy p",
-			"Gomoko"
+			"Gomoko",
+			"Jhammock"
 		]
 	},
 	"bs-articleinfo-desc": "Fournit des informations sur une page dans la barre d'État",
@@ -21,5 +22,6 @@
 	"bs-articleinfo-newrevision-info-text": "Il y a une nouvelle version disponible de cette page. Veuillez la recharger pour afficher le nouveau contenu.",
 	"bs-articleinfo-flyout-subpages-title": "Sous-pages",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sous-pages",
-	"bs-articleinfo-dialog-subpages-title": "Sous-pages"
+	"bs-articleinfo-dialog-subpages-title": "Sous-pages",
+	"bs-articleinfo-newrevision-info-text-reload": "Il y a une nouvelle version disponible de cette page. Veuillez la [[:$1|recharger]] pour afficher le nouveau contenu."
 }

@@ -21,5 +21,8 @@
 	"bs-articleinfo-flyout-lastediteduser-text": "Laatste bewerker",
 	"bs-articleinfo-flyout-subpages-title": "Subpagina's",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpagina's",
-	"bs-articleinfo-dialog-subpages-title": "Subpagina's"
+	"bs-articleinfo-dialog-subpages-title": "Subpagina's",
+	"bs-articleinfo-flyout-templatelinks-title": "Sjablonen gebruikt op de pagina",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Geen categorieën toegewezen",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Er worden geen sjablonen gebruikt"
 }

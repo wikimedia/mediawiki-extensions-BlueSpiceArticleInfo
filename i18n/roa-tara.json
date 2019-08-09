@@ -19,5 +19,6 @@
 	"bs-articleinfo-newrevision-info-text": "Jè disponibbele 'na versiona nove de sta pàgene. Recareche 'a pàgene pe 'ndrucà 'u condenute de mò.",
 	"bs-articleinfo-flyout-subpages-title": "Sottepàggene",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopàggene",
-	"bs-articleinfo-dialog-subpages-title": "Sottopàggene"
+	"bs-articleinfo-dialog-subpages-title": "Sottopàggene",
+	"bs-articleinfo-newrevision-info-text-reload": "Jè disponibbele 'na versiona nove de sta pàgene. [[:$1|Recareche]] 'a pàgene pe 'ndrucà 'u condenute de mò."
 }
