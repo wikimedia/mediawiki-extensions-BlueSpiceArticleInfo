@@ -25,9 +25,6 @@
 						"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
 					}
 				}
-			},
-			"PageToolRegistry": {
-				"subpages": "BlueSpice\\ArticleInfo\\PageTool\\Subpages::factory"
 			}
 		},
 		"BlueSpiceArticleInfo": {
@@ -53,11 +50,7 @@
 	"ResourceModules": {
 		"ext.bluespice.articleinfo.general": {
 			"scripts": [
-				"bluespice.articleInfo.general.js",
-				"bluespice.articleInfo.pagetools.js"
-			],
-			"messages": [
-				"bs-articleinfo-dialog-subpages-title"
+				"bluespice.articleInfo.general.js"
 			],
 			"dependencies": [
 				"ext.bluespice"
