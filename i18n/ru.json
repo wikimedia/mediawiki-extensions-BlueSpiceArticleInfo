@@ -5,7 +5,8 @@
 			"Kaganer",
 			"Putnik",
 			"Vlad5250",
-			"Romanko Mikhail"
+			"Romanko Mikhail",
+			"Movses"
 		]
 	},
 	"bs-articleinfo-desc": "Предоставляет сведения о странице в строке состояния",
@@ -21,6 +22,7 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "Последняя правка",
 	"bs-articleinfo-flyout-lastediteduser-text": "Последний редактор",
 	"bs-articleinfo-newrevision-info-text": "Доступна новая версия страницы. Пожалуйста, обновите страницу для просмотра содержимого.",
+	"bs-articleinfo-newrevision-info-text-reload": "Доступна новая версия страницы. Пожалуйста,  [[:$1|обновите]] страницу для просмотра содержимого.",
 	"bs-articleinfo-flyout-subpages-title": "Подстраницы",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Подстраницы",
 	"bs-articleinfo-dialog-subpages-title": "Подстраницы"
