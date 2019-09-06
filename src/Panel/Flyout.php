@@ -51,14 +51,14 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @return \Message
 	 */
 	public function getFlyoutTitleMessage() {
-		return $this->skintemplate->msg( 'bs-articleinfo-flyout-title' );
+		return wfMessage( 'bs-articleinfo-flyout-title' )->parse();
 	}
 
 	/**
 	 * @return \Message
 	 */
 	public function getFlyoutIntroMessage() {
-		return $this->skintemplate->msg( 'bs-articleinfo-flyout-intro' );
+		return wfMessage( 'bs-articleinfo-flyout-intro' )->parse();
 	}
 
 	/**
