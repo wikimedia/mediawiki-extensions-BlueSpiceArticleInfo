@@ -5,6 +5,7 @@
 			"Ykhwong"
 		]
 	},
+	"bs-articleinfo-desc": "상태 표시줄에 문서에 관한 정보를 제공합니다",
 	"prefs-articleinfo": "문서 정보",
 	"bs-articleinfo-pref-CheckRevisionInterval": "초 단위로 갱신하기:",
 	"bs-articleinfo-flyout-title": "문서 정보",
