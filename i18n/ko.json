@@ -19,5 +19,6 @@
 	"bs-articleinfo-newrevision-info-text": "이 문서의 새로운 판을 읽을 수 있습니다. 현재 내용을 보려면 문서를 다시 로드해 주십시오.",
 	"bs-articleinfo-flyout-subpages-title": "하위 문서",
 	"bs-articleinfo-pagetool-subpages-tooltip": "하위 문서",
-	"bs-articleinfo-dialog-subpages-title": "하위 문서"
+	"bs-articleinfo-dialog-subpages-title": "하위 문서",
+	"bs-articleinfo-desc": "상태 표시줄에 문서에 관한 정보를 제공합니다"
 }

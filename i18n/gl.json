@@ -11,5 +11,10 @@
 	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de actualización en segundos:",
 	"bs-articleinfo-flyout-categorylinks-title": "Categorías",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Última edición",
-	"bs-articleinfo-flyout-lastediteduser-text": "Último editor"
+	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
+	"bs-articleinfo-flyout-title": "Información de páxina",
+	"bs-articleinfo-nav-link-title": "Información de páxina",
+	"bs-articleinfo-flyout-subpages-title": "Subpáxinas",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáxinas",
+	"bs-articleinfo-dialog-subpages-title": "Subpáxinas"
 }
