@@ -3,6 +3,7 @@
 namespace BlueSpice\ArticleInfo\Panel;
 
 use Message;
+use BlueSpice\Services;
 use BlueSpice\Calumma\Panel\BasePanel;
 use BlueSpice\Calumma\IFlyout;
 
@@ -161,7 +162,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected function getRevisionStore() {
 		if ( $this->revisionStore === null ) {
-			$this->revisionStore = \MediaWiki\MediaWikiServices::getInstance()->getRevisionStore();
+			$this->revisionStore = Services::getInstance()->getRevisionStore();
 		}
 		return $this->revisionStore;
 	}
