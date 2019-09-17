@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ArticleInfo\Panel;
 
+use Message;
 use BlueSpice\Calumma\Panel\BasePanel;
 use BlueSpice\Calumma\IFlyout;
 
@@ -48,24 +49,24 @@ class Flyout extends BasePanel implements IFlyout {
 	}
 
 	/**
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getFlyoutTitleMessage() {
-		return wfMessage( 'bs-articleinfo-flyout-title' )->parse();
+		return $this->skintemplate->getSkin()->msg( 'bs-articleinfo-flyout-title' );
 	}
 
 	/**
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getFlyoutIntroMessage() {
-		return wfMessage( 'bs-articleinfo-flyout-intro' )->parse();
+		return $this->skintemplate->getSkin()->msg( 'bs-articleinfo-flyout-intro' );
 	}
 
 	/**
-	 * @return \Message
+	 * @return Message
 	 */
 	public function getTitleMessage() {
-		return wfMessage( 'bs-articleinfo-nav-link-title' );
+		return $this->skintemplate->getSkin()->msg( 'bs-articleinfo-nav-link-title' );
 	}
 
 	/**
