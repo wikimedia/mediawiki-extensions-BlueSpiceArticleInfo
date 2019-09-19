@@ -4,7 +4,8 @@
 			"Chrumps",
 			"Wiochman",
 			"DeRudySoulStorm",
-			"CiaPan"
+			"CiaPan",
+			"Rail"
 		]
 	},
 	"bs-articleinfo-desc": "Udostępnia informacje o stronie w pasku stanu",
@@ -22,5 +23,6 @@
 	"bs-articleinfo-newrevision-info-text": "Dostępna jest nowa wersja tej strony. Załaduj ponownie stronę, aby wyświetlić aktualną zawartość.",
 	"bs-articleinfo-flyout-subpages-title": "Podstrony",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Podstrony",
-	"bs-articleinfo-dialog-subpages-title": "Podstrony"
+	"bs-articleinfo-dialog-subpages-title": "Podstrony",
+	"bs-articleinfo-newrevision-info-text-reload": "Dostępna jest nowa wersja tej strony. [[:$1|Załaduj ponownie]] stronę, aby wyświetlić aktualną zawartość."
 }
