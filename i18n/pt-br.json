@@ -21,5 +21,6 @@
 	"bs-articleinfo-newrevision-info-text": "Existe uma nova versão desta página disponível. Por favor, recarregue a página para visualizar o conteúdo atual.",
 	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
-	"bs-articleinfo-dialog-subpages-title": "Subpáginas"
+	"bs-articleinfo-dialog-subpages-title": "Subpáginas",
+	"bs-articleinfo-newrevision-info-text-reload": "Está disponível uma nova versão desta página. [[:$1|Recarregue]] a página para ver o conteúdo atual, por favor."
 }

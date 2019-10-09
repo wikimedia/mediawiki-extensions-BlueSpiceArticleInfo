@@ -1,6 +1,6 @@
 {
 	"name": "BlueSpiceArticleInfo",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"license-name": "GPL-3.0-only",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:ArticleInfo",
 	"author": [
@@ -10,9 +10,9 @@
 	"descriptionmsg": "bs-articleinfo-desc",
 	"type": "bluespice",
 	"requires": {
-		"MediaWiki": ">= 1.31.0",
+		"MediaWiki": "~1.31",
 		"extensions": {
-			"BlueSpiceFoundation": "*"
+			"BlueSpiceFoundation": "~3.1"
 		}
 	},
 	"attributes": {
@@ -25,10 +25,6 @@
 						"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
 					}
 				}
-			},
-			"PageToolRegistry": {
-				"last-edit": "BlueSpice\\ArticleInfo\\PageTool\\LastEdit::factory",
-				"subpages": "BlueSpice\\ArticleInfo\\PageTool\\Subpages::factory"
 			}
 		},
 		"BlueSpiceArticleInfo": {
@@ -54,11 +50,7 @@
 	"ResourceModules": {
 		"ext.bluespice.articleinfo.general": {
 			"scripts": [
-				"bluespice.articleInfo.general.js",
-				"bluespice.articleInfo.pagetools.js"
-			],
-			"messages": [
-				"bs-articleinfo-dialog-subpages-title"
+				"bluespice.articleInfo.general.js"
 			],
 			"dependencies": [
 				"ext.bluespice"
