@@ -227,7 +227,7 @@ class Flyout extends BasePanel implements IFlyout {
 			return false;
 		}
 
-		$userHelper = \BlueSpice\Services::getInstance()->getBSUtilityFactory()
+		$userHelper = Services::getInstance()->getBSUtilityFactory()
 			->getUserHelper( $lastEditor );
 
 		return \FormatJson::encode( [
@@ -274,7 +274,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @return string
 	 */
 	protected function getTemplateLinks() {
-		$linkRenderer = \MediaWiki\MediaWikiServices::getInstance()->getLinkRenderer();
+		$linkRenderer = Services::getInstance()->getLinkRenderer();
 		$templateTitles = $this->title->getTemplateLinksFrom();
 
 		$templateLinks = [];
