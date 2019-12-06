@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirin"
+			"Mirin",
+			"Zarisi"
 		]
 	},
 	"prefs-articleinfo": "Informo pri paĝo",
@@ -10,5 +11,6 @@
 	"bs-articleinfo-flyout-categorylinks-title": "Kategorioj",
 	"bs-articleinfo-flyout-subpages-title": "Subpaĝoj",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpaĝoj",
-	"bs-articleinfo-dialog-subpages-title": "Subpaĝoj"
+	"bs-articleinfo-dialog-subpages-title": "Subpaĝoj",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Lasta redakto"
 }
