@@ -4,12 +4,13 @@
 			"Wladek92",
 			"Verdy p",
 			"Gomoko",
-			"Jhammock"
+			"Jhammock",
+			"Thibaut120094"
 		]
 	},
 	"bs-articleinfo-desc": "Fournit des informations sur une page dans la barre d’état",
 	"prefs-articleinfo": "Informations sur la page",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalle de mise à jour en secondes :",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalle de mise à jour en secondes :",
 	"bs-articleinfo-flyout-title": "Informations sur la page",
 	"bs-articleinfo-flyout-intro": "Vous trouverez ici les informations relatives à la page. Vous pouvez contrôler sa qualité, son niveau d’obsolescence et voir comment elle est liée aux autres pages du wiki.",
 	"bs-articleinfo-nav-link-title": "Informations sur la page",
