@@ -3,6 +3,7 @@
 namespace BlueSpice\ArticleInfo\Panel;
 
 use Message;
+use QuickTemplate;
 use BlueSpice\Services;
 use BlueSpice\Calumma\Panel\BasePanel;
 use BlueSpice\Calumma\IFlyout;
@@ -41,9 +42,9 @@ class Flyout extends BasePanel implements IFlyout {
 
 	/**
 	 *
-	 * @param \SkinTemplate $skintemplate
+	 * @param QuickTemplate $skintemplate
 	 */
-	public function __construct( $skintemplate ) {
+	public function __construct( QuickTemplate $skintemplate ) {
 		parent::__construct( $skintemplate );
 		$this->setForeignModules();
 		$this->title = $skintemplate->getSkin()->getTitle();
