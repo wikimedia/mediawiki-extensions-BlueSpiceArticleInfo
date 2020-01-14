@@ -2,9 +2,9 @@
 
 namespace BlueSpice\ArticleInfo\Hook\SkinTemplateOutputPageBeforeExec;
 
+use BlueSpice\ArticleInfo\Panel\Flyout;
 use BlueSpice\Hook\SkinTemplateOutputPageBeforeExec;
 use BlueSpice\SkinData;
-use BlueSpice\ArticleInfo\Panel\Flyout;
 
 class AddFlyout extends SkinTemplateOutputPageBeforeExec {
 	protected function skipProcessing() {

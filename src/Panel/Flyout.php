@@ -2,11 +2,11 @@
 
 namespace BlueSpice\ArticleInfo\Panel;
 
+use BlueSpice\Calumma\IFlyout;
+use BlueSpice\Calumma\Panel\BasePanel;
+use BlueSpice\Services;
 use Message;
 use QuickTemplate;
-use BlueSpice\Services;
-use BlueSpice\Calumma\Panel\BasePanel;
-use BlueSpice\Calumma\IFlyout;
 
 class Flyout extends BasePanel implements IFlyout {
 	/**

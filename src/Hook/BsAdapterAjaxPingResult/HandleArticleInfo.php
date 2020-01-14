@@ -3,8 +3,8 @@
 namespace BlueSpice\ArticleInfo\Hook\BsAdapterAjaxPingResult;
 
 use BlueSpice\Hook\BsAdapterAjaxPingResult;
-use Title;
 use Revision;
+use Title;
 
 class HandleArticleInfo extends BsAdapterAjaxPingResult {
 
