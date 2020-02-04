@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Nemo bis"
+			"Nemo bis",
+			"Dansita"
 		]
 	},
 	"bs-articleinfo-desc": "Fornisce informazioni sulla pagina nella barra di stato",
@@ -16,5 +17,9 @@
 	"bs-articleinfo-newrevision-info-text": "È disponibile una nuova versione di questa pagina. Ricarica la pagina per visualizzare il contenuto attuale.",
 	"bs-articleinfo-flyout-subpages-title": "Sottopagine",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopagine",
-	"bs-articleinfo-dialog-subpages-title": "Sottopagine"
+	"bs-articleinfo-dialog-subpages-title": "Sottopagine",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorie",
+	"bs-articleinfo-flyout-templatelinks-title": "Template utilizzati nella pagina",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Nessun template utilizzato",
+	"bs-articleinfo-flyout-lastediteduser-text": "Ultima modifica"
 }
