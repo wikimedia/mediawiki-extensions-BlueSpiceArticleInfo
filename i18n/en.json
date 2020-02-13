@@ -20,5 +20,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "There is a new version of this page available. Please [[:$1|reload]] the page to view the current content.",
 	"bs-articleinfo-flyout-subpages-title": "Subpages",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpages",
-	"bs-articleinfo-dialog-subpages-title": "Subpages"
+	"bs-articleinfo-dialog-subpages-title": "Subpages",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Sets the refresh rate for the \"Last edit\" value. This value is displayed on the page information under the quality management tools."
 }

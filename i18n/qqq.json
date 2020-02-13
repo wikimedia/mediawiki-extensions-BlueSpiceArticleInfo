@@ -22,5 +22,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "Message within an alert box, presented to the user when a new page revision is available. Link on the word 'reload'.",
 	"bs-articleinfo-flyout-subpages-title": "Title of the panel showing subpages of the page",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Tool tip for an icon above the page title. Shows a list tree of subpages",
-	"bs-articleinfo-dialog-subpages-title": "Title of a dialog window that shows a list of subpages"
+	"bs-articleinfo-dialog-subpages-title": "Title of a dialog window that shows a list of subpages",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Description for config variable \"ArticleInfoCheckRevisionInterval\""
 }

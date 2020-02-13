@@ -22,5 +22,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "Es ist eine neue Version dieser Seite verfügbar. [[:$1|Lade]] bitte die Seite neu, um den aktuellen Inhalt anzusehen.",
 	"bs-articleinfo-flyout-subpages-title": "Unterseiten",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Unterseiten",
-	"bs-articleinfo-dialog-subpages-title": "Unterseiten"
+	"bs-articleinfo-dialog-subpages-title": "Unterseiten",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Legt die Aktualisierungsrate für den Wert \"Letzte Bearbeitung\" fest. Der Wert wird wird auf den Seiteninformationen in den Werkzeugen zum Qualitätsmanagement angezeigt."
 }
