@@ -31,4 +31,12 @@ class CheckRevisionInterval extends \BlueSpice\ConfigDefinition\IntSetting {
 	public function isRLConfigVar() {
 		return true;
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	public function getHelpMessageKey() {
+		return 'bs-articleinfo-pref-checkrevisioninterval-help';
+	}
 }
