@@ -6,7 +6,8 @@
 			"Putnik",
 			"Vlad5250",
 			"Romanko Mikhail",
-			"Movses"
+			"Movses",
+			"Alexander Yukal"
 		]
 	},
 	"bs-articleinfo-desc": "Предоставляет сведения о странице в строке состояния",
@@ -25,5 +26,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "Доступна новая версия страницы. Пожалуйста,  [[:$1|обновите]] страницу для просмотра содержимого.",
 	"bs-articleinfo-flyout-subpages-title": "Подстраницы",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Подстраницы",
-	"bs-articleinfo-dialog-subpages-title": "Подстраницы"
+	"bs-articleinfo-dialog-subpages-title": "Подстраницы",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Устанавливает частоту обновления для значения \"Last edit\". Это значение отображается на странице информации под инструментами управления качеством."
 }

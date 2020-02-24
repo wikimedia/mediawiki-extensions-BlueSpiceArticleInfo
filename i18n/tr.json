@@ -23,5 +23,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "Bu sayfanın yeni bir sürümü mevcut. Geçerli içeriği görüntülemek için lütfen sayfayı [[:$1|yeniden yükleyin]].",
 	"bs-articleinfo-flyout-subpages-title": "Alt sayfalar",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Alt sayfalar",
-	"bs-articleinfo-dialog-subpages-title": "Alt sayfalar"
+	"bs-articleinfo-dialog-subpages-title": "Alt sayfalar",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "\"Son düzenleme\" değeri için yenileme hızını ayarlar. Bu değer, kalite yönetim araçları altındaki sayfa bilgilerinde görüntülenir."
 }

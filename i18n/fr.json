@@ -5,7 +5,8 @@
 			"Verdy p",
 			"Gomoko",
 			"Jhammock",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Eneelk"
 		]
 	},
 	"bs-articleinfo-desc": "Fournit des informations sur une page dans la barre d’état",
@@ -24,5 +25,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "Il y a une nouvelle version disponible de cette page. Veuillez la [[:$1|recharger]] pour afficher le nouveau contenu.",
 	"bs-articleinfo-flyout-subpages-title": "Sous-pages",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sous-pages",
-	"bs-articleinfo-dialog-subpages-title": "Sous-pages"
+	"bs-articleinfo-dialog-subpages-title": "Sous-pages",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Définit le taux de rafraîchissement pour la valeur « Dernière modification ». La valeur est affichée dans les informations sur la page sous les outils de gestion de qualité."
 }
