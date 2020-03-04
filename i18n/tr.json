@@ -23,5 +23,6 @@
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Hiçbir kategori atanmadı",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Hiç şablon kullanılmadı",
 	"bs-articleinfo-newrevision-info-text": "Bu sayfanın yeni bir sürümü mevcut. Lütfen mevcut içeriği görüntülemek için sayfayı yeniden yükleyin.",
-	"bs-articleinfo-flyout-subpages-title": "Alt sayfalar"
+	"bs-articleinfo-flyout-subpages-title": "Alt sayfalar",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "\"Son düzenleme\" değeri için yenileme hızını ayarlar. Bu değer, kalite yönetim araçları altındaki sayfa bilgilerinde görüntülenir."
 }

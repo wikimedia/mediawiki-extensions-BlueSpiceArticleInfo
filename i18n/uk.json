@@ -3,7 +3,8 @@
 		"authors": [
 			"Base",
 			"Piramidion",
-			"Ата"
+			"Ата",
+			"Alexander Yukal"
 		]
 	},
 	"bs-articleinfo-desc": "Надає інформацію про сторінку у рядку стану",
@@ -22,5 +23,6 @@
 	"bs-articleinfo-flyout-subpages-title": "Підсторінки",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Підсторінки",
 	"bs-articleinfo-dialog-subpages-title": "Підсторінки",
-	"bs-articleinfo-newrevision-info-text-reload": "Доступна нова версія цієї сторінки. Будь ласка, [[:$1|перезавантажте]] сторінку, щоб переглянути її поточний вміст."
+	"bs-articleinfo-newrevision-info-text-reload": "Доступна нова версія цієї сторінки. Будь ласка, [[:$1|перезавантажте]] сторінку, щоб переглянути її поточний вміст.",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Задає частоту оновлення для значення \"Last edit\". Це значення відображається на сторінці інформації під інструментом управління якістю."
 }
