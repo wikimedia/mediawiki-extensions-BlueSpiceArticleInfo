@@ -20,5 +20,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "En ny versjon av siden er tilgjengelig. [[:$1|Last siden på nytt]] for å vise det nåværende innholdet.",
 	"bs-articleinfo-flyout-subpages-title": "Undersider",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Undersider",
-	"bs-articleinfo-dialog-subpages-title": "Undersider"
+	"bs-articleinfo-dialog-subpages-title": "Undersider",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Setter oppdateringsraten for verdien «Siste redigering». Denne verdien vises under sideinformasjon under kvalitetsbehandlingsverktøyene."
 }
