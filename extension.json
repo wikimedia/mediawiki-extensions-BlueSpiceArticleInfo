@@ -87,15 +87,9 @@
 		"remoteExtPath": "BlueSpiceArticleInfo/resources"
 	},
 	"Hooks": {
-		"SkinTemplateOutputPageBeforeExec": [
-			"\\BlueSpice\\ArticleInfo\\Hook\\SkinTemplateOutputPageBeforeExec\\AddFlyout::callback"
-		],
-		"BeforePageDisplay": [
-			"\\BlueSpice\\ArticleInfo\\Hook\\BeforePageDisplay\\AddModules::callback"
-		],
-		"BsAdapterAjaxPingResult": [
-			"\\BlueSpice\\ArticleInfo\\Hook\\BsAdapterAjaxPingResult\\HandleArticleInfo::callback"
-		]
+		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ArticleInfo\\Hook\\SkinTemplateOutputPageBeforeExec\\AddFlyout::callback",
+		"BeforePageDisplay": "\\BlueSpice\\ArticleInfo\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"BsAdapterAjaxPingResult": "\\BlueSpice\\ArticleInfo\\Hook\\BsAdapterAjaxPingResult\\HandleArticleInfo::callback"
 	},
 	"load_composer_autoloader": true,
 	"manifest_version": 2
