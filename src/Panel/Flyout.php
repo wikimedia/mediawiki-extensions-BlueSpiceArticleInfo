@@ -229,7 +229,7 @@ class Flyout extends BasePanel implements IFlyout {
 			return false;
 		}
 
-		$userHelper = Services::getInstance()->getBSUtilityFactory()
+		$userHelper = Services::getInstance()->getService( 'BSUtilityFactory' )
 			->getUserHelper( $lastEditor );
 
 		return \FormatJson::encode( [
