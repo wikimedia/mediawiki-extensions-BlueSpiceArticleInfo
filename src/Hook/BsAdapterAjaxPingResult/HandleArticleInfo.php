@@ -28,7 +28,9 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 			return true;
 		}
 
-		if ( !$this->title->userCan( 'read' ) ) {
+		if ( !\MediaWiki\MediaWikiServices::getInstance()
+			->getPermissionManager()
+			->userCan( 'read', $this->getContext()->getUser(), $this->title ) ) {
 			return true;
 		}
 

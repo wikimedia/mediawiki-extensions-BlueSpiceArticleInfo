@@ -16,7 +16,9 @@ class AddFlyout extends SkinTemplateOutputPageBeforeExec {
 			) {
 			return true;
 		}
-		if ( $title->userCan( 'read' ) === false ) {
+		if ( \MediaWiki\MediaWikiServices::getInstance()
+			->getPermissionManager()
+			->userCan( 'read', $this->skin->getSkin()->getUser(), $title ) === false ) {
 			return true;
 		}
 		return false;

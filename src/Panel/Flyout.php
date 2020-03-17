@@ -108,11 +108,12 @@ class Flyout extends BasePanel implements IFlyout {
 			$data['template-links'] = $templateLinks;
 		}
 
-		$data['has-subpages'] =
-			$this->skintemplate->getSkin()->getTitle()->hasSubpages();
+		$skin = $this->skintemplate->getSkin();
+		$data['has-subpages'] = $skin->getTitle()->hasSubpages();
 
-		$data['user-can-edit'] =
-			$this->skintemplate->getSkin()->getTitle()->userCan( 'edit' );
+		$data['user-can-edit'] = \MediaWiki\MediaWikiServices::getInstance()
+			->getPermissionManager()
+			->userCan( 'edit', $skin->getUser(), $skin->getTitle() );
 
 		return $data;
 	}
