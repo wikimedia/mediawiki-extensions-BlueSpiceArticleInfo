@@ -221,11 +221,16 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected function getLastEditedUser() {
 		$article = $this->getArticle();
-		if ( $article instanceof \Article === false || $article->getUserText() == '' ) {
+		if ( $article instanceof \Article === false ) {
 			return false;
 		}
 
-		$lastEditor = \User::newFromName( $article->getUserText() );
+		$userText = $article->getPage()->getUserText();
+		if ( $userText == '' ) {
+			return false;
+		}
+
+		$lastEditor = \User::newFromName( $userText );
 		if ( $lastEditor instanceof \User === false ) {
 			return false;
 		}
