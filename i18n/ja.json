@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki",
 			"2nd-player",
-			"Aefgh39622"
+			"Aefgh39622",
+			"Shirayuki"
 		]
 	},
 	"bs-articleinfo-desc": "ステータス バーにページについての情報を提供する",

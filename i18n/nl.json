@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Niknetniko",
-			"Sjoerddebruin",
+			"Mainframe98",
 			"McDutchie",
+			"Niknetniko",
 			"Ribert",
-			"Siebrand",
 			"SPQRobin",
-			"Mainframe98"
+			"Siebrand",
+			"Sjoerddebruin"
 		]
 	},
 	"bs-articleinfo-desc": "Geeft informatie over een pagina in een statusbalk",

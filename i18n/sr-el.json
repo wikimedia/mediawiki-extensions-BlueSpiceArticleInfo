@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-articleinfo-desc": "Pruža informacije o stranici u statusnoj traci",
 	"prefs-articleinfo": "Informacije o stranici",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Interval ažuriranja u sekundama:",

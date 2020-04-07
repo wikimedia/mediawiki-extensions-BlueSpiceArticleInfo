@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Banjo",
 			"Elisardojm",
-			"Toliño",
-			"Banjo"
+			"Toliño"
 		]
 	},
 	"bs-articleinfo-desc": "Proporciona información sobre unha páxina na barra de estado",

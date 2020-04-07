@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Metalhead64",
 			"Sebastian Wallroth",
-			"Metalhead64"
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-articleinfo-desc": "Zeigt Informationen über einen Artikel in der Statusleiste an",

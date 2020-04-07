@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Wiochman",
-			"DeRudySoulStorm",
 			"CiaPan",
-			"Rail"
+			"DeRudySoulStorm",
+			"Rail",
+			"Wiochman"
 		]
 	},
 	"bs-articleinfo-desc": "Udostępnia informacje o stronie w pasku stanu",
