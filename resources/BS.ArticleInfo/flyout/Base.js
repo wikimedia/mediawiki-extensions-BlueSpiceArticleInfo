@@ -9,21 +9,30 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 	pageCategoryLinks: {},
 	templateLinks: {},
 	initComponent: function() {
-		var me = this;
 		this.allItems = this.makeItems();
 		for( let i = 0; i < this.makeItemCallbacks.length; i++ ) {
 			var callback = this.makeItemCallbacks[i];
-			var newItems = bs.util.runCallback( callback, [ this, this.basicData ], this );
-			$.each( newItems, function( key, items ) {
-				if( me.allItems[key] ) {
-					me.allItems[key] = $.merge( me.allItems[key], items );
-				} else {
-					me.allItems[key] = items;
-				}
-			} );
+			var response = bs.util.runCallback( callback, [ this, this.basicData ], this );
+			if ( response && typeof response.then === 'function' ) {
+				response.done( function( newItems ) {
+					this.addNewItems( newItems );
+				}.bind( this ) )
+			} else {
+				this.addNewItems( response );
+			}
 		}
 
 		this.callParent(arguments);
+	},
+	addNewItems: function( newItems ) {
+		var me = this;
+		$.each( newItems, function( key, items ) {
+			if( me.allItems[key] ) {
+				me.allItems[key] = $.merge( me.allItems[key], items );
+			} else {
+				me.allItems[key] = items;
+			}
+		} );
 	},
 	makeCenterTwoItems: function() {
 		var items = this.allItems.centerRight || [];
