@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92",
-			"Verdy p",
+			"Eneelk",
 			"Gomoko",
 			"Jhammock",
 			"Thibaut120094",
-			"Eneelk"
+			"Verdy p",
+			"Wladek92"
 		]
 	},
 	"bs-articleinfo-desc": "Fournit des informations sur une page dans la barre d’état",

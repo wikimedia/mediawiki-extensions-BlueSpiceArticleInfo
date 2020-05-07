@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
+			"Alexander Yukal",
 			"Kaganer",
-			"Putnik",
-			"Vlad5250",
-			"Romanko Mikhail",
 			"Movses",
-			"Alexander Yukal"
+			"Okras",
+			"Putnik",
+			"Romanko Mikhail",
+			"Vlad5250"
 		]
 	},
 	"bs-articleinfo-desc": "Предоставляет сведения о странице в строке состояния",

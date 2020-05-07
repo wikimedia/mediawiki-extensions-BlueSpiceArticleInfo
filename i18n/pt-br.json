@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Luckas",
+			"Eduardo Addad de Oliveira",
 			"Felipe L. Ewald",
-			"Eduardo Addad de Oliveira"
+			"Luckas"
 		]
 	},
 	"bs-articleinfo-desc": "Fornece informação sobre uma página na barra de status",

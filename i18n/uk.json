@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Alexander Yukal",
 			"Base",
 			"Piramidion",
-			"Ата",
-			"Alexander Yukal"
+			"Ата"
 		]
 	},
 	"bs-articleinfo-desc": "Надає інформацію про сторінку у рядку стану",

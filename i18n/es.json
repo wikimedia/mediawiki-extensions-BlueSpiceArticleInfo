@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido",
-			"Mcervera",
-			"MarcoAurelio",
 			"Astroemi",
-			"Carlosmg.dg"
+			"Carlosmg.dg",
+			"Fitoschido",
+			"MarcoAurelio",
+			"Mcervera"
 		]
 	},
 	"bs-articleinfo-desc": "Proporciona información sobre una página en la barra de estado",
