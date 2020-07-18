@@ -7,6 +7,7 @@ use BlueSpice\Calumma\Panel\BasePanel;
 use BlueSpice\Services;
 use Message;
 use QuickTemplate;
+use WikiPage;
 
 class Flyout extends BasePanel implements IFlyout {
 	/**
@@ -39,6 +40,11 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @var \Article
 	 */
 	protected $article;
+
+	/**
+	 * @var WikiPage
+	 */
+	protected $wikiPage;
 
 	/**
 	 *
@@ -170,14 +176,27 @@ class Flyout extends BasePanel implements IFlyout {
 	}
 
 	/**
-	 *
+	 * DEPRECATED
+	 * @deprecated since version 3.3.0 - use $this->getWikiPage() instead
 	 * @return \Article
 	 */
 	protected function getArticle() {
+		wfDebugLog( 'bluespice-deprecations', __METHOD__, 'private' );
 		if ( $this->article === null ) {
 			$this->article = \Article::newFromID( $this->title->getArticleID() );
 		}
 		return $this->article;
+	}
+
+	/**
+	 *
+	 * @return WikiPage
+	 */
+	protected function getWikiPage() {
+		if ( $this->wikiPage === null ) {
+			$this->wikiPage = WikiPage::factory( $this->title );
+		}
+		return $this->wikiPage;
 	}
 
 	/**
@@ -186,10 +205,10 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @return string|false if cannot be retrieved
 	 */
 	protected function getLastEditedTime() {
-		$article = $this->getArticle();
+		$article = $this->getWikiPage();
 		$oldId = $this->skintemplate->getSkin()->getRequest()->getInt( 'oldid', 0 );
 
-		if ( $article instanceof \Article == false ) {
+		if ( !$article instanceof WikiPage ) {
 			return false;
 		}
 
@@ -220,12 +239,12 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @return string|false if cannot be retrieved
 	 */
 	protected function getLastEditedUser() {
-		$article = $this->getArticle();
-		if ( $article instanceof \Article === false ) {
+		$article = $this->getWikiPage();
+		if ( !$article instanceof WikiPage ) {
 			return false;
 		}
 
-		$userText = $article->getPage()->getUserText();
+		$userText = $article->getUserText();
 		if ( $userText == '' ) {
 			return false;
 		}
