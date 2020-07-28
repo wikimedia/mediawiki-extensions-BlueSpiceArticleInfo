@@ -1,12 +1,12 @@
 <?php
 
-namespace BlueSpice\ArticleInfo\Hook\SkinTemplateOutputPageBeforeExec;
+namespace BlueSpice\ArticleInfo\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 
 use BlueSpice\ArticleInfo\Panel\Flyout;
-use BlueSpice\Hook\SkinTemplateOutputPageBeforeExec;
+use BlueSpice\Calumma\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 use BlueSpice\SkinData;
 
-class AddFlyout extends SkinTemplateOutputPageBeforeExec {
+class AddFlyout extends ChameleonSkinTemplateOutputPageBeforeExec {
 	protected function skipProcessing() {
 		$title = $this->skin->getSkin()->getTitle();
 		if ( !$title instanceof \Title
