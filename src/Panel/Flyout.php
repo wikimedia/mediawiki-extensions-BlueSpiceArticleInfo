@@ -4,7 +4,7 @@ namespace BlueSpice\ArticleInfo\Panel;
 
 use BlueSpice\Calumma\IFlyout;
 use BlueSpice\Calumma\Panel\BasePanel;
-use BlueSpice\Services;
+use MediaWiki\MediaWikiServices;
 use Message;
 use QuickTemplate;
 use WikiPage;
@@ -117,7 +117,7 @@ class Flyout extends BasePanel implements IFlyout {
 		$skin = $this->skintemplate->getSkin();
 		$data['has-subpages'] = $skin->getTitle()->hasSubpages();
 
-		$data['user-can-edit'] = \MediaWiki\MediaWikiServices::getInstance()
+		$data['user-can-edit'] = MediaWikiServices::getInstance()
 			->getPermissionManager()
 			->userCan( 'edit', $skin->getUser(), $skin->getTitle() );
 
@@ -170,7 +170,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected function getRevisionStore() {
 		if ( $this->revisionStore === null ) {
-			$this->revisionStore = Services::getInstance()->getRevisionStore();
+			$this->revisionStore = MediaWikiServices::getInstance()->getRevisionStore();
 		}
 		return $this->revisionStore;
 	}
@@ -254,7 +254,7 @@ class Flyout extends BasePanel implements IFlyout {
 			return false;
 		}
 
-		$userHelper = Services::getInstance()->getService( 'BSUtilityFactory' )
+		$userHelper = MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
 			->getUserHelper( $lastEditor );
 
 		return \FormatJson::encode( [
@@ -301,7 +301,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 * @return string
 	 */
 	protected function getTemplateLinks() {
-		$linkRenderer = Services::getInstance()->getLinkRenderer();
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 		$templateTitles = $this->title->getTemplateLinksFrom();
 
 		$templateLinks = [];
