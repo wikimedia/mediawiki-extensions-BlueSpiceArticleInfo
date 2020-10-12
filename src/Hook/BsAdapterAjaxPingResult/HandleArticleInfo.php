@@ -3,7 +3,7 @@
 namespace BlueSpice\ArticleInfo\Hook\BsAdapterAjaxPingResult;
 
 use BlueSpice\Hook\BsAdapterAjaxPingResult;
-use Revision;
+use MediaWiki\MediaWikiServices;
 use Title;
 
 class HandleArticleInfo extends BsAdapterAjaxPingResult {
@@ -73,9 +73,10 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 		if ( $user->isAnon() ) {
 			return false;
 		}
-
-		$revision = Revision::newFromId( $this->revisionId );
-		if ( $revision->getUserText() !== $user->getName() ) {
+		$revision = MediaWikiServices::getInstance()->getRevisionLookup()->getRevisionById(
+			$this->revisionId
+		);
+		if ( $revision->getUser()->getName() !== $user->getName() ) {
 			return false;
 		}
 
