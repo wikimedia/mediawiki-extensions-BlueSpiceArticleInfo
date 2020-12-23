@@ -104,16 +104,6 @@ class Flyout extends BasePanel implements IFlyout {
 			$data['last-edited-user'] = $lastEditor;
 		}
 
-		$categoryLinks = $this->getCategoryLinks();
-		if ( $categoryLinks ) {
-			$data['category-links'] = $categoryLinks;
-		}
-
-		$templateLinks = $this->getTemplateLinks();
-		if ( $templateLinks ) {
-			$data['template-links'] = $templateLinks;
-		}
-
 		$skin = $this->skintemplate->getSkin();
 		$data['has-subpages'] = $skin->getTitle()->hasSubpages();
 
@@ -261,56 +251,5 @@ class Flyout extends BasePanel implements IFlyout {
 			'userText' => $userHelper->getDisplayName(),
 			'url' => $lastEditor->getUserPage()->getFullURL()
 		] );
-	}
-
-	/**
-	 * Gets all categories of the page
-	 * @return string
-	 */
-	protected function getCategoryLinks() {
-		$allPageCategoryLinks = $this->skintemplate->getSkin()->getOutput()->getCategoryLinks();
-
-		$pageCategoryLinks = [];
-		if ( isset( $allPageCategoryLinks['normal'] ) ) {
-			$pageCategoryLinks = $allPageCategoryLinks['normal'];
-		}
-
-		if ( $this->skintemplate->getSkin()->getUser()->getBoolOption( 'showhiddencats' ) ) {
-			if ( isset( $allPageCategoryLinks['hidden'] ) ) {
-				$pageCategoryLinks = array_merge(
-					$pageCategoryLinks,
-					$allPageCategoryLinks['hidden']
-				);
-			}
-		}
-
-		// This is just so that the ExtJS store can handle it more easily
-		$keyedCategoryLinks = [];
-		foreach ( $pageCategoryLinks as $categoryLink ) {
-			$keyedCategoryLinks[] = [
-				'category_anchor' => $categoryLink,
-				'class' => 'pill'
-			];
-		}
-
-		return \FormatJson::encode( $keyedCategoryLinks );
-	}
-
-	/**
-	 *
-	 * @return string
-	 */
-	protected function getTemplateLinks() {
-		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
-		$templateTitles = $this->title->getTemplateLinksFrom();
-
-		$templateLinks = [];
-		foreach ( $templateTitles as $title ) {
-			$templateLinks[] = [
-				'template_anchor' => $linkRenderer->makeLink( $title, $title->getText() )
-			];
-		}
-
-		return \FormatJson::encode( $templateLinks );
 	}
 }
