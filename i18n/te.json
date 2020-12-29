@@ -11,5 +11,8 @@
 	"bs-articleinfo-pref-CheckRevisionInterval": "అంతరాన్ని ఇన్ని సెకండ్లలో తాజాకరించు:",
 	"bs-articleinfo-flyout-title": "పేజీ సమాచారం",
 	"bs-articleinfo-nav-link-title": "పేజీ సమాచారం",
-	"bs-articleinfo-flyout-categorylinks-title": "వర్గాలు"
+	"bs-articleinfo-flyout-categorylinks-title": "వర్గాలు",
+	"bs-articleinfo-flyout-subpages-title": "ఉపపేజీలు",
+	"bs-articleinfo-pagetool-subpages-tooltip": "ఉపపేజీలు",
+	"bs-articleinfo-dialog-subpages-title": "ఉపపేజీలు"
 }
