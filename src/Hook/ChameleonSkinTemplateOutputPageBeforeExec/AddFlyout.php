@@ -3,7 +3,7 @@
 namespace BlueSpice\ArticleInfo\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 
 use BlueSpice\ArticleInfo\Panel\Flyout;
-use BlueSpice\Calumma\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
+use BlueSpice\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 use BlueSpice\SkinData;
 
 class AddFlyout extends ChameleonSkinTemplateOutputPageBeforeExec {
