@@ -20,5 +20,6 @@
 	"bs-articleinfo-flyout-subpages-title": "Sottepàggene",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopàggene",
 	"bs-articleinfo-dialog-subpages-title": "Sottopàggene",
-	"bs-articleinfo-newrevision-info-text-reload": "Jè disponibbele 'na versiona nove de sta pàgene. [[:$1|Recareche]] 'a pàgene pe 'ndrucà 'u condenute de mò."
+	"bs-articleinfo-newrevision-info-text-reload": "Jè disponibbele 'na versiona nove de sta pàgene. [[:$1|Recareche]] 'a pàgene pe 'ndrucà 'u condenute de mò.",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "'Mboste 'a velocetà de aggiornamende p'u valore \"Urteme cangiamende\". Stu valore jè 'ndrucate sus a le 'mbormaziune d'a pàgene sotte a le struminde de gestione d'a qualitate."
 }

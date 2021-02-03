@@ -20,5 +20,6 @@
 	"bs-articleinfo-flyout-subpages-title": "Subpáxines",
 	"bs-articleinfo-newrevision-info-text-reload": "Ta disponible una versión nueva d'esta páxina. [[:$1|Recarga]] la páxina pa ver el conteníu actual.",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáxines",
-	"bs-articleinfo-dialog-subpages-title": "Subpáxines"
+	"bs-articleinfo-dialog-subpages-title": "Subpáxines",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Configura la tasa de refrescu del valor de \"Última edición\". Esti valor apaez na información de la páxina baxo les ferramientes d'alministración de la calidá."
 }

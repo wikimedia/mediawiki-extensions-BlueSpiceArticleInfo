@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Imperadeiro98",
 			"Fúlvio",
 			"Hamilton Abreu",
+			"Imperadeiro98",
 			"Ldacosta",
 			"Vitorvicentevalente"
 		]
@@ -24,5 +24,6 @@
 	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
 	"bs-articleinfo-dialog-subpages-title": "Subpáginas",
-	"bs-articleinfo-newrevision-info-text-reload": "Está disponível uma nova versão desta página. [[:$1|Recarregue]] a página para ver o conteúdo atual, por favor."
+	"bs-articleinfo-newrevision-info-text-reload": "Está disponível uma nova versão desta página. [[:$1|Recarregue]] a página para ver o conteúdo atual, por favor.",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Define a taxa de atualização para o valor \"Última edição\". Este valor é apresentado nas informações da página, nas ferramentas de gestão da qualidade."
 }

@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Test Create account",
-			"محمد أحمد عبد الفتاح",
 			"Mido",
-			"ديفيد"
+			"Test Create account",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"bs-articleinfo-desc": "يوفر معلومات حول صفحة في شريط الحالة",
