@@ -37,7 +37,7 @@
 		]
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\ArticleInfo\\" : "src/"
+		"BlueSpice\\ArticleInfo\\": "src/"
 	},
 	"config_prefix": "bsg",
 	"config": {
