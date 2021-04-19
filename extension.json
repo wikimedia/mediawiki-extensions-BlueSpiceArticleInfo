@@ -20,11 +20,11 @@
 			"Extensions": {
 				"BlueSpiceArticleInfo": {
 					"className": "\\BlueSpice\\ArticleInfo\\Extension",
-					"extPath": "/BlueSpiceArticleInfo",
-					"configDefinitions": {
-						"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
-					}
+					"extPath": "/BlueSpiceArticleInfo"
 				}
+			},
+			"ConfigDefinitionRegistry": {
+				"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
 			}
 		},
 		"BlueSpiceArticleInfo": {
