@@ -88,21 +88,21 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 			);
 		}
 
-		var leftItems = [
+		leftItems = [
 			Ext.create( 'BS.ArticleInfo.panel.LinkList', {
-				linkList: this.pageCategoryLinks,
-				storeField: 'category_anchor',
-				title: mw.message( 'bs-articleinfo-flyout-categorylinks-title' ).plain(),
-				emptyText: mw.message( 'bs-articleinfo-flyout-categorylinks-emptytext' ).plain(),
-				cls: 'bs-articleinfo-flyout-categorylist-cnt',
+				apiAction: 'bs-templatelinks-store',
+				storeField: 'template_link',
+				title: mw.message( 'bs-articleinfo-flyout-templatelinks-title' ).plain(),
+				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emptytext' ).plain(),
+				cls: 'bs-articleinfo-flyout-templatelinks-cnt',
 				listType: 'pills'
 			} ),
 			Ext.create( 'BS.ArticleInfo.panel.LinkList', {
-				linkList: this.templateLinks,
-				storeField: 'template_anchor',
-				title: mw.message( 'bs-articleinfo-flyout-templatelinks-title' ).plain(),
-				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emptytext' ).plain(),
-				cls: 'bs-articleinfo-flyout-templatelist-cnt',
+				apiAction: 'bs-categorylinks-store',
+				storeField: 'category_link',
+				title: mw.message( 'bs-articleinfo-flyout-categorylinks-title' ).plain(),
+				emptyText: mw.message( 'bs-articleinfo-flyout-categorylinks-emptytext' ).plain(),
+				cls: 'bs-articleinfo-flyout-categorylinks-cnt',
 				listType: 'pills'
 			} )
 		];
