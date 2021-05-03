@@ -30,7 +30,7 @@ class AddFlyout extends ChameleonSkinTemplateOutputPageBeforeExec {
 			[
 				'articleinfo' => [
 					'position' => 5,
-					'callback' => function ( $sktemplate ) {
+					'callback' => static function ( $sktemplate ) {
 						return new Flyout( $sktemplate );
 					}
 				]
