@@ -5,7 +5,8 @@
 			"Carlosmg.dg",
 			"Fitoschido",
 			"MarcoAurelio",
-			"Mcervera"
+			"Mcervera",
+			"Rodney Araujo"
 		]
 	},
 	"bs-articleinfo-desc": "Proporciona información sobre una página en la barra de estado",
@@ -22,5 +23,6 @@
 	"bs-articleinfo-newrevision-info-text": "Hay una versión nueva de esta página. Vuelve a cargarla para ver el contenido más reciente.",
 	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
-	"bs-articleinfo-dialog-subpages-title": "Subpáginas"
+	"bs-articleinfo-dialog-subpages-title": "Subpáginas",
+	"bs-articleinfo-newrevision-info-text-reload": "Hay una versión nueva disponible de esta página. Por favor, [[:$1|vuelve a cargarla]] para ver el contenido más reciente."
 }
