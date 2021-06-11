@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jakub Fabijan",
 			"Mirin",
 			"Zarisi"
 		]
@@ -12,5 +13,6 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "Lasta redakto",
 	"bs-articleinfo-flyout-subpages-title": "Subpaĝoj",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpaĝoj",
-	"bs-articleinfo-dialog-subpages-title": "Subpaĝoj"
+	"bs-articleinfo-dialog-subpages-title": "Subpaĝoj",
+	"bs-articleinfo-flyout-lastediteduser-text": "Lasta redaktanto"
 }

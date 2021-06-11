@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"CoderSI"
+			"CoderSI",
+			"Malikxan"
 		]
 	},
-	"bs-articleinfo-last-edited-tooltip": "Oxirgi tahrir"
+	"bs-articleinfo-last-edited-tooltip": "Oxirgi tahrir",
+	"prefs-articleinfo": "Sahifa haqida maʼlumot",
+	"bs-articleinfo-flyout-title": "Sahifa haqida maʼlumot",
+	"bs-articleinfo-nav-link-title": "Sahifa haqida maʼlumot"
 }

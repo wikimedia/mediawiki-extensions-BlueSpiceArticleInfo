@@ -4,6 +4,7 @@
 			"Alirezaaa",
 			"Amirsara",
 			"FarsiNevis",
+			"Jeeputer",
 			"Rtemis"
 		]
 	},
@@ -21,5 +22,8 @@
 	"bs-articleinfo-newrevision-info-text-reload": "نسخهٔ تازه‌ای از این صفحه موجود است. لطفاً برای مشاهدهٔ محتوای نسخهٔ کنونی آن، صفحه را از نو [[:$1|بارگیری کنید]].",
 	"bs-articleinfo-flyout-subpages-title": "زیرصفحه‌ها",
 	"bs-articleinfo-pagetool-subpages-tooltip": "زیرصفحه‌ها",
-	"bs-articleinfo-dialog-subpages-title": "زیرصفحه‌ها"
+	"bs-articleinfo-dialog-subpages-title": "زیرصفحه‌ها",
+	"bs-articleinfo-flyout-intro": "در اینجا می‌توانید اطلاعات مربوط به صفحه را بیابید. می‌توانید کیفیت و به‌روز بودن آن را بررسی کنید و چگونگی ارتباط آن با سایر صفحه‌ها در این ویکی را ببینید.",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "هیچ رده‌ای معین نشده‌است",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "نرخ تازه‌سازی مقدار «آخرین ویرایش» را تنظیم می‌کند. این مقدار در اطلاعات صفحه زیر ابزارهای مدیریت کیفیت نمایش داده می‌شود."
 }
