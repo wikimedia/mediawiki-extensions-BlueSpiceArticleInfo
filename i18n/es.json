@@ -6,7 +6,8 @@
 			"Fitoschido",
 			"MarcoAurelio",
 			"Mcervera",
-			"Rodney Araujo"
+			"Rodney Araujo",
+			"Warming Hearth"
 		]
 	},
 	"bs-articleinfo-desc": "Proporciona información sobre una página en la barra de estado",
@@ -24,5 +25,7 @@
 	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
 	"bs-articleinfo-dialog-subpages-title": "Subpáginas",
-	"bs-articleinfo-newrevision-info-text-reload": "Hay una versión nueva disponible de esta página. Por favor, [[:$1|vuelve a cargarla]] para ver el contenido más reciente."
+	"bs-articleinfo-newrevision-info-text-reload": "Hay una versión nueva disponible de esta página. Por favor, [[:$1|vuelve a cargarla]] para ver el contenido más reciente.",
+	"bs-articleinfo-flyout-intro": "Aquí encuentras información relacionada con la página. Puedes comprobar su calidad y si está actualizada, y ver como se compara con otras páginas de la wiki.",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Fija el ratio de recarga para el valor \"Última edición\". Este valor se muestra en la información de la página debajo de las herramientas para el control de calidad."
 }
