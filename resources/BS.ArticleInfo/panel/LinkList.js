@@ -18,7 +18,11 @@ Ext.define( 'BS.ArticleInfo.panel.LinkList', {
 					"property": "page_id",
 					"value": mw.config.get( 'wgArticleId' )
 				} ],
-				limit: -1,
+				proxy: {
+					extraParams: {
+						limit: -1,
+					}
+				},
 				autoLoad: false
 			} );
 		} else {
