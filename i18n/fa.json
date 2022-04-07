@@ -3,6 +3,7 @@
 		"authors": [
 			"Alirezaaa",
 			"Amirsara",
+			"Beginneruser",
 			"FarsiNevis",
 			"Jeeputer",
 			"Rtemis"
@@ -10,7 +11,7 @@
 	},
 	"bs-articleinfo-desc": " اطلاعاتی را درباره یک صفحه در نوار وضعیت نشان می‌دهد",
 	"prefs-articleinfo": "اطلاعات صفحه",
-	"bs-articleinfo-pref-CheckRevisionInterval": "بازهٔ روزآمدسازی بر حسب ثانیه:",
+	"bs-articleinfo-pref-CheckRevisionInterval": "بازهٔ به‌روزرسانی بر حسب ثانیه:",
 	"bs-articleinfo-flyout-title": "اطلاعات صفحه",
 	"bs-articleinfo-flyout-intro": "در اینجا می‌توانید اطلاعات مربوط به صفحه را بیابید. می‌توانید کیفیت و به‌روز بودن آن را بررسی کنید و چگونگی ارتباط آن با سایر صفحه‌ها در این ویکی را ببینید.",
 	"bs-articleinfo-nav-link-title": "اطلاعات صفحه",
