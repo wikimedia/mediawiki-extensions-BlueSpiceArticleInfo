@@ -32,7 +32,7 @@ class Flyout extends BasePanel implements IFlyout {
 	protected $title;
 
 	/**
-	 * @var \MediaWiki\Storage\RevisionStore
+	 * @var \MediaWiki\Revision\RevisionStore
 	 */
 	protected $revisionStore;
 
@@ -156,7 +156,7 @@ class Flyout extends BasePanel implements IFlyout {
 
 	/**
 	 *
-	 * @return \MediaWiki\Storage\RevisionStore
+	 * @return \MediaWiki\Revision\RevisionStore
 	 */
 	protected function getRevisionStore() {
 		if ( $this->revisionStore === null ) {
