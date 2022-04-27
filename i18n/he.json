@@ -6,7 +6,8 @@
 			"Guycn2",
 			"LaG roiL",
 			"איתן96",
-			"ערן"
+			"ערן",
+			"Amire80"
 		]
 	},
 	"bs-articleinfo-desc": "אספקת מידע על דף בשורת המצב",
@@ -21,7 +22,7 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "העריכה האחרונה",
 	"bs-articleinfo-flyout-lastediteduser-text": "העורך האחרון",
 	"bs-articleinfo-newrevision-info-text": "קיימת גרסה חדשה של דף זה. יש לטעון את הדף מחדש כדי לצפות בתוכן העדכני.",
-	"bs-articleinfo-flyout-subpages-title": "דפי משנה",
-	"bs-articleinfo-pagetool-subpages-tooltip": "דפי משנה",
-	"bs-articleinfo-dialog-subpages-title": "דפי משנה"
+	"bs-articleinfo-flyout-subpages-title": "דפי־משנה",
+	"bs-articleinfo-pagetool-subpages-tooltip": "דפי־משנה",
+	"bs-articleinfo-dialog-subpages-title": "דפי־משנה"
 }
