@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Erelon",
+			"Ex-Diktator",
 			"Ghsuvr",
 			"Guycn2",
 			"LaG roiL",
@@ -21,7 +23,10 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "העריכה האחרונה",
 	"bs-articleinfo-flyout-lastediteduser-text": "העורך האחרון",
 	"bs-articleinfo-newrevision-info-text": "קיימת גרסה חדשה של דף זה. יש לטעון את הדף מחדש כדי לצפות בתוכן העדכני.",
-	"bs-articleinfo-flyout-subpages-title": "דפי משנה",
-	"bs-articleinfo-pagetool-subpages-tooltip": "דפי משנה",
-	"bs-articleinfo-dialog-subpages-title": "דפי משנה"
+	"bs-articleinfo-flyout-subpages-title": "דפי־משנה",
+	"bs-articleinfo-pagetool-subpages-tooltip": "דפי־משנה",
+	"bs-articleinfo-dialog-subpages-title": "דפי־משנה",
+	"bs-articleinfo-pref-CheckRevisionInterval": "מרווח עדכון בשניות:",
+	"bs-articleinfo-newrevision-info-text-reload": "זמינה גרסה חדשה של הדף. נא [[:$1|לרענן]] את הדף כדי להציג את התוכן הנוכחי.",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "הגדרת קצב רענון לערך \"העריכה האחרונה\". הערך הזה מוצג במידע על הדף תחת כלי ניהול איכות."
 }
