@@ -184,7 +184,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected function getWikiPage() {
 		if ( $this->wikiPage === null ) {
-			$this->wikiPage = WikiPage::factory( $this->title );
+			$this->wikiPage = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $this->title );
 		}
 		return $this->wikiPage;
 	}
