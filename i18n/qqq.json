@@ -3,7 +3,8 @@
 		"authors": [
 			"Robby",
 			"Shirayuki",
-			"Stephan Muggli <muggli@hallowelt.biz>"
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Verdy p"
 		]
 	},
 	"bs-articleinfo-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of article info extension",
@@ -16,8 +17,8 @@
 	"bs-articleinfo-flyout-templatelinks-title": "Title of the panel showing templates used on the page",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Text displayed if there are no categories assigned to the page",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Text displayed if there are no templates used on the page",
-	"bs-articleinfo-flyout-lasteditedtime-text": "Label of the panel section showing the last time the article was edited",
-	"bs-articleinfo-flyout-lastediteduser-text": "Label of the panel section showing the last editor",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Label of the panel section showing the last time the article was edited.\n{{Identical/Last edit}}",
+	"bs-articleinfo-flyout-lastediteduser-text": "Label of the panel section showing the last editor.\n{{Identical/Last editor}}",
 	"bs-articleinfo-newrevision-info-text": "Message within an alert box, presented to the user when a new page revision is available",
 	"bs-articleinfo-newrevision-info-text-reload": "Message within an alert box, presented to the user when a new page revision is available. Link on the word 'reload'.",
 	"bs-articleinfo-flyout-subpages-title": "Title of the panel showing subpages of the page",

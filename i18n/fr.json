@@ -20,7 +20,7 @@
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Aucune catégorie assignée",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Aucun modèle utilisé",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Dernière modification",
-	"bs-articleinfo-flyout-lastediteduser-text": "Dernier contributeur",
+	"bs-articleinfo-flyout-lastediteduser-text": "Dernier modificateur",
 	"bs-articleinfo-newrevision-info-text": "Il y a une nouvelle version disponible de cette page. Veuillez la recharger pour afficher le nouveau contenu.",
 	"bs-articleinfo-newrevision-info-text-reload": "Il y a une nouvelle version disponible de cette page. Veuillez la [[:$1|recharger]] pour afficher le nouveau contenu.",
 	"bs-articleinfo-flyout-subpages-title": "Sous-pages",
