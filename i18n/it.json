@@ -23,5 +23,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "È disponibile una nuova versione per questa pagina. Si prega di [[:$1|ricaricare]] la pagina per visualizzare il contenuto corrente.",
 	"bs-articleinfo-flyout-subpages-title": "Sottopagine",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopagine",
-	"bs-articleinfo-dialog-subpages-title": "Sottopagine"
+	"bs-articleinfo-dialog-subpages-title": "Sottopagine",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Imposta la frequenza di aggiornamento per il valore \"Ultima modifica\". Questo valore viene visualizzato nelle informazioni della pagina sotto gli strumenti di gestione della qualità."
 }
