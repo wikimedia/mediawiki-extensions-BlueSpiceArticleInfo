@@ -2,14 +2,12 @@
 
 namespace BlueSpice\ArticleInfo\Panel;
 
-use BlueSpice\Calumma\IFlyout;
-use BlueSpice\Calumma\Panel\BasePanel;
 use MediaWiki\MediaWikiServices;
 use Message;
 use QuickTemplate;
 use WikiPage;
 
-class Flyout extends BasePanel implements IFlyout {
+class Flyout {
 	/**
 	 * RL modules that are added by other extensions
 	 * wanting to show their info in this flyout
@@ -46,14 +44,17 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected $wikiPage;
 
+	/** @var MediaWikiServices */
+	protected $services = null;
+
 	/**
 	 *
 	 * @param QuickTemplate $skintemplate
 	 */
 	public function __construct( QuickTemplate $skintemplate ) {
-		parent::__construct( $skintemplate );
 		$this->setForeignModules();
 		$this->title = $skintemplate->getSkin()->getTitle();
+		$this->services = MediaWikiServices::getInstance();
 	}
 
 	/**
@@ -107,8 +108,7 @@ class Flyout extends BasePanel implements IFlyout {
 		$skin = $this->skintemplate->getSkin();
 		$data['has-subpages'] = $skin->getTitle()->hasSubpages();
 
-		$data['user-can-edit'] = MediaWikiServices::getInstance()
-			->getPermissionManager()
+		$data['user-can-edit'] = $this->services->getPermissionManager()
 			->userCan( 'edit', $skin->getUser(), $skin->getTitle() );
 
 		return $data;
@@ -160,7 +160,7 @@ class Flyout extends BasePanel implements IFlyout {
 	 */
 	protected function getRevisionStore() {
 		if ( $this->revisionStore === null ) {
-			$this->revisionStore = MediaWikiServices::getInstance()->getRevisionStore();
+			$this->revisionStore = $this->services->getRevisionStore();
 		}
 		return $this->revisionStore;
 	}
@@ -239,12 +239,12 @@ class Flyout extends BasePanel implements IFlyout {
 			return false;
 		}
 
-		$lastEditor = \User::newFromName( $userText );
+		$lastEditor = $this->services->getUserFactory()->newFromName( $userText );
 		if ( $lastEditor instanceof \User === false ) {
 			return false;
 		}
 
-		$userHelper = MediaWikiServices::getInstance()->getService( 'BSUtilityFactory' )
+		$userHelper = $this->services->getService( 'BSUtilityFactory' )
 			->getUserHelper( $lastEditor );
 
 		return \FormatJson::encode( [
