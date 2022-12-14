@@ -4,7 +4,8 @@
 			"Cwlin0416",
 			"Kly",
 			"LNDDYL",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"捍粵者"
 		]
 	},
 	"bs-articleinfo-desc": "提供有關狀態列中之頁面資訊",
@@ -15,7 +16,7 @@
 	"bs-articleinfo-nav-link-title": "頁面資訊",
 	"bs-articleinfo-flyout-categorylinks-title": "分類",
 	"bs-articleinfo-flyout-templatelinks-title": "使用在頁面的模板",
-	"bs-articleinfo-flyout-categorylinks-emptytext": "沒有分類被分配",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "未分配類別",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "未有使用模板",
 	"bs-articleinfo-flyout-lasteditedtime-text": "最新編輯",
 	"bs-articleinfo-flyout-lastediteduser-text": "最後的編輯者",
