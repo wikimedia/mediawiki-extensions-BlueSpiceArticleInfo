@@ -10,5 +10,7 @@
 	"bs-articleinfo-pref-CheckRevisionInterval": "Interval posodobitev v sekundah:",
 	"bs-articleinfo-flyout-subpages-title": "Podstrani",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Podstrani",
-	"bs-articleinfo-dialog-subpages-title": "Podstrani"
+	"bs-articleinfo-dialog-subpages-title": "Podstrani",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Zadnje urejanje",
+	"bs-articleinfo-flyout-lastediteduser-text": "Zadnji urejevalec"
 }
