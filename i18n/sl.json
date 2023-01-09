@@ -5,7 +5,7 @@
 			"Skalcaa"
 		]
 	},
-	"bs-articleinfo-desc": "Prikazuje informacije o strani v statusni vrstici",
+	"bs-articleinfo-desc": "Prikazuje informacije o strani v vrstici stanja",
 	"prefs-articleinfo": "Podatki o strani",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Interval posodobitev v sekundah:",
 	"bs-articleinfo-flyout-subpages-title": "Podstrani",
