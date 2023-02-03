@@ -4,7 +4,8 @@
 			"2nd-player",
 			"Aefgh39622",
 			"Shirayuki",
-			"カッパ鳥"
+			"カッパ鳥",
+			"背番号4のエース"
 		]
 	},
 	"bs-articleinfo-desc": "ステータス バーにページについての情報を提供する",
@@ -23,5 +24,6 @@
 	"bs-articleinfo-pagetool-subpages-tooltip": "下位ページ",
 	"bs-articleinfo-dialog-subpages-title": "下位ページ",
 	"bs-articleinfo-flyout-intro": "ここには、当該ページに関連する情報が掲載されています。ページの質やその情報が新しいものかを確認したり、ウィキの他のページとの関連性を見ることができます。",
-	"bs-articleinfo-newrevision-info-text-reload": "このページの新しいバージョンが用意されています。現在の内容をご覧になるには、このページを[[:$1|再読み込み]]してください。"
+	"bs-articleinfo-newrevision-info-text-reload": "このページの新しいバージョンが用意されています。現在の内容をご覧になるには、このページを[[:$1|再読み込み]]してください。",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "「最終編集」値のリフレッシュレートを設定します。この値は、品質管理ツールの下のページ情報に表示されます。"
 }
