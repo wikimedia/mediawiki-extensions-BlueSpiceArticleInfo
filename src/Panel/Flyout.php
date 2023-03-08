@@ -44,6 +44,9 @@ class Flyout {
 	 */
 	protected $wikiPage;
 
+	/** @var QuickTemplate */
+	protected $skintemplate = null;
+
 	/** @var MediaWikiServices */
 	protected $services = null;
 
@@ -52,6 +55,7 @@ class Flyout {
 	 * @param QuickTemplate $skintemplate
 	 */
 	public function __construct( QuickTemplate $skintemplate ) {
+		$this->skintemplate = $skintemplate;
 		$this->setForeignModules();
 		$this->title = $skintemplate->getSkin()->getTitle();
 		$this->services = MediaWikiServices::getInstance();
