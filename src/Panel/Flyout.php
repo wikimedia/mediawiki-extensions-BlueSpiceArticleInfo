@@ -131,7 +131,10 @@ class Flyout {
 	 * @return array
 	 */
 	public function getTriggerRLDependencies() {
-		return [ 'ext.bluespice.articleinfo.flyout' ];
+		return [
+			'ext.bluespice.articleinfo.flyout',
+			'ext.bluespice.articleinfo.flyout.styles'
+		];
 	}
 
 	/**
