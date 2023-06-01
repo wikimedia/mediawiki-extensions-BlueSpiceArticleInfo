@@ -20,7 +20,7 @@
 	"bs-articleinfo-flyout-templatelinks-title": "Predloge, uporabljene na strani",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Ni dodeljenih kategorij",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Ni uporabljenih predlog",
-	"bs-articleinfo-newrevision-info-text": "Na voljo je nova različica te strani. Ponovno naložite stran za ogled trenutne vsebine.",
-	"bs-articleinfo-newrevision-info-text-reload": "Na voljo je nova različica te strani. Prosimo, [[:$1|ponovno naložite]] stran za ogled trenutne vsebine.",
+	"bs-articleinfo-newrevision-info-text": "Na voljo je nova različica te strani. Za ogled trenutne vsebine znova naložite stran.",
+	"bs-articleinfo-newrevision-info-text-reload": "Na voljo je nova različica te strani. Za ogled trenutne vsebine [[:$1|znova naložite]] stran.",
 	"bs-articleinfo-pref-checkrevisioninterval-help": "Nastavite hitrost osveževanja za vrednost »Zadnje urejanje«. Ta vrednost je prikazana na informacijah strani pod orodji za upravljanje kakovosti."
 }
