@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pasianssi",
-			"Sau226"
+			"Piano1forte2"
 		]
 	},
 	"bs-articleinfo-nav-link-title": "Page information",
-	"bs-articleinfo-flyout-categorylinks-title": "Categories"
+	"bs-articleinfo-flyout-categorylinks-title": "Categories",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Sets the refresh rate for the 'Last edit' value. This value is displayed on the page information under the quality management tools."
 }
