@@ -93,7 +93,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 				apiAction: 'bs-templatelinks-store',
 				storeField: 'template_link',
 				title: mw.message( 'bs-articleinfo-flyout-templatelinks-title' ).plain(),
-				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emptytext' ).plain(),
+				emptyText: mw.message( 'bs-articleinfo-flyout-templatelinks-emptytext' ).escaped(),
 				cls: 'bs-articleinfo-flyout-templatelist-cnt',
 				listType: 'pills'
 			} ),
@@ -101,7 +101,7 @@ Ext.define( 'BS.ArticleInfo.flyout.Base', {
 				apiAction: 'bs-categorylinks-store',
 				storeField: 'category_link',
 				title: mw.message( 'bs-articleinfo-flyout-categorylinks-title' ).plain(),
-				emptyText: mw.message( 'bs-articleinfo-flyout-categorylinks-emptytext' ).plain(),
+				emptyText: mw.message( 'bs-articleinfo-flyout-categorylinks-emptytext' ).escaped(),
 				cls: 'bs-articleinfo-flyout-categorylist-cnt',
 				listType: 'pills'
 			} )
