@@ -87,7 +87,6 @@
 		"remoteExtPath": "BlueSpiceArticleInfo/resources"
 	},
 	"Hooks": {
-		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ArticleInfo\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddFlyout::callback",
 		"BeforePageDisplay": "\\BlueSpice\\ArticleInfo\\Hook\\BeforePageDisplay\\AddModules::callback",
 		"BsAdapterAjaxPingResult": "\\BlueSpice\\ArticleInfo\\Hook\\BsAdapterAjaxPingResult\\HandleArticleInfo::callback"
 	},
