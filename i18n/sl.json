@@ -14,13 +14,13 @@
 	"bs-articleinfo-flyout-lasteditedtime-text": "Zadnje urejanje",
 	"bs-articleinfo-flyout-lastediteduser-text": "Zadnji urejevalec",
 	"bs-articleinfo-flyout-title": "Informacije o strani",
-	"bs-articleinfo-flyout-intro": "Tu najdete informacije v zvezi s stranjo. Lahko preverite njeno kakovost in ažurnost ter vidite, kako je povezana z drugimi stranmi v vikiju.",
+	"bs-articleinfo-flyout-intro": "Tu najdete informacije v zvezi s stranjo. Lahko preverite njeno kakovost in a\u017eurnost ter vidite, kako je povezana z drugimi stranmi v vikiju.",
 	"bs-articleinfo-nav-link-title": "Informacije o strani",
 	"bs-articleinfo-flyout-categorylinks-title": "Kategorije",
 	"bs-articleinfo-flyout-templatelinks-title": "Predloge, uporabljene na strani",
 	"bs-articleinfo-flyout-categorylinks-emptytext": "Ni dodeljenih kategorij",
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Ni uporabljenih predlog",
-	"bs-articleinfo-newrevision-info-text": "Na voljo je nova različica te strani. Za ogled trenutne vsebine znova naložite stran.",
-	"bs-articleinfo-newrevision-info-text-reload": "Na voljo je nova različica te strani. Za ogled trenutne vsebine [[:$1|znova naložite]] stran.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Nastavite hitrost osveževanja za vrednost »Zadnje urejanje«. Ta vrednost je prikazana na informacijah strani pod orodji za upravljanje kakovosti."
+	"bs-articleinfo-newrevision-info-text": "Na voljo je nova razli\u010dica te strani. Za ogled trenutne vsebine znova nalo\u017eite stran.",
+	"bs-articleinfo-newrevision-info-text-reload": "Na voljo je nova razli\u010dica te strani. Za ogled trenutne vsebine [[:$1|znova nalo\u017eite]] stran.",
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Nastavite hitrost osve\u017eevanja za vrednost \u00bbZadnje urejanje\u00ab. Ta vrednost je prikazana na informacijah strani pod orodji za upravljanje kakovosti."
 }
