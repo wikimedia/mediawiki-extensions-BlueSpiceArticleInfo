@@ -16,7 +16,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "No templates used",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Last edit",
 	"bs-articleinfo-flyout-lastediteduser-text": "Last editor",
-	"bs-articleinfo-newrevision-info-text": "There is a new version of this page available. Please reload the page to view the current content.",
 	"bs-articleinfo-newrevision-info-text-reload": "There is a new version of this page available. Please [[:$1|reload]] the page to view the current content.",
 	"bs-articleinfo-flyout-subpages-title": "Subpages",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpages",
