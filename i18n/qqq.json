@@ -19,7 +19,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Text displayed if there are no templates used on the page",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Label of the panel section showing the last time the article was edited.\n{{Identical/Last edit}}",
 	"bs-articleinfo-flyout-lastediteduser-text": "Label of the panel section showing the last editor.\n{{Identical/Last editor}}",
-	"bs-articleinfo-newrevision-info-text": "Message within an alert box, presented to the user when a new page revision is available",
 	"bs-articleinfo-newrevision-info-text-reload": "Message within an alert box, presented to the user when a new page revision is available. Link on the word 'reload'.",
 	"bs-articleinfo-flyout-subpages-title": "Title of the panel showing subpages of the page",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Tool tip for an icon above the page title. Shows a list tree of subpages",
