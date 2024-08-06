@@ -28,9 +28,18 @@ class HandleArticleInfo extends BsAdapterAjaxPingResult {
 			return true;
 		}
 
-		if ( !\MediaWiki\MediaWikiServices::getInstance()
-			->getPermissionManager()
+		$services = MediaWikiServices::getInstance();
+		if ( !$services->getPermissionManager()
 			->userCan( 'read', $this->getContext()->getUser(), $this->title ) ) {
+			return true;
+		}
+
+		$skip = false;
+		$services->getHookContainer()->run(
+			'BSArticleInfoSkip',
+			[ $this->title, &$skip ]
+		);
+		if ( $skip ) {
 			return true;
 		}
 
