@@ -23,7 +23,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "هیچ الگویی به کار نرفته است",
 	"bs-articleinfo-flyout-lasteditedtime-text": "آخرین ویرایش",
 	"bs-articleinfo-flyout-lastediteduser-text": "آخرین ویرایشگر",
-	"bs-articleinfo-newrevision-info-text": "نسخهٔ تازه‌ای از این صفحه موجود است. لطفاً برای مشاهدهٔ محتوای نسخهٔ کنونی آن، صفحه را از نو بارگیری کنید.",
 	"bs-articleinfo-newrevision-info-text-reload": "نسخهٔ تازه‌ای از این صفحه موجود است. لطفاً برای مشاهدهٔ محتوای نسخهٔ کنونی آن، صفحه را از نو [[:$1|بارگیری کنید]].",
 	"bs-articleinfo-flyout-subpages-title": "زیرصفحه‌ها",
 	"bs-articleinfo-pagetool-subpages-tooltip": "زیرصفحه‌ها",

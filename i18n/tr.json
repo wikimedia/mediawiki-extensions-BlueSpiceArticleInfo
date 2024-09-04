@@ -19,7 +19,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Hiç şablon kullanılmadı",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Son düzenleme",
 	"bs-articleinfo-flyout-lastediteduser-text": "Son düzenleyen",
-	"bs-articleinfo-newrevision-info-text": "Bu sayfanın yeni bir sürümü mevcut. Lütfen mevcut içeriği görüntülemek için sayfayı yeniden yükleyin.",
 	"bs-articleinfo-newrevision-info-text-reload": "Bu sayfanın yeni bir sürümü mevcut. Geçerli içeriği görüntülemek için lütfen sayfayı [[:$1|yeniden yükleyin]].",
 	"bs-articleinfo-flyout-subpages-title": "Alt sayfalar",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Alt sayfalar",

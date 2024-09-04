@@ -18,7 +18,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Ei mallineita käytössä",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Viimeisin muokkaus",
 	"bs-articleinfo-flyout-lastediteduser-text": "Viimeisin muokkaaja",
-	"bs-articleinfo-newrevision-info-text": "Tästä sivusta on uusi versio saatavilla. Päivitä sivu nähdäksesi nykyisen sisällön.",
 	"bs-articleinfo-newrevision-info-text-reload": "Tästä sivusta on uusi versio saatavilla. [[:$1|Päivitä]] sivu nähdäksesi nykyisen sisällön.",
 	"bs-articleinfo-flyout-subpages-title": "Alasivut",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Alasivut",

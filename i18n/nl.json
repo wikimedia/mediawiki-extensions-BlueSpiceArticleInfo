@@ -22,7 +22,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Er worden geen sjablonen gebruikt",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Laatste bewerking",
 	"bs-articleinfo-flyout-lastediteduser-text": "Laatste bewerker",
-	"bs-articleinfo-newrevision-info-text": "Er is een nieuwe versie van deze pagina beschikbaar. Laad de pagina opnieuw om de huidige inhoud te bekijken.",
 	"bs-articleinfo-newrevision-info-text-reload": "Er is een nieuwe versie van deze pagina beschikbaar. [[:$1|Laad de pagina opnieuw]] om de huidige inhoud te bekijken.",
 	"bs-articleinfo-flyout-subpages-title": "Subpagina's",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpagina's",

@@ -17,7 +17,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Ni uporabljenih predlog",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Zadnje urejanje",
 	"bs-articleinfo-flyout-lastediteduser-text": "Zadnji urejevalec",
-	"bs-articleinfo-newrevision-info-text": "Na voljo je nova različica te strani. Za ogled trenutne vsebine znova naložite stran.",
 	"bs-articleinfo-newrevision-info-text-reload": "Na voljo je nova različica te strani. Za ogled trenutne vsebine [[:$1|znova naložite]] stran.",
 	"bs-articleinfo-flyout-subpages-title": "Podstrani",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Podstrani",

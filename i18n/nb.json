@@ -16,7 +16,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Ingen maler brukt",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Siste redigering",
 	"bs-articleinfo-flyout-lastediteduser-text": "Siste bidragsyter",
-	"bs-articleinfo-newrevision-info-text": "En ny versjon av siden er tilgjengelig. Last siden på nytt for å vise det nåværende innholdet.",
 	"bs-articleinfo-newrevision-info-text-reload": "En ny versjon av siden er tilgjengelig. [[:$1|Last siden på nytt]] for å vise det nåværende innholdet.",
 	"bs-articleinfo-flyout-subpages-title": "Undersider",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Undersider",

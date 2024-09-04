@@ -19,7 +19,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Nessun template utilizzato",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Ultima modifica",
 	"bs-articleinfo-flyout-lastediteduser-text": "Ultima modifica",
-	"bs-articleinfo-newrevision-info-text": "È disponibile una nuova versione di questa pagina. Ricarica la pagina per visualizzare il contenuto attuale.",
 	"bs-articleinfo-newrevision-info-text-reload": "È disponibile una nuova versione per questa pagina. Si prega di [[:$1|ricaricare]] la pagina per visualizzare il contenuto corrente.",
 	"bs-articleinfo-flyout-subpages-title": "Sottopagine",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sottopagine",

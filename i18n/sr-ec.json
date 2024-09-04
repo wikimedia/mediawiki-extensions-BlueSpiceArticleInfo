@@ -20,7 +20,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Нема коришћених шаблона",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Последња измена",
 	"bs-articleinfo-flyout-lastediteduser-text": "Последњи уредник",
-	"bs-articleinfo-newrevision-info-text": "Доступна је нова верзија ове странице. Освежите страницу да би сте видели тренутни садржај.",
 	"bs-articleinfo-newrevision-info-text-reload": "Постоји нова верзија ове странице. Молимо [[:$1|освежите]] страницу да би сте видели њен тренутни садржај.",
 	"bs-articleinfo-flyout-subpages-title": "Подстранице",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Подстранице",
