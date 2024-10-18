@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cabal"
+			"Cabal",
+			"Kuldeepburjbhalaike"
 		]
 	},
-	"prefs-articleinfo": "ਵਰਕੇ ਦੀ ਜਾਣਕਾਰੀ",
-	"bs-articleinfo-flyout-title": "ਵਰਕੇ ਦੀ ਜਾਣਕਾਰੀ"
+	"prefs-articleinfo": "ਸਫ਼ਾ ਜਾਣਕਾਰੀ",
+	"bs-articleinfo-flyout-title": "ਸਫ਼ਾ ਜਾਣਕਾਰੀ"
 }
