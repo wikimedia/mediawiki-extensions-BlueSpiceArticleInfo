@@ -26,9 +26,6 @@
 			"ConfigDefinitionRegistry": {
 				"ArticleInfoCheckRevisionInterval": "\\BlueSpice\\ArticleInfo\\ConfigDefinition\\CheckRevisionInterval::getInstance"
 			}
-		},
-		"BlueSpiceArticleInfo": {
-			"FlyoutModules": {}
 		}
 	},
 	"MessagesDirs": {
@@ -55,31 +52,6 @@
 			"dependencies": [
 				"ext.bluespice"
 			]
-		},
-		"ext.bluespice.articleinfo.flyout": {
-			"scripts": "bluespice.articleInfo.flyout.js",
-			"messages": [
-				"bs-articleinfo-flyout-title",
-				"bs-articleinfo-flyout-intro",
-				"bs-articleinfo-nav-link-title",
-				"bs-articleinfo-flyout-categorylinks-title",
-				"bs-articleinfo-flyout-templatelinks-title",
-				"bs-articleinfo-flyout-subpages-title",
-				"bs-articleinfo-flyout-categorylinks-emptytext",
-				"bs-articleinfo-flyout-templatelinks-emptytext",
-				"bs-articleinfo-flyout-lasteditedtime-text",
-				"bs-articleinfo-flyout-lastediteduser-text"
-			],
-			"dependencies": [
-				"ext.bluespice.extjs",
-				"ext.bluespice"
-			]
-		},
-		"ext.bluespice.articleinfo.flyout.styles": {
-			"styles": [
-				"bluespice.articleInfo.flyout.less"
-			],
-			"class": "\\BlueSpice\\ResourceModule\\LessVars"
 		}
 	},
 	"ResourceFileModulePaths": {
