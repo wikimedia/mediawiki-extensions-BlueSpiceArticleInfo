@@ -40,7 +40,7 @@
 	"config": {
 		"ArticleInfoCheckRevisionInterval": {
 			"value": 10,
-			"descriptionmsg": "bs-articleinfo-pref-CheckRevisionInterval",
+			"descriptionmsg": "bs-articleinfo-pref-checkrevisioninterval-label",
 			"public": true
 		}
 	},
