@@ -21,7 +21,7 @@ class CheckRevisionInterval extends \BlueSpice\ConfigDefinition\IntSetting {
 	 * @return string
 	 */
 	public function getLabelMessageKey() {
-		return 'bs-articleinfo-pref-CheckRevisionInterval';
+		return 'bs-articleinfo-pref-checkrevisioninterval-label';
 	}
 
 	/**
@@ -37,6 +37,6 @@ class CheckRevisionInterval extends \BlueSpice\ConfigDefinition\IntSetting {
 	 * @return string
 	 */
 	public function getHelpMessageKey() {
-		return 'bs-articleinfo-pref-checkrevisioninterval-help';
+		return 'bs-articleinfo-pref-checkrevisioninterval-help-label';
 	}
 }
