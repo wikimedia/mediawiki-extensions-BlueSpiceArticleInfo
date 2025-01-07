@@ -9,6 +9,7 @@
 	"bs-articleinfo-desc": "Zeigt Informationen über einen Artikel in der Statusleiste an",
 	"prefs-articleinfo": "Seiteninformationen",
 	"bs-articleinfo-pref-CheckRevisionInterval": "Aktualisierungsintervall in Sekunden",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Aktualisierungsintervall (Sekunden)",
 	"bs-articleinfo-flyout-title": "Seiteninformationen",
 	"bs-articleinfo-flyout-intro": "Hier findest du auf die Seite bezogene Informationen. Du kannst ihre Qualität und Aktualität überprüfen und sehen, wie sie anderen Seiten im Wiki ähnelt.",
 	"bs-articleinfo-nav-link-title": "Seiteninformationen",
@@ -22,5 +23,6 @@
 	"bs-articleinfo-flyout-subpages-title": "Unterseiten",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Unterseiten",
 	"bs-articleinfo-dialog-subpages-title": "Unterseiten",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Legt die Aktualisierungsrate für den Wert \"Letzte Bearbeitung\" fest. Der Wert wird wird auf den Seiteninformationen in den Werkzeugen zum Qualitätsmanagement angezeigt."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Legt die Aktualisierungsrate für den Wert \"Letzte Bearbeitung\" fest. Der Wert wird wird auf den Seiteninformationen in den Werkzeugen zum Qualitätsmanagement angezeigt.",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "Legt fest, wie oft der Wert \"Letzte Bearbeitung\" aktualisiert wird. In jedem Intervall wird die Seite auch auf neue Überarbeitungen geprüft"
 }
