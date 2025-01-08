@@ -4,6 +4,5 @@
 	},
 	"bs-articleinfo-desc": "Pruža informacije o stranici u statusnoj traci",
 	"prefs-articleinfo": "Informacije o stranici",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Interval ažuriranja u sekundama:",
 	"bs-articleinfo-newrevision-info-text-reload": "Postoji nova verzija ove stranice. Molimo [[:$1|osvežite]] stranicu da bi ste videli njen trenutni sadržaj."
 }

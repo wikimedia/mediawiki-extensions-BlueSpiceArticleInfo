@@ -7,7 +7,5 @@
 	},
 	"bs-articleinfo-desc": "Prikazuje informacije o strani v vrstici stanja",
 	"prefs-articleinfo": "Podatki o strani",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Interval posodobitev v sekundah:",
-	"bs-articleinfo-newrevision-info-text-reload": "Na voljo je nova različica te strani. Za ogled trenutne vsebine [[:$1|znova naložite]] stran.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Nastavite hitrost osveževanja za vrednost »Zadnje urejanje«. Ta vrednost je prikazana na informacijah strani pod orodji za upravljanje kakovosti."
+	"bs-articleinfo-newrevision-info-text-reload": "Na voljo je nova različica te strani. Za ogled trenutne vsebine [[:$1|znova naložite]] stran."
 }

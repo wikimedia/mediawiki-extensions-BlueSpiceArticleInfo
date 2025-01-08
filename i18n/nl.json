@@ -12,7 +12,5 @@
 	},
 	"bs-articleinfo-desc": "Geeft informatie over een pagina in een statusbalk",
 	"prefs-articleinfo": "Paginagegevens",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Interval voor bijwerken, in seconden:",
-	"bs-articleinfo-newrevision-info-text-reload": "Er is een nieuwe versie van deze pagina beschikbaar. [[:$1|Laad de pagina opnieuw]] om de huidige inhoud te bekijken.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Stelt de vernieuwingsfrequentie in voor de waarde \"Laatste bewerking\". Deze waarde wordt weergegeven bij de pagina-informatie onder de hulpmiddelen voor kwaliteitsbeheer."
+	"bs-articleinfo-newrevision-info-text-reload": "Er is een nieuwe versie van deze pagina beschikbaar. [[:$1|Laad de pagina opnieuw]] om de huidige inhoud te bekijken."
 }

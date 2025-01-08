@@ -6,7 +6,5 @@
 	},
 	"bs-articleinfo-desc": "Ufre información sobro una páxina na barra d'estáu",
 	"prefs-articleinfo": "Información de la páxina",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalu d'anovamientu en segundos:",
-	"bs-articleinfo-newrevision-info-text-reload": "Ta disponible una versión nueva d'esta páxina. [[:$1|Recarga]] la páxina pa ver el conteníu actual.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Configura la tasa de refrescu del valor de \"Última edición\". Esti valor apaez na información de la páxina baxo les ferramientes d'alministración de la calidá."
+	"bs-articleinfo-newrevision-info-text-reload": "Ta disponible una versión nueva d'esta páxina. [[:$1|Recarga]] la páxina pa ver el conteníu actual."
 }

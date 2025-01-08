@@ -9,7 +9,5 @@
 	},
 	"bs-articleinfo-desc": "Durum çubuğundaki bir sayfa hakkında bilgi sağlar",
 	"prefs-articleinfo": "Sayfa bilgisi",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Saniye cinsinden güncelleme aralığı:",
-	"bs-articleinfo-newrevision-info-text-reload": "Bu sayfanın yeni bir sürümü mevcut. Geçerli içeriği görüntülemek için lütfen sayfayı [[:$1|yeniden yükleyin]].",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "\"Son düzenleme\" değeri için yenileme hızını ayarlar. Bu değer, kalite yönetim araçları altındaki sayfa bilgilerinde görüntülenir."
+	"bs-articleinfo-newrevision-info-text-reload": "Bu sayfanın yeni bir sürümü mevcut. Geçerli içeriği görüntülemek için lütfen sayfayı [[:$1|yeniden yükleyin]]."
 }

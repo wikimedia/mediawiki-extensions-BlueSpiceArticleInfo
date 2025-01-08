@@ -9,7 +9,5 @@
 	},
 	"bs-articleinfo-desc": "Fornisce informazioni sulla pagina nella barra di stato",
 	"prefs-articleinfo": "Informazioni sulla pagina",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Intervallo di aggiornamento in secondi:",
-	"bs-articleinfo-newrevision-info-text-reload": "È disponibile una nuova versione per questa pagina. Si prega di [[:$1|ricaricare]] la pagina per visualizzare il contenuto corrente.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Imposta la frequenza di aggiornamento per il valore \"Ultima modifica\". Questo valore viene visualizzato nelle informazioni della pagina sotto gli strumenti di gestione della qualità."
+	"bs-articleinfo-newrevision-info-text-reload": "È disponibile una nuova versione per questa pagina. Si prega di [[:$1|ricaricare]] la pagina per visualizzare il contenuto corrente."
 }

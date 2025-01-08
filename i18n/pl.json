@@ -11,7 +11,5 @@
 	},
 	"bs-articleinfo-desc": "Udostępnia informacje o stronie w pasku stanu",
 	"prefs-articleinfo": "Informacja o stronie",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Interwał aktualizacji (w sekundach):",
-	"bs-articleinfo-newrevision-info-text-reload": "Dostępna jest nowa wersja tej strony. [[:$1|Załaduj ponownie]] stronę, aby wyświetlić aktualną zawartość.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Określa częstotliwość odświeżania wartości „Ostatnia edycja”. Wartość ta jest wyświetlana w informacjach na stronie w ramach narzędzi zarządzania jakością."
+	"bs-articleinfo-newrevision-info-text-reload": "Dostępna jest nowa wersja tej strony. [[:$1|Załaduj ponownie]] stronę, aby wyświetlić aktualną zawartość."
 }

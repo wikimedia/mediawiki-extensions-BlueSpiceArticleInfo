@@ -6,7 +6,5 @@
 	},
 	"bs-articleinfo-desc": "Cung cấp thông tin về một trang trên thanh trạng thái",
 	"prefs-articleinfo": "Thông tin trang",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Khoảng thời gian cập nhật tính bằng giây:",
-	"bs-articleinfo-newrevision-info-text-reload": "Có phiên bản mới của trang này. Vui lòng [[:$1|tải lại]] trang để xem nội dung hiện tại.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Đặt tốc độ làm mới cho giá trị \"Lần sửa đổi cuối\". Giá trị này được hiển thị trên thông tin trang trong công cụ quản lý chất lượng."
+	"bs-articleinfo-newrevision-info-text-reload": "Có phiên bản mới của trang này. Vui lòng [[:$1|tải lại]] trang để xem nội dung hiện tại."
 }

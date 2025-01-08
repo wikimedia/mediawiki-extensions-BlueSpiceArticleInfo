@@ -6,7 +6,5 @@
 	},
 	"bs-articleinfo-desc": "Forni information sur un pagina in le barra de stato",
 	"prefs-articleinfo": "Information sur le pagina",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Intervallo de actualisation in secundas:",
-	"bs-articleinfo-newrevision-info-text-reload": "Il ha un nove version de iste pagina disponibile. Per favor [[:$1|recarga]] le pagina pro vider le contento actual.",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Defini le frequentia de refrescamento pro le valor \"Ultime modification\". Iste valor appare in le information sur le pagina sub le instrumentos de gestion de qualitate."
+	"bs-articleinfo-newrevision-info-text-reload": "Il ha un nove version de iste pagina disponibile. Per favor [[:$1|recarga]] le pagina pro vider le contento actual."
 }
