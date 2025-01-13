@@ -7,5 +7,6 @@
 	},
 	"bs-articleinfo-desc": "상태 표시줄에 문서에 관한 정보를 제공합니다",
 	"prefs-articleinfo": "문서 정보",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "업데이트 간격(초)",
 	"bs-articleinfo-newrevision-info-text-reload": "이 문서의 새로운 판을 읽을 수 있습니다. 현재 내용을 보려면 문서를 [[:$1|다시 로드]]해 주십시오."
 }
