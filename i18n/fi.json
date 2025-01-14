@@ -9,6 +9,5 @@
 		]
 	},
 	"prefs-articleinfo": "Sivun tiedot",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Päivitysväli sekunteina:",
 	"bs-articleinfo-newrevision-info-text-reload": "Tästä sivusta on uusi versio saatavilla. [[:$1|Päivitä]] sivu nähdäksesi nykyisen sisällön."
 }

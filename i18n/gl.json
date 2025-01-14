@@ -7,6 +7,5 @@
 		]
 	},
 	"bs-articleinfo-desc": "Proporciona información sobre unha páxina na barra de estado",
-	"prefs-articleinfo": "Información da páxina",
-	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de actualización en segundos:"
+	"prefs-articleinfo": "Información da páxina"
 }
