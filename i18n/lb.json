@@ -19,5 +19,6 @@
 	"bs-articleinfo-flyout-lastediteduser-text": "Leschten Auteur",
 	"bs-articleinfo-flyout-subpages-title": "Ënnersäiten",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Ënnersäiten",
-	"bs-articleinfo-dialog-subpages-title": "Ënnersäiten"
+	"bs-articleinfo-dialog-subpages-title": "Ënnersäiten",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Aktualiséierungsintervall (Sekonnen)"
 }

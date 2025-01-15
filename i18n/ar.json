@@ -25,5 +25,7 @@
 	"bs-articleinfo-flyout-subpages-title": "الصفحات الفرعية",
 	"bs-articleinfo-pagetool-subpages-tooltip": "الصفحات الفرعية",
 	"bs-articleinfo-dialog-subpages-title": "الصفحات الفرعية",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "يعيّن معدل التحديث لقيمة \"آخر تعديل\". يتم عرض هذه القيمة على معلومات الصفحة ضمن أدوات إدارة الجودة."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "يعيّن معدل التحديث لقيمة \"آخر تعديل\". يتم عرض هذه القيمة على معلومات الصفحة ضمن أدوات إدارة الجودة.",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "فترة التحديث (بالثواني)",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "يحدد عدد مرات تحديث قيمة \"آخر تعديل\". في كل فترة زمنية، يتم أيضًا فحص الصفحة بحثًا عن مراجعات جديدة"
 }

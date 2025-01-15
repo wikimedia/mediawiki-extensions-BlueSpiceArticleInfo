@@ -28,5 +28,7 @@
 	"bs-articleinfo-flyout-subpages-title": "דפי־משנה",
 	"bs-articleinfo-pagetool-subpages-tooltip": "דפי־משנה",
 	"bs-articleinfo-dialog-subpages-title": "דפי־משנה",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "הגדרת קצב רענון לערך \"העריכה האחרונה\". הערך הזה מוצג במידע על הדף תחת כלי ניהול איכות."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "הגדרת קצב רענון לערך \"העריכה האחרונה\". הערך הזה מוצג במידע על הדף תחת כלי ניהול איכות.",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "מרווח זמן לעדכון (בשניות)",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "הגדרה של תדירות עדכון ערך \"עריכה אחרונה\". בכל מרווח, הדף נבדק גם עבור גרסאות חדשות"
 }
