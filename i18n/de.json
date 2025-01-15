@@ -23,5 +23,7 @@
 	"bs-articleinfo-flyout-subpages-title": "Unterseiten",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Unterseiten",
 	"bs-articleinfo-dialog-subpages-title": "Unterseiten",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Legt die Aktualisierungsrate für den Wert \"Letzte Bearbeitung\" fest. Der Wert wird wird auf den Seiteninformationen in den Werkzeugen zum Qualitätsmanagement angezeigt."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Legt die Aktualisierungsrate für den Wert \"Letzte Bearbeitung\" fest. Der Wert wird wird auf den Seiteninformationen in den Werkzeugen zum Qualitätsmanagement angezeigt.",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Aktualisierungsintervall (Sekunden)",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "Legt fest, wie oft der Wert \"Letzte Bearbeitung\" aktualisiert wird. In jedem Intervall wird die Seite auch auf neue Überarbeitungen geprüft"
 }

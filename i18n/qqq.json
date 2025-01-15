@@ -23,5 +23,7 @@
 	"bs-articleinfo-flyout-subpages-title": "Title of the panel showing subpages of the page",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Tool tip for an icon above the page title. Shows a list tree of subpages",
 	"bs-articleinfo-dialog-subpages-title": "Title of a dialog window that shows a list of subpages",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Description for config variable \"ArticleInfoCheckRevisionInterval\""
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Description for config variable \"ArticleInfoCheckRevisionInterval\"",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], timespan until article informations are updated in seconds:",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "Description for config variable \"ArticleInfoCheckRevisionInterval\""
 }

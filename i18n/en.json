@@ -20,5 +20,7 @@
 	"bs-articleinfo-flyout-subpages-title": "Subpages",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpages",
 	"bs-articleinfo-dialog-subpages-title": "Subpages",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Sets the refresh rate for the \"Last edit\" value. This value is displayed on the page information under the quality management tools."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Sets the refresh rate for the \"Last edit\" value. This value is displayed on the page information under the quality management tools.",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Update interval (seconds)",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "Sets how often the \"Last edit\" value updates. At each interval, the page is also checked for new revisions"
 }
