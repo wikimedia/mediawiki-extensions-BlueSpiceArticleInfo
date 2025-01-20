@@ -16,7 +16,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Nun s'usa nenguna plantía",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Última edición",
 	"bs-articleinfo-flyout-lastediteduser-text": "Últimu editor",
-	"bs-articleinfo-newrevision-info-text": "Ta disponible una versión nueva d'esta páxina. Recarga la páxina pa ver el conteníu actual.",
 	"bs-articleinfo-newrevision-info-text-reload": "Ta disponible una versión nueva d'esta páxina. [[:$1|Recarga]] la páxina pa ver el conteníu actual.",
 	"bs-articleinfo-flyout-subpages-title": "Subpáxines",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáxines",

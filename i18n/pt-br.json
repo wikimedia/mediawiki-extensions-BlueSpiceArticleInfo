@@ -19,7 +19,6 @@
 	"bs-articleinfo-flyout-templatelinks-emptytext": "Não foi usada nenhuma predefinição",
 	"bs-articleinfo-flyout-lasteditedtime-text": "Última edição",
 	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
-	"bs-articleinfo-newrevision-info-text": "Existe uma nova versão desta página disponível. Por favor, recarregue a página para visualizar o conteúdo atual.",
 	"bs-articleinfo-newrevision-info-text-reload": "Está disponível uma nova versão desta página. [[:$1|Recarregue]] a página para ver o conteúdo atual, por favor.",
 	"bs-articleinfo-flyout-subpages-title": "Subpáginas",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáginas",
