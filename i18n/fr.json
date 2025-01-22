@@ -25,5 +25,6 @@
 	"bs-articleinfo-flyout-subpages-title": "Sous-pages",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Sous-pages",
 	"bs-articleinfo-dialog-subpages-title": "Sous-pages",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Définit le taux de rafraîchissement pour la valeur « Dernière modification ». La valeur est affichée dans les informations sur la page sous les outils de gestion de qualité."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Définit le taux de rafraîchissement pour la valeur « Dernière modification ». La valeur est affichée dans les informations sur la page sous les outils de gestion de qualité.",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Intervalle de mise à jour (en secondes)"
 }
