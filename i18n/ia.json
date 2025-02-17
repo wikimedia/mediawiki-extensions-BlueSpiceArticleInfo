@@ -20,5 +20,7 @@
 	"bs-articleinfo-flyout-subpages-title": "Subpaginas",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpaginas",
 	"bs-articleinfo-dialog-subpages-title": "Subpaginas",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Defini le frequentia de refrescamento pro le valor \"Ultime modification\". Iste valor appare in le information sur le pagina sub le instrumentos de gestion de qualitate."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Defini le frequentia de refrescamento pro le valor \"Ultime modification\". Iste valor appare in le information sur le pagina sub le instrumentos de gestion de qualitate.",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Intervallo de actualisation (in secundas)",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "Defini le frequentia de actualisation del valor “Ultime modification”. In addition, a cata intervallo, es verificate si le pagina ha nove versiones."
 }
