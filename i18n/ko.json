@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Namoroka",
-			"Ykhwong",
-			"Tensama0415"
+			"Tensama0415",
+			"Ykhwong"
 		]
 	},
 	"bs-articleinfo-desc": "상태 표시줄에 문서에 관한 정보를 제공합니다",
