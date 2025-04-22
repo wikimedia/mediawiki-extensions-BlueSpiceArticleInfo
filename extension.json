@@ -36,6 +36,9 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\ArticleInfo\\": "src/"
 	},
+	"TestAutoloadNamespaces": {
+		"BlueSpice\\ArticleInfo\\Tests\\": "tests/phpunit/"
+	},
 	"config_prefix": "bsg",
 	"config": {
 		"ArticleInfoCheckRevisionInterval": {
