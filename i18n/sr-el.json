@@ -17,5 +17,6 @@
 	"bs-articleinfo-newrevision-info-text-reload": "Postoji nova verzija ove stranice. Molimo [[:$1|osvežite]] stranicu da bi ste videli njen trenutni sadržaj.",
 	"bs-articleinfo-flyout-subpages-title": "Podstranice",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Podstranice",
-	"bs-articleinfo-dialog-subpages-title": "Podstranice"
+	"bs-articleinfo-dialog-subpages-title": "Podstranice",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Interval ažuriranja u sekundama"
 }
