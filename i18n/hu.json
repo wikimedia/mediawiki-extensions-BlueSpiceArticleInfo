@@ -21,5 +21,7 @@
 	"bs-articleinfo-flyout-subpages-title": "Allapok",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Allapok",
 	"bs-articleinfo-dialog-subpages-title": "Allapok",
-	"bs-articleinfo-pref-checkrevisioninterval-help": "Beállítja az „Utolsó szerkesztés” érték frissítési gyakoriságát. Ez az érték a lapinformációban jelenik meg a minőségirányítási eszközök között."
+	"bs-articleinfo-pref-checkrevisioninterval-help": "Beállítja az „Utolsó szerkesztés” érték frissítési gyakoriságát. Ez az érték a lapinformációban jelenik meg a minőségirányítási eszközök között.",
+	"bs-articleinfo-pref-checkrevisioninterval-label": "Frissítési intervallum (másodperc)",
+	"bs-articleinfo-pref-checkrevisioninterval-help-label": "Beállítja, hogy milyen gyakran frissül az „Utolsó szerkesztés” érték. Ilyenkor a rendszer a lapot új verziók szempontjából is ellenőrzi."
 }
