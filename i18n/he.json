@@ -13,7 +13,5 @@
 	},
 	"bs-articleinfo-desc": "אספקת מידע על דף בשורת המצב",
 	"prefs-articleinfo": "מידע על הדף",
-	"bs-articleinfo-pref-checkrevisioninterval-label": "מרווח זמן לעדכון (בשניות)",
-	"bs-articleinfo-newrevision-info-text-reload": "זמינה גרסה חדשה של הדף. נא [[:$1|לרענן]] את הדף כדי להציג את התוכן הנוכחי.",
-	"bs-articleinfo-pref-checkrevisioninterval-help-label": "הגדרה של תדירות עדכון ערך \"עריכה אחרונה\". בכל מרווח, הדף נבדק גם עבור גרסאות חדשות"
+	"bs-articleinfo-newrevision-info-text-reload": "זמינה גרסה חדשה של הדף. נא [[:$1|לרענן]] את הדף כדי להציג את התוכן הנוכחי."
 }
