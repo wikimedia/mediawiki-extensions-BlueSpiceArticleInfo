@@ -6,9 +6,6 @@ $( () => {
 		if ( !payload.action || payload.action !== 'revisionSaved' ) {
 			return;
 		}
-		if ( payload.editor === mw.user.getName() ) {
-			return;
-		}
 		bs.alerts.add(
 			'bs-articleinfo-newrevision-info',
 			mw.message( payload.message, payload.page ).parse(), // eslint-disable-line mediawiki/msg-doc
