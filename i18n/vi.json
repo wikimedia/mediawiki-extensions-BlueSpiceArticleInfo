@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dinhxuanduyet"
+			"SongNgu.xyz"
 		]
 	},
 	"bs-articleinfo-categories": "Thể loại",
-	"bs-articleinfo-more-categories": "Thêm danh mục hợp lệ"
+	"bs-articleinfo-more-categories": "Thêm danh mục hợp lệ",
+	"bs-articleinfo-desc": "Cung cấp thông tin về một trang trên thanh trạng thái",
+	"prefs-articleinfo": "Thông tin trang",
+	"bs-articleinfo-newrevision-info-text-reload": "Có phiên bản mới của trang này. Vui lòng [[:$1|tải lại]] trang để xem nội dung hiện tại."
 }

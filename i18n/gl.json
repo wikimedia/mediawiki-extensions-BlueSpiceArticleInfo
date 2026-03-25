@@ -16,5 +16,6 @@
 	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
 	"bs-articleinfo-flyout-subpages-title": "Subpáxinas",
 	"bs-articleinfo-pagetool-subpages-tooltip": "Subpáxinas",
-	"bs-articleinfo-dialog-subpages-title": "Subpáxinas"
+	"bs-articleinfo-dialog-subpages-title": "Subpáxinas",
+	"bs-articleinfo-newrevision-info-text-reload": "Hai dispoñible unha versión nova desta páxina. [[:$1|Recarga]] a páxina para ver o contido actual."
 }
