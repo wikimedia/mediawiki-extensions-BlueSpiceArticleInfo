@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ciell"
+			"Ciell",
+			"Kallmemel"
 		]
 	},
-	"prefs-articleinfo": "Informashon di e página",
+	"prefs-articleinfo": "Informashon di página",
 	"bs-articleinfo-flyout-title": "Informashon di e página",
 	"bs-articleinfo-nav-link-title": "Informashon di e página"
 }
