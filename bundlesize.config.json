@@ -1,6 +1,8 @@
 [
 	{
 		"resourceModule": "ext.bluespice.articleinfo.general",
-		"maxSize": "0.4 kB"
+		"maxSize": "2 kB",
+		"@note": "Ignore mwstake.component.wire",
+		"ignoreDependencies": true
 	}
 ]
