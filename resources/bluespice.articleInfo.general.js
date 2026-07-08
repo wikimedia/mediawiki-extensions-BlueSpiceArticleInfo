@@ -8,7 +8,7 @@ $( () => {
 		}
 		bs.alerts.add(
 			'bs-articleinfo-newrevision-info',
-			mw.message( payload.message, payload.page ).parse(), // eslint-disable-line mediawiki/msg-doc
+			mw.message( payload.message, payload.page ).parse(),
 			bs.alerts.TYPE_INFO
 		);
 	} );
